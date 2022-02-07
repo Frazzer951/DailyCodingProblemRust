@@ -27,6 +27,6 @@ mod tests {
 
     #[test]
     fn test_problem_269() {
-        assert_eq!(problem_269(), 1);
+        assert_eq!(problem_269(), 0);
     }
 }
