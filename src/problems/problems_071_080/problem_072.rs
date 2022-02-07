@@ -10,7 +10,7 @@ Given a graph with n nodes and m directed edges, return the largest value path
 of the graph. If the largest value is infinite, then return null.
 
 The graph is represented with a string and an edge list. The i-th character
-represents the uppercase letter of the i-th node. Each tuple in the edge list 
+represents the uppercase letter of the i-th node. Each tuple in the edge list
 (i, j) means there is a directed edge from the i-th node to the j-th node.
 Self-edges are possible, as well as multi-edges.
 

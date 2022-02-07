@@ -11,7 +11,7 @@ whose rules are as follows:
  * Finally, the two compare totals, and the one with the greatest sum not
    exceeding 21 is the winner.
 
-For this problem, cards values are counted as follows: each card between 2 and 
+For this problem, cards values are counted as follows: each card between 2 and
 10 counts as their face value, face cards count as 10, and aces count as 1.
 
 Given perfect knowledge of the sequence of cards in the deck, implement a

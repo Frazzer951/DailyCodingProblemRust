@@ -2,12 +2,12 @@
 
 /* MEDIUM
 A network consists of nodes labeled 0 to N. You are given a list of edges (a, b,
-t), describing the time t it takes for a message to be sent from node a to node 
+t), describing the time t it takes for a message to be sent from node a to node
 b. Whenever a node receives a message, it immediately passes the message on to a
 neighboring node, if possible.
 
 Assuming all nodes are connected, determine how long it will take for every node
-to receive a message that begins at node 0. 
+to receive a message that begins at node 0.
 
 For example, given N = 5, and the following edges:
 

@@ -11,11 +11,11 @@ dir
         file.ext
 
 
-The directory dir contains an empty sub-directory subdir1 and a sub-directory 
+The directory dir contains an empty sub-directory subdir1 and a sub-directory
 subdir2 containing a file file.ext.
 
-The string 
-"dir\n\tsubdir1\n\t\tfile1.ext\n\t\tsubsubdir1\n\tsubdir2\n\t\tsubsubdir2\n\t\t\tfile2.ext" 
+The string
+"dir\n\tsubdir1\n\t\tfile1.ext\n\t\tsubsubdir1\n\tsubdir2\n\t\tsubsubdir2\n\t\t\tfile2.ext"
 represents:
 
 dir
@@ -27,9 +27,9 @@ dir
             file2.ext
 
 
-The directory dir contains two sub-directories subdir1 and subdir2. subdir1 
-contains a file file1.extand an empty second-level sub-directory subsubdir1. 
-subdir2 contains a second-level sub-directorysubsubdir2 containing a file 
+The directory dir contains two sub-directories subdir1 and subdir2. subdir1
+contains a file file1.extand an empty second-level sub-directory subsubdir1.
+subdir2 contains a second-level sub-directorysubsubdir2 containing a file
 file2.ext.
 
 We are interested in finding the longest (number of characters) absolute path to

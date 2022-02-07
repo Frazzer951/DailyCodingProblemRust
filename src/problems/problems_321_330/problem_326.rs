@@ -13,7 +13,7 @@ For example, given the sequence [3, 2, 6, 1, 9], the resulting Cartesian tree
 would be:
 
       1
-    /   \   
+    /   \
   2       9
  / \
 3   6

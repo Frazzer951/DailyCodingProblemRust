@@ -1,7 +1,7 @@
 // NOT DONE
 
 /* MEDIUM
-One way to unlock an Android phone is through a pattern of swipes across a 1-9 
+One way to unlock an Android phone is through a pattern of swipes across a 1-9
 keypad.
 
 For a pattern to be valid, it must satisfy the following:

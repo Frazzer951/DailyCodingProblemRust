@@ -14,7 +14,7 @@ played as shown below:
   3  |  1  |  3
   0  |  1  |  3
   0  |  1  |  0
-  0  |  0  |  0 
+  0  |  0  |  0
 
 
 In other words, to start, the first player takes three items from pile B. The

@@ -1,7 +1,7 @@
 // NOT DONE
 
 /* HARD
-Given a list of points, a central point, and an integer k, find the nearest k 
+Given a list of points, a central point, and an integer k, find the nearest k
 points from the central point.
 
 For example, given the list of points [(0, 0), (5, 4), (3, 1)], the central

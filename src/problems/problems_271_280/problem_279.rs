@@ -11,7 +11,7 @@ friends with 1 and 2, 3 is friends with 6, and so on.
  3: [6],
  4: [],
  5: [1],
- 6: [3]} 
+ 6: [3]}
 
 
 Each student can be placed in a friend group, which can be defined as the
