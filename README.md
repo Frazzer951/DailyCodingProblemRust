@@ -7,6 +7,7 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
 <details><summary>Completed</summary>
 <p>
 
+ - [Problem 001](src/problems/problems_001_010/problem_001.rs)
 
 </p>
 </details>
@@ -18,7 +19,6 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
 <details><summary>Missing</summary>
 <p>
 
- - [Problem 001](src/problems/problems_001_010/problem_001.rs)
  - [Problem 002](src/problems/problems_001_010/problem_002.rs)
  - [Problem 003](src/problems/problems_001_010/problem_003.rs)
  - [Problem 004](src/problems/problems_001_010/problem_004.rs)
