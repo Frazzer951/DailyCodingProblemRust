@@ -52,7 +52,7 @@ def get_problems() -> Dict[str, List[str]]:
 
 def create_readme_links(files: List[str]) -> List[str]:
     text: List[str] = []
-
+    files.sort()
     for file in files:
         num = int(file.rstrip(".rs").split("_")[-1])
         section = (num - 1) // 10
