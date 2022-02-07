@@ -10,6 +10,6 @@ fn problem_{problem_number}() {}
 mod tests {
     #[test]
     fn test_problem_{problem_number}() {
-        assert_eq!(2 + 2, 4);
+        assert_eq!(true, false);
     }
 }

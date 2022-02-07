@@ -12,6 +12,6 @@ fn problem_202() {}
 mod tests {
     #[test]
     fn test_problem_202() {
-        assert_eq!(2 + 2, 4);
+        assert_eq!(true, false);
     }
 }

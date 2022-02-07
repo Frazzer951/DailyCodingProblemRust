@@ -29,6 +29,6 @@ fn problem_039() {}
 mod tests {
     #[test]
     fn test_problem_039() {
-        assert_eq!(2 + 2, 4);
+        assert_eq!(true, false);
     }
 }
