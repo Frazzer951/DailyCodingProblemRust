@@ -9,12 +9,16 @@ For example, given N = [5, 1, 2, 7, 3, 4] and k = 3, you should return 8, since
 the optimal partition is [5, 1, 2], [7], [3, 4].
 */
 
-fn problem_243() {}
+fn problem_243() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_243() {
-        assert_eq!(true, false);
+        assert_eq!(problem_243(), 1);
     }
 }

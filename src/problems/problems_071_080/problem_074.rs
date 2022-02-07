@@ -26,12 +26,16 @@ multiplication table looks like this:
 And there are 4 12's in the table.
 */
 
-fn problem_074() {}
+fn problem_074() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_074() {
-        assert_eq!(true, false);
+        assert_eq!(problem_074(), 1);
     }
 }

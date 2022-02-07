@@ -9,12 +9,16 @@ For example, given the string "([])[]({})", you should return true.
 Given the string "([)]" or "((()", you should return false.
 */
 
-fn problem_027() {}
+fn problem_027() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_027() {
-        assert_eq!(true, false);
+        assert_eq!(problem_027(), 1);
     }
 }

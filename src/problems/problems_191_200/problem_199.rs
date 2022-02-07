@@ -9,12 +9,16 @@ For example, given "(()", you could return "(())". Given "))()(", you could
 return "()()()()".
 */
 
-fn problem_199() {}
+fn problem_199() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_199() {
-        assert_eq!(true, false);
+        assert_eq!(problem_199(), 1);
     }
 }

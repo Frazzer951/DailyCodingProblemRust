@@ -14,12 +14,16 @@ Given the set of words 'bed', 'bath', 'bedbath', 'and', 'beyond', and the string
 'and', 'beyond'].
 */
 
-fn problem_022() {}
+fn problem_022() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_022() {
-        assert_eq!(true, false);
+        assert_eq!(problem_022(), 1);
     }
 }

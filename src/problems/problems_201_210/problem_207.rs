@@ -6,12 +6,16 @@ is bipartite if its vertices can be divided into two independent sets, U and V,
 such that no edge connects vertices of the same set.
 */
 
-fn problem_207() {}
+fn problem_207() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_207() {
-        assert_eq!(true, false);
+        assert_eq!(problem_207(), 1);
     }
 }

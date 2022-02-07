@@ -22,12 +22,16 @@ The path does not have to pass through the root, and each node can have any
 amount of children.
 */
 
-fn problem_160() {}
+fn problem_160() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_160() {
-        assert_eq!(true, false);
+        assert_eq!(problem_160(), 1);
     }
 }

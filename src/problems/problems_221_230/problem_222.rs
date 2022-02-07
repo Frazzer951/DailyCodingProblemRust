@@ -7,12 +7,16 @@ shortest standardized path.
 For example, given "/usr/bin/../bin/./scripts/../", return "/usr/bin/".
 */
 
-fn problem_222() {}
+fn problem_222() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_222() {
-        assert_eq!(true, false);
+        assert_eq!(problem_222(), 1);
     }
 }

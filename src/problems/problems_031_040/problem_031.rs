@@ -9,12 +9,16 @@ substitute the “k” for “s”, substitute the “e” for “i”, and appe
 Given two strings, compute the edit distance between them.
 */
 
-fn problem_031() {}
+fn problem_031() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_031() {
-        assert_eq!(true, false);
+        assert_eq!(problem_031(), 1);
     }
 }

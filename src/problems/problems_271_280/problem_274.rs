@@ -10,12 +10,16 @@ Don't use eval or a similar built-in parser.
 For example, given '-1 + (2 + 3)', you should return 4.
 */
 
-fn problem_274() {}
+fn problem_274() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_274() {
-        assert_eq!(true, false);
+        assert_eq!(problem_274(), 1);
     }
 }

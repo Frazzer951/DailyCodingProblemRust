@@ -17,12 +17,16 @@ For example, the following tree has 5 unival subtrees:
  1   1
 */
 
-fn problem_008() {}
+fn problem_008() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_008() {
-        assert_eq!(true, false);
+        assert_eq!(problem_008(), 1);
     }
 }

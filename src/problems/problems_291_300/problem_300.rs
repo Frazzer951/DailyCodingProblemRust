@@ -7,12 +7,16 @@ and returns the top 3 candidates at any given time. If you find a voter voting
 more than once, report this as fraud.
 */
 
-fn problem_300() {}
+fn problem_300() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_300() {
-        assert_eq!(true, false);
+        assert_eq!(problem_300(), 1);
     }
 }

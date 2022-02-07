@@ -9,12 +9,16 @@ Create an algorithm to turn an ordinary fraction a / b, where a < b, into an
 Egyptian fraction.
 */
 
-fn problem_252() {}
+fn problem_252() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_252() {
-        assert_eq!(true, false);
+        assert_eq!(problem_252(), 1);
     }
 }

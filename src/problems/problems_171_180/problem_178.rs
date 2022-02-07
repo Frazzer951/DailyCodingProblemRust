@@ -14,12 +14,16 @@ Which of the two games should Alice elect to play? Does it even matter? Write a
 program to simulate the two games and calculate their expected value.
 */
 
-fn problem_178() {}
+fn problem_178() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_178() {
-        assert_eq!(true, false);
+        assert_eq!(problem_178(), 1);
     }
 }

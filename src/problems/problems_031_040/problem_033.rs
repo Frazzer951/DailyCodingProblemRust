@@ -19,12 +19,16 @@ print out:
 2
 */
 
-fn problem_033() {}
+fn problem_033() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_033() {
-        assert_eq!(true, false);
+        assert_eq!(problem_033(), 1);
     }
 }

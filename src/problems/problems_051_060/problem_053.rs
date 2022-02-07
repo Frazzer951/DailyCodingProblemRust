@@ -6,12 +6,16 @@ first-out) data structure with the following methods: enqueue, which inserts an
 element into the queue, and dequeue, which removes it.
 */
 
-fn problem_053() {}
+fn problem_053() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_053() {
-        assert_eq!(true, false);
+        assert_eq!(problem_053(), 1);
     }
 }

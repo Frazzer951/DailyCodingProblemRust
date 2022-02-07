@@ -13,12 +13,16 @@ Can you perform the operation without allocating extra memory (disregarding the
 input memory)?
 */
 
-fn problem_095() {}
+fn problem_095() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_095() {
-        assert_eq!(true, false);
+        assert_eq!(problem_095(), 1);
     }
 }

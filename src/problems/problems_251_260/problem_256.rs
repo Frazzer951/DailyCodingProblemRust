@@ -6,12 +6,16 @@ alternating low -> high -> low -> high ... form. For example, given 1 -> 2 -> 3
 -> 4 -> 5, you should return 1 -> 3 -> 2 -> 5 -> 4.
 */
 
-fn problem_256() {}
+fn problem_256() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_256() {
-        assert_eq!(true, false);
+        assert_eq!(problem_256(), 1);
     }
 }

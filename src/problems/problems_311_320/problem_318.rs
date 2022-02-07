@@ -9,12 +9,16 @@ and guarantee a buffer of B songs between repeats.
 Given N, M, and B, determine the number of valid playlists.
 */
 
-fn problem_318() {}
+fn problem_318() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_318() {
-        assert_eq!(true, false);
+        assert_eq!(problem_318(), 1);
     }
 }

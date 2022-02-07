@@ -20,12 +20,16 @@ you should return:
 Follow-up: What if you couldn't use any extra space?
 */
 
-fn problem_168() {}
+fn problem_168() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_168() {
-        assert_eq!(true, false);
+        assert_eq!(problem_168(), 1);
     }
 }

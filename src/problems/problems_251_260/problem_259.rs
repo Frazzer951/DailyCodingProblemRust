@@ -18,12 +18,16 @@ For example, if the dictionary is ["cat", "calf", "dog", "bear"], the only
 winning start letter would be b.
 */
 
-fn problem_259() {}
+fn problem_259() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_259() {
-        assert_eq!(true, false);
+        assert_eq!(problem_259(), 1);
     }
 }

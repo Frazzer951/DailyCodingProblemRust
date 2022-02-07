@@ -9,12 +9,16 @@ diagonally), or when there are no more spots left in the grid.
 Design and implement Connect 4.
 */
 
-fn problem_219() {}
+fn problem_219() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_219() {
-        assert_eq!(true, false);
+        assert_eq!(problem_219(), 1);
     }
 }

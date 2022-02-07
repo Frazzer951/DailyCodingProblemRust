@@ -6,12 +6,16 @@ Write a function that rotates a list by k elements. For example, [1, 2, 3, 4, 5,
 a copy of the list. How many swap or move operations do you need?
 */
 
-fn problem_126() {}
+fn problem_126() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_126() {
-        assert_eq!(true, false);
+        assert_eq!(problem_126(), 1);
     }
 }

@@ -7,12 +7,16 @@ without threatening each other, i.e. no two queens share the same row, column,
 or diagonal.
 */
 
-fn problem_038() {}
+fn problem_038() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_038() {
-        assert_eq!(true, false);
+        assert_eq!(problem_038(), 1);
     }
 }

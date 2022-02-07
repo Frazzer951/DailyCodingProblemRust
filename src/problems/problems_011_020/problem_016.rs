@@ -11,12 +11,16 @@ Implement a data structure to accomplish this, with the following API:
 You should be as efficient with time and space as possible.
 */
 
-fn problem_016() {}
+fn problem_016() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_016() {
-        assert_eq!(true, false);
+        assert_eq!(problem_016(), 1);
     }
 }

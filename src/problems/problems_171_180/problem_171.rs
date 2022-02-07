@@ -18,12 +18,16 @@ in the building. Return it as a pair of (start, end) timestamps. You can assume
 the building always starts off and ends up empty, i.e. with 0 people inside.
 */
 
-fn problem_171() {}
+fn problem_171() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_171() {
-        assert_eq!(true, false);
+        assert_eq!(problem_171(), 1);
     }
 }

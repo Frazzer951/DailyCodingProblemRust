@@ -11,12 +11,16 @@ You can assume that the messages are decodable. For example, '001' is not
 allowed.
 */
 
-fn problem_007() {}
+fn problem_007() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_007() {
-        assert_eq!(true, false);
+        assert_eq!(problem_007(), 1);
     }
 }

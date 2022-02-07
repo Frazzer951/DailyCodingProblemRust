@@ -9,12 +9,16 @@ For example, the words ['chair', 'height', 'racket', touch', 'tunic'] can form
 the following circle: chair --> racket --> touch --> height --> tunic --> chair.
 */
 
-fn problem_246() {}
+fn problem_246() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_246() {
-        assert_eq!(true, false);
+        assert_eq!(problem_246(), 1);
     }
 }

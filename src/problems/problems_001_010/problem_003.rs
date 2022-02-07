@@ -20,12 +20,16 @@ node = Node('root', Node('left', Node('left.left')), Node('right'))
 assert deserialize(serialize(node)).left.left.val == 'left.left'
 */
 
-fn problem_003() {}
+fn problem_003() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_003() {
-        assert_eq!(true, false);
+        assert_eq!(problem_003(), 1);
     }
 }

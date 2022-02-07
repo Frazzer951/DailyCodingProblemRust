@@ -22,12 +22,16 @@ Return two, as there are only two ways to get to the bottom right:
 The top left corner and bottom right corner will always be 0.
 */
 
-fn problem_158() {}
+fn problem_158() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_158() {
-        assert_eq!(true, false);
+        assert_eq!(problem_158(), 1);
     }
 }

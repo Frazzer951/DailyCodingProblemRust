@@ -21,12 +21,16 @@ with a single Qux through the following steps:
 ['R']                     |
 */
 
-fn problem_290() {}
+fn problem_290() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_290() {
-        assert_eq!(true, false);
+        assert_eq!(problem_290(), 1);
     }
 }

@@ -10,12 +10,16 @@ where the 8 is obtained from wrapping around.
 Given [-4, 5, 1, 0], return 6 as we choose the numbers 5 and 1.
 */
 
-fn problem_190() {}
+fn problem_190() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_190() {
-        assert_eq!(true, false);
+        assert_eq!(problem_190(), 1);
     }
 }

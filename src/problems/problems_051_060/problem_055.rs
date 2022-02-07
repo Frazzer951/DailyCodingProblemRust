@@ -11,12 +11,16 @@ Implement a URL shortener with the following methods:
 Hint: What if we enter the same URL twice?
 */
 
-fn problem_055() {}
+fn problem_055() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_055() {
-        assert_eq!(true, false);
+        assert_eq!(problem_055(), 1);
     }
 }

@@ -20,12 +20,16 @@ though ['A', 'C', 'A', 'B', 'C'] is also a valid itinerary. However, the first
 one is lexicographically smaller.
 */
 
-fn problem_041() {}
+fn problem_041() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_041() {
-        assert_eq!(true, false);
+        assert_eq!(problem_041(), 1);
     }
 }

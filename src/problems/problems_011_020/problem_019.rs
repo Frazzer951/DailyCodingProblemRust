@@ -10,12 +10,16 @@ build the nthhouse with kth color, return the minimum cost which achieves this
 goal.
 */
 
-fn problem_019() {}
+fn problem_019() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_019() {
-        assert_eq!(true, false);
+        assert_eq!(problem_019(), 1);
     }
 }

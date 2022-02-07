@@ -17,12 +17,16 @@ you do not need to store the results. You can simply print them out as you
 compute them.
 */
 
-fn problem_018() {}
+fn problem_018() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_018() {
-        assert_eq!(true, false);
+        assert_eq!(problem_018(), 1);
     }
 }

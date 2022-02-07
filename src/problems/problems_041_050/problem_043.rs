@@ -12,12 +12,16 @@ Implement a stack that has the following methods:
 Each method should run in constant time.
 */
 
-fn problem_043() {}
+fn problem_043() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_043() {
-        assert_eq!(true, false);
+        assert_eq!(problem_043(), 1);
     }
 }

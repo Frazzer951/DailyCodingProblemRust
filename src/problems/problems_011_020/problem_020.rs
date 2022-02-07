@@ -14,12 +14,16 @@ Do this in O(M + N) time (where M and N are the lengths of the lists) and
 constant space.
 */
 
-fn problem_020() {}
+fn problem_020() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_020() {
-        assert_eq!(true, false);
+        assert_eq!(problem_020(), 1);
     }
 }

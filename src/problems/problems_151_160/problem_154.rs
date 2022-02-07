@@ -14,12 +14,16 @@ Recall that a heap has the following operations:
  * pop(), which removes and returns the max value of the heap
 */
 
-fn problem_154() {}
+fn problem_154() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_154() {
-        assert_eq!(true, false);
+        assert_eq!(problem_154(), 1);
     }
 }

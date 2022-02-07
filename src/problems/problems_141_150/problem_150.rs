@@ -8,12 +8,16 @@ For example, given the list of points [(0, 0), (5, 4), (3, 1)], the central
 point (1, 2), and k = 2, return[(0, 0), (3, 1)].
 */
 
-fn problem_150() {}
+fn problem_150() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_150() {
-        assert_eq!(true, false);
+        assert_eq!(problem_150(), 1);
     }
 }

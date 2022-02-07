@@ -12,12 +12,16 @@ For example, if our input was [1, 2, 3, 4, 5], the expected output would be
 Follow-up: what if you can't use division?
 */
 
-fn problem_002() {}
+fn problem_002() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_002() {
-        assert_eq!(true, false);
+        assert_eq!(problem_002(), 1);
     }
 }

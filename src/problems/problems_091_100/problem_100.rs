@@ -28,12 +28,16 @@ It takes 1 step to move from (0, 0) to (1, 1). It takes one more step to move
 from (1, 1) to (1, 2).
 */
 
-fn problem_100() {}
+fn problem_100() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_100() {
-        assert_eq!(true, false);
+        assert_eq!(problem_100(), 1);
     }
 }

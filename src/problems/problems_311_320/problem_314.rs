@@ -14,12 +14,16 @@ this case the minimum range would be 5, since that would be required for the
 tower at position 15 to reach the listener at position 20.
 */
 
-fn problem_314() {}
+fn problem_314() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_314() {
-        assert_eq!(true, false);
+        assert_eq!(problem_314(), 1);
     }
 }

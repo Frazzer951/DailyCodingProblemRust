@@ -23,12 +23,16 @@ For example, given the list of words ["the", "quick", "brown", "fox", "jumps",
 "the   lazy   dog"] # 4 extra spaces distributed evenly
 */
 
-fn problem_028() {}
+fn problem_028() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_028() {
-        assert_eq!(true, false);
+        assert_eq!(problem_028(), 1);
     }
 }

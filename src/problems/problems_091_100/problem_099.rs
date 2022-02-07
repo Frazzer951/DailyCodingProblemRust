@@ -10,12 +10,16 @@ sequence is [1, 2, 3, 4]. Return its length: 4.
 Your algorithm should run in O(n) complexity.
 */
 
-fn problem_099() {}
+fn problem_099() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_099() {
-        assert_eq!(true, false);
+        assert_eq!(problem_099(), 1);
     }
 }

@@ -25,12 +25,16 @@ Write a program that takes in an array of integers representing byte values, and
 returns whether it is a valid UTF-8 encoding.
 */
 
-fn problem_277() {}
+fn problem_277() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_277() {
-        assert_eq!(true, false);
+        assert_eq!(problem_277(), 1);
     }
 }

@@ -11,12 +11,16 @@ following tree, return d.
 d
 */
 
-fn problem_080() {}
+fn problem_080() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_080() {
-        assert_eq!(true, false);
+        assert_eq!(problem_080(), 1);
     }
 }

@@ -9,12 +9,16 @@ hello cat dog dog hello cat world", return 1 because there's only one word "cat"
 in between the two words.
 */
 
-fn problem_153() {}
+fn problem_153() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_153() {
-        assert_eq!(true, false);
+        assert_eq!(problem_153(), 1);
     }
 }

@@ -23,12 +23,16 @@ You can represent a live cell with an asterisk (*) and a dead cell with a dot (.
 ).
 */
 
-fn problem_039() {}
+fn problem_039() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_039() {
-        assert_eq!(true, false);
+        assert_eq!(problem_039(), 1);
     }
 }

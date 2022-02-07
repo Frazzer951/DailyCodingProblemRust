@@ -9,12 +9,16 @@ If only one input tree has a node in a given position, the corresponding node in
 the new tree should match that input node.
 */
 
-fn problem_327() {}
+fn problem_327() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_327() {
-        assert_eq!(true, false);
+        assert_eq!(problem_327(), 1);
     }
 }

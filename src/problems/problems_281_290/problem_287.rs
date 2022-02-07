@@ -18,12 +18,16 @@ Then a reasonable similarity metric would most likely conclude that a and e are
 the most similar, so your program should return [('a', 'e')].
 */
 
-fn problem_287() {}
+fn problem_287() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_287() {
-        assert_eq!(true, false);
+        assert_eq!(problem_287(), 1);
     }
 }

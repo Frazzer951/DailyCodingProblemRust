@@ -8,12 +8,16 @@ For example, given s = "abcba" and k = 2, the longest substring with k distinct
 characters is "bcb".
 */
 
-fn problem_013() {}
+fn problem_013() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_013() {
-        assert_eq!(true, false);
+        assert_eq!(problem_013(), 1);
     }
 }

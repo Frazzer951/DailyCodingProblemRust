@@ -15,12 +15,16 @@ three inversions: (2, 1), (4, 1), and (4, 3). The array [5, 4, 3, 2, 1] has ten
 inversions: every distinct pair forms an inversion.
 */
 
-fn problem_044() {}
+fn problem_044() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_044() {
-        assert_eq!(true, false);
+        assert_eq!(problem_044(), 1);
     }
 }

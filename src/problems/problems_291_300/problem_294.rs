@@ -29,12 +29,16 @@ In this case, the shortest valid path would be 0 -> 2 -> 4 -> 0, with a distance
 of 28.
 */
 
-fn problem_294() {}
+fn problem_294() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_294() {
-        assert_eq!(true, false);
+        assert_eq!(problem_294(), 1);
     }
 }

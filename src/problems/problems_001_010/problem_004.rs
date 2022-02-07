@@ -12,12 +12,16 @@ give 3.
 You can modify the input array in-place.
 */
 
-fn problem_004() {}
+fn problem_004() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_004() {
-        assert_eq!(true, false);
+        assert_eq!(problem_004(), 1);
     }
 }

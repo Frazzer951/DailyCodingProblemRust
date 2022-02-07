@@ -16,12 +16,16 @@ Bonus: Create a generator that produces primes indefinitely (that is, without
 taking N as an input).
 */
 
-fn problem_244() {}
+fn problem_244() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_244() {
-        assert_eq!(true, false);
+        assert_eq!(problem_244(), 1);
     }
 }

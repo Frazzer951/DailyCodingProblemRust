@@ -12,12 +12,16 @@ Given an integer N, write a program that returns, in order, the first N regular
 numbers.
 */
 
-fn problem_283() {}
+fn problem_283() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_283() {
-        assert_eq!(true, false);
+        assert_eq!(problem_283(), 1);
     }
 }

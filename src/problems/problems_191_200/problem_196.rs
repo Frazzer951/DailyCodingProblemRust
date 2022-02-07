@@ -15,12 +15,16 @@ Return 2 as it occurs twice: once as the left leaf, and once as the sum of 2 + 5
 - 5.
 */
 
-fn problem_196() {}
+fn problem_196() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_196() {
-        assert_eq!(true, false);
+        assert_eq!(problem_196(), 1);
     }
 }

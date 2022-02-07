@@ -17,12 +17,16 @@ For example, 1 -> 3 -> 5. The weight of the path is the sum of the entries.
 Write a program that returns the weight of the maximum weight path.
 */
 
-fn problem_201() {}
+fn problem_201() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_201() {
-        assert_eq!(true, false);
+        assert_eq!(problem_201(), 1);
     }
 }

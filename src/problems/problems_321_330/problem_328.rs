@@ -13,12 +13,16 @@ is. For example, a 1200-ranked player should gain much more points for beating a
 Implement this system.
 */
 
-fn problem_328() {}
+fn problem_328() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_328() {
-        assert_eq!(true, false);
+        assert_eq!(problem_328(), 1);
     }
 }

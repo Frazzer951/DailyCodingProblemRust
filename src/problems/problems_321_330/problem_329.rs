@@ -27,12 +27,16 @@ two people of opposite sex would both rather be with each other than with their
 current partners.
 */
 
-fn problem_329() {}
+fn problem_329() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_329() {
-        assert_eq!(true, false);
+        assert_eq!(problem_329(), 1);
     }
 }

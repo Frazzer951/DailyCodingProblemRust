@@ -8,12 +8,16 @@ given input N, find the smallest sparse number greater than or equal to N.
 Do this in faster than O(N log N) time.
 */
 
-fn problem_217() {}
+fn problem_217() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_217() {
-        assert_eq!(true, false);
+        assert_eq!(problem_217(), 1);
     }
 }

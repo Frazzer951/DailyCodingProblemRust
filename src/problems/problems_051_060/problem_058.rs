@@ -12,12 +12,16 @@ For example, given the array [13, 18, 25, 2, 8, 10] and the element 8, return 4
 You can assume all the integers in the array are unique.
 */
 
-fn problem_058() {}
+fn problem_058() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_058() {
-        assert_eq!(true, false);
+        assert_eq!(problem_058(), 1);
     }
 }

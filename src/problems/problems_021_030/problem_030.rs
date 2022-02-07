@@ -17,12 +17,16 @@ the second, and 3 in the fourth index (we cannot hold 5 since it would run off
 to the left), so we can trap 8 units of water.
 */
 
-fn problem_030() {}
+fn problem_030() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_030() {
-        assert_eq!(true, false);
+        assert_eq!(problem_030(), 1);
     }
 }

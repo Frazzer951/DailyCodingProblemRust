@@ -13,12 +13,16 @@ For example, given 100, you can reach 1 in five steps with the following route:
 100 -> 10 -> 9 -> 3 -> 2 -> 1.
 */
 
-fn problem_321() {}
+fn problem_321() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_321() {
-        assert_eq!(true, false);
+        assert_eq!(problem_321(), 1);
     }
 }

@@ -18,12 +18,16 @@ column. Similarly, given the target word 'MASS', you should return true, since
 it's the last row.
 */
 
-fn problem_063() {}
+fn problem_063() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_063() {
-        assert_eq!(true, false);
+        assert_eq!(problem_063(), 1);
     }
 }

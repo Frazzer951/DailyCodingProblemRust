@@ -8,12 +8,16 @@ For example, given "aaabbc", you could return "ababac". Given "aaab", return
 None.
 */
 
-fn problem_231() {}
+fn problem_231() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_231() {
-        assert_eq!(true, false);
+        assert_eq!(problem_231(), 1);
     }
 }

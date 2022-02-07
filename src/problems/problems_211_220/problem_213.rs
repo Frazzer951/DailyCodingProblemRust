@@ -11,12 +11,16 @@ For example, given "2542540123", you should return ['254.25.40.123',
 '254.254.0.123'].
 */
 
-fn problem_213() {}
+fn problem_213() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_213() {
-        assert_eq!(true, false);
+        assert_eq!(problem_213(), 1);
     }
 }

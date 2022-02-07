@@ -11,12 +11,16 @@ order does not matter.
 Follow-up: Can you do this in linear time and constant space?
 */
 
-fn problem_140() {}
+fn problem_140() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_140() {
-        assert_eq!(true, false);
+        assert_eq!(problem_140(), 1);
     }
 }

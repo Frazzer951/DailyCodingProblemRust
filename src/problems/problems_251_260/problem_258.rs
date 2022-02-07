@@ -20,12 +20,16 @@ For example, given the following tree:
 You should return [1, 3, 2, 4, 5, 6, 7].
 */
 
-fn problem_258() {}
+fn problem_258() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_258() {
-        assert_eq!(true, false);
+        assert_eq!(problem_258(), 1);
     }
 }

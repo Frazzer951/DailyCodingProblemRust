@@ -15,12 +15,16 @@ For example, given the stones [1, 1, 3, 3, 2, 1], the optimal solution is to pay
 2 to create [0, 1, 2, 3, 2, 1].
 */
 
-fn problem_293() {}
+fn problem_293() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_293() {
-        assert_eq!(true, false);
+        assert_eq!(problem_293(), 1);
     }
 }

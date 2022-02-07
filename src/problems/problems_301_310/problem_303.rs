@@ -7,12 +7,16 @@ between the hour and the minute hands.
 Bonus: When, during the course of a day, will the angle be zero?
 */
 
-fn problem_303() {}
+fn problem_303() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_303() {
-        assert_eq!(true, false);
+        assert_eq!(problem_303(), 1);
     }
 }

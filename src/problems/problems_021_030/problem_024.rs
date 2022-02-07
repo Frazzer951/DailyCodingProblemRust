@@ -18,12 +18,16 @@ no need for actual locks or mutexes. Each method should run in O(h), where h is
 the height of the tree.
 */
 
-fn problem_024() {}
+fn problem_024() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_024() {
-        assert_eq!(true, false);
+        assert_eq!(problem_024(), 1);
     }
 }

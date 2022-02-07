@@ -8,12 +8,16 @@ column, and box (3 by 3 subgrid) must contain all of the digits from 1 to 9.
 Implement an efficient sudoku solver.
 */
 
-fn problem_054() {}
+fn problem_054() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_054() {
-        assert_eq!(true, false);
+        assert_eq!(problem_054(), 1);
     }
 }

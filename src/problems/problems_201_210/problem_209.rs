@@ -7,12 +7,16 @@ three given strings. For example, given "epidemiologist", "refrigeration", and
 common subsequence is "eieio".
 */
 
-fn problem_209() {}
+fn problem_209() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_209() {
-        assert_eq!(true, false);
+        assert_eq!(problem_209(), 1);
     }
 }

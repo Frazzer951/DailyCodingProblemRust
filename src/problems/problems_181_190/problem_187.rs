@@ -24,12 +24,16 @@ For example, given the following rectangles:
 return true as the first and third rectangle overlap each other.
 */
 
-fn problem_187() {}
+fn problem_187() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_187() {
-        assert_eq!(true, false);
+        assert_eq!(problem_187(), 1);
     }
 }

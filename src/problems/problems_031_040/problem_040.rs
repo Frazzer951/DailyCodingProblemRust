@@ -10,12 +10,16 @@ return 19.
 Do this in O(N) time and O(1) space.
 */
 
-fn problem_040() {}
+fn problem_040() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_040() {
-        assert_eq!(true, false);
+        assert_eq!(problem_040(), 1);
     }
 }

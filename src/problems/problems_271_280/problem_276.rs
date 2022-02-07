@@ -11,12 +11,16 @@ If the pattern is found, return the start index of its location. If not, return
 False.
 */
 
-fn problem_276() {}
+fn problem_276() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_276() {
-        assert_eq!(true, false);
+        assert_eq!(problem_276(), 1);
     }
 }

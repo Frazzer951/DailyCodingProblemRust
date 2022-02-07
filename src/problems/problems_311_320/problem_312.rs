@@ -17,12 +17,16 @@ A B C C
 Given an integer N, determine in how many ways this task is possible.
 */
 
-fn problem_312() {}
+fn problem_312() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_312() {
-        assert_eq!(true, false);
+        assert_eq!(problem_312(), 1);
     }
 }

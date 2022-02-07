@@ -35,12 +35,16 @@ You should print out the following:
 12
 */
 
-fn problem_065() {}
+fn problem_065() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_065() {
-        assert_eq!(true, false);
+        assert_eq!(problem_065(), 1);
     }
 }

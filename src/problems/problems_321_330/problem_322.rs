@@ -9,12 +9,16 @@ On the ith jump, you may move exactly i places to the left or right.
 Find a path with the fewest number of jumps required to get from 0 to N.
 */
 
-fn problem_322() {}
+fn problem_322() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_322() {
-        assert_eq!(true, false);
+        assert_eq!(problem_322(), 1);
     }
 }

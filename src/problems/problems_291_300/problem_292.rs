@@ -33,12 +33,16 @@ students = {
 }
 */
 
-fn problem_292() {}
+fn problem_292() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_292() {
-        assert_eq!(true, false);
+        assert_eq!(problem_292(), 1);
     }
 }

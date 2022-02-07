@@ -13,12 +13,16 @@ this conjecture.
 Bonus: What input n <= 1000000 gives the longest sequence?
 */
 
-fn problem_210() {}
+fn problem_210() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_210() {
-        assert_eq!(true, false);
+        assert_eq!(problem_210(), 1);
     }
 }

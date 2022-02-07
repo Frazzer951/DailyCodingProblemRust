@@ -12,12 +12,16 @@ It should support the following operations:
 Follow-up: What if our system has limited memory?
 */
 
-fn problem_132() {}
+fn problem_132() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_132() {
-        assert_eq!(true, false);
+        assert_eq!(problem_132(), 1);
     }
 }

@@ -8,12 +8,16 @@ bias of the coin.
 Write a function to simulate an unbiased coin toss.
 */
 
-fn problem_066() {}
+fn problem_066() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_066() {
-        assert_eq!(true, false);
+        assert_eq!(problem_066(), 1);
     }
 }

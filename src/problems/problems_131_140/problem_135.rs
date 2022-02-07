@@ -14,12 +14,16 @@ For example, the minimum path in this tree is [10, 5, 1, -1], which has sum 15.
      -1
 */
 
-fn problem_135() {}
+fn problem_135() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_135() {
-        assert_eq!(true, false);
+        assert_eq!(problem_135(), 1);
     }
 }

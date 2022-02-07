@@ -12,12 +12,16 @@ For example, given S = [12, 1, 61, 5, 9, 2] and k = 24, return [12, 9, 2, 1]
 since it sums up to 24.
 */
 
-fn problem_042() {}
+fn problem_042() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_042() {
-        assert_eq!(true, false);
+        assert_eq!(problem_042(), 1);
     }
 }

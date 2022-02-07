@@ -12,12 +12,16 @@ for f in functions:
     print(f())
 */
 
-fn problem_091() {}
+fn problem_091() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_091() {
-        assert_eq!(true, false);
+        assert_eq!(problem_091(), 1);
     }
 }

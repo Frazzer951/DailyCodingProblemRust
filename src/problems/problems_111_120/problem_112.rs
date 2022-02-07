@@ -11,12 +11,16 @@ both v and w as descendants (where we allow a node to be a descendant of
 itself).”
 */
 
-fn problem_112() {}
+fn problem_112() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_112() {
-        assert_eq!(true, false);
+        assert_eq!(problem_112(), 1);
     }
 }

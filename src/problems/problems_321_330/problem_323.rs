@@ -9,12 +9,16 @@ is between N / 4 and 3 * N / 4, with a high level of certainty, in less than
 O(N) time.
 */
 
-fn problem_323() {}
+fn problem_323() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_323() {
-        assert_eq!(true, false);
+        assert_eq!(problem_323(), 1);
     }
 }

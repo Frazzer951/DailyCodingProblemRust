@@ -11,12 +11,16 @@ Given s1 = foo and s2 = bar, return false since the o cannot map to two
 characters.
 */
 
-fn problem_176() {}
+fn problem_176() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_176() {
-        assert_eq!(true, false);
+        assert_eq!(problem_176(), 1);
     }
 }

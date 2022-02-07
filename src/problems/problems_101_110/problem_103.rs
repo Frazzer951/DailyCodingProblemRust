@@ -10,12 +10,16 @@ you should return "aeci".
 If there is no substring containing all the characters in the set, return null.
 */
 
-fn problem_103() {}
+fn problem_103() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_103() {
-        assert_eq!(true, false);
+        assert_eq!(problem_103(), 1);
     }
 }

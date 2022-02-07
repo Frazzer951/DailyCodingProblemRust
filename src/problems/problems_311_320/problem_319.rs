@@ -10,12 +10,16 @@ Design a class to represent the board, and find a series of steps to bring the
 board to the state [[1, 2, 3], [4, 5, 6], [7, 8, None]].
 */
 
-fn problem_319() {}
+fn problem_319() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_319() {
-        assert_eq!(true, false);
+        assert_eq!(problem_319(), 1);
     }
 }

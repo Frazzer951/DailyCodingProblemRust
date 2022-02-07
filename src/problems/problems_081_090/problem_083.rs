@@ -21,12 +21,16 @@ should become:
   f e  d
 */
 
-fn problem_083() {}
+fn problem_083() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_083() {
-        assert_eq!(true, false);
+        assert_eq!(problem_083(), 1);
     }
 }

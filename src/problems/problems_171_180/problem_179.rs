@@ -14,12 +14,16 @@ following tree:
 2   4   8
 */
 
-fn problem_179() {}
+fn problem_179() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_179() {
-        assert_eq!(true, false);
+        assert_eq!(problem_179(), 1);
     }
 }

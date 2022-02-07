@@ -12,12 +12,16 @@ For example, given the array [1, 3, 1, 2, 0, 1], we can go from indices 0 -> 1
 Given the array [1, 2, 1, 0, 0], we can't reach the end, so return false.
 */
 
-fn problem_192() {}
+fn problem_192() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_192() {
-        assert_eq!(true, false);
+        assert_eq!(problem_192(), 1);
     }
 }

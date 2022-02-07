@@ -17,12 +17,16 @@ For example, given the string .L.R....L, you should return LL.RRRLLL.
 Given the string ..R...L.L, you should return ..RR.LLLL.
 */
 
-fn problem_269() {}
+fn problem_269() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_269() {
-        assert_eq!(true, false);
+        assert_eq!(problem_269(), 1);
     }
 }

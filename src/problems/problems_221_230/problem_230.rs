@@ -15,12 +15,16 @@ floor, beginning with the first, until we reach the fifth floor, so our solution
 will be 5.
 */
 
-fn problem_230() {}
+fn problem_230() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_230() {
-        assert_eq!(true, false);
+        assert_eq!(problem_230(), 1);
     }
 }

@@ -12,12 +12,16 @@ incorrectly identifying an element as part of the set), but should always
 correctly identify a true element.
 */
 
-fn problem_301() {}
+fn problem_301() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_301() {
-        assert_eq!(true, false);
+        assert_eq!(problem_301(), 1);
     }
 }

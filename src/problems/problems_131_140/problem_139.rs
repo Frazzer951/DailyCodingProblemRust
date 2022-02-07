@@ -21,12 +21,16 @@ class PeekableInterface(object):
         pass
 */
 
-fn problem_139() {}
+fn problem_139() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_139() {
-        assert_eq!(true, false);
+        assert_eq!(problem_139(), 1);
     }
 }

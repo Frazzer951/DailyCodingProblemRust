@@ -12,12 +12,16 @@ have access to get_pointer anddereference_pointer functions that converts
 between nodes and memory addresses.
 */
 
-fn problem_006() {}
+fn problem_006() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_006() {
-        assert_eq!(true, false);
+        assert_eq!(problem_006(), 1);
     }
 }

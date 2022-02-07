@@ -9,12 +9,16 @@ For example, given n = 16, return 3 since we can make it with a 10¢, a 5¢, and
 1¢.
 */
 
-fn problem_138() {}
+fn problem_138() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_138() {
-        assert_eq!(true, false);
+        assert_eq!(problem_138(), 1);
     }
 }

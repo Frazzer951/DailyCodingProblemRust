@@ -14,12 +14,16 @@ letters, but "ecarace" comes first alphabetically.
 As another example, given the string "google", you should return "elgoogle".
 */
 
-fn problem_034() {}
+fn problem_034() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_034() {
-        assert_eq!(true, false);
+        assert_eq!(problem_034(), 1);
     }
 }

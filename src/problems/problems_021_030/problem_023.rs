@@ -23,12 +23,16 @@ of steps required to reach the end is 7, since we would need to go through (1,
 2) because there is a wall everywhere else on the second row.
 */
 
-fn problem_023() {}
+fn problem_023() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_023() {
-        assert_eq!(true, false);
+        assert_eq!(problem_023(), 1);
     }
 }

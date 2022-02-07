@@ -19,12 +19,16 @@ Return the list:
  * f
 */
 
-fn problem_162() {}
+fn problem_162() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_162() {
-        assert_eq!(true, false);
+        assert_eq!(problem_162(), 1);
     }
 }

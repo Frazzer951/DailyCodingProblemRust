@@ -12,12 +12,16 @@ Hint: Try preprocessing the dictionary into a more efficient data structure to
 speed up queries.
 */
 
-fn problem_011() {}
+fn problem_011() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_011() {
-        assert_eq!(true, false);
+        assert_eq!(problem_011(), 1);
     }
 }

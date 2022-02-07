@@ -8,12 +8,16 @@ For example, given the list ["code", "edoc", "da", "d"], return [(0, 1), (1, 0),
 (2, 3)].
 */
 
-fn problem_167() {}
+fn problem_167() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_167() {
-        assert_eq!(true, false);
+        assert_eq!(problem_167(), 1);
     }
 }

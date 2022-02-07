@@ -8,12 +8,16 @@ For example, given the linked list 5 -> 1 -> 8 -> 0 -> 3 and k = 3, the solution
 could be 1 -> 0 -> 5 -> 8 -> 3.
 */
 
-fn problem_208() {}
+fn problem_208() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_208() {
-        assert_eq!(true, false);
+        assert_eq!(problem_208(), 1);
     }
 }

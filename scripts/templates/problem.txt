@@ -4,12 +4,16 @@
 {problem_body}
 */
 
-fn problem_{problem_number}() {}
+fn problem_{problem_number}() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_{problem_number}() {
-        assert_eq!(true, false);
+        assert_eq!(problem_{problem_number}(), 1);
     }
 }

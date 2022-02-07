@@ -10,12 +10,16 @@ For example, given [9, 11, 8, 5, 7, 10], you should return 5, since you could
 buy the stock at 5 dollars and sell it at 10 dollars.
 */
 
-fn problem_047() {}
+fn problem_047() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_047() {
-        assert_eq!(true, false);
+        assert_eq!(problem_047(), 1);
     }
 }

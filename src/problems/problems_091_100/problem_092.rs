@@ -11,12 +11,16 @@ For example, given {'CSC300': ['CSC100', 'CSC200'], 'CSC200': ['CSC100'],
 'CSC100': []}, should return ['CSC100', 'CSC200', 'CSCS300'].
 */
 
-fn problem_092() {}
+fn problem_092() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_092() {
-        assert_eq!(true, false);
+        assert_eq!(problem_092(), 1);
     }
 }

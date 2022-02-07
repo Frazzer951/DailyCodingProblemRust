@@ -15,12 +15,16 @@ For example, in this matrix
 The most we can collect is 0 + 2 + 1 + 5 + 3 + 1 = 12 coins.
 */
 
-fn problem_122() {}
+fn problem_122() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_122() {
-        assert_eq!(true, false);
+        assert_eq!(problem_122(), 1);
     }
 }

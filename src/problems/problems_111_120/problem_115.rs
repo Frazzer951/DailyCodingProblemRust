@@ -7,12 +7,16 @@ consists of a node in s and all of this node's descendants. The tree s could
 also be considered as a subtree of itself.
 */
 
-fn problem_115() {}
+fn problem_115() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_115() {
-        assert_eq!(true, false);
+        assert_eq!(problem_115(), 1);
     }
 }

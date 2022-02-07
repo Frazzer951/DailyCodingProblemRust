@@ -18,12 +18,16 @@ return true. The same regular expression on the string "chats" should return
 false.
 */
 
-fn problem_025() {}
+fn problem_025() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_025() {
-        assert_eq!(true, false);
+        assert_eq!(problem_025(), 1);
     }
 }

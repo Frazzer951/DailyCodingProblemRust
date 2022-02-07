@@ -13,12 +13,16 @@ initialized with a cache size n, and contain the following methods:
 Each operation should run in O(1) time.
 */
 
-fn problem_067() {}
+fn problem_067() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_067() {
-        assert_eq!(true, false);
+        assert_eq!(problem_067(), 1);
     }
 }

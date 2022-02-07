@@ -7,12 +7,16 @@ For example, given the binary number 1111 0000 1111 0000 1111 0000 1111 0000,
 return 0000 1111 0000 1111 0000 1111 0000 1111.
 */
 
-fn problem_161() {}
+fn problem_161() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_161() {
-        assert_eq!(true, false);
+        assert_eq!(problem_161(), 1);
     }
 }

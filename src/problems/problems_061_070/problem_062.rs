@@ -14,12 +14,16 @@ ways to get to the bottom-right:
 Given a 5 by 5 matrix, there are 70 ways to get to the bottom-right.
 */
 
-fn problem_062() {}
+fn problem_062() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_062() {
-        assert_eq!(true, false);
+        assert_eq!(problem_062(), 1);
     }
 }

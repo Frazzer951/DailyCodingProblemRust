@@ -13,12 +13,16 @@ For example, given [10, 40, 200, 1000, 60, 30], you should return [1, 2, 3, 4,
 2, 1].
 */
 
-fn problem_265() {}
+fn problem_265() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_265() {
-        assert_eq!(true, false);
+        assert_eq!(problem_265(), 1);
     }
 }

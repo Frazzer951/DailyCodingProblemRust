@@ -15,12 +15,16 @@ For example, given the tree:
 Return [[1, 2], [1, 3, 4], [1, 3, 5]].
 */
 
-fn problem_110() {}
+fn problem_110() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_110() {
-        assert_eq!(true, false);
+        assert_eq!(problem_110(), 1);
     }
 }

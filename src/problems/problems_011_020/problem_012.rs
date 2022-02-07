@@ -18,12 +18,16 @@ any number from a set of positive integers X? For example, if X = {1, 3, 5}, you
 could climb 1, 3, or 5 steps at a time.
 */
 
-fn problem_012() {}
+fn problem_012() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_012() {
-        assert_eq!(true, false);
+        assert_eq!(problem_012(), 1);
     }
 }

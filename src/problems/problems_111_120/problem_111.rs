@@ -7,12 +7,16 @@ of W.
 For example, given that W is "ab", and S is "abxaba", return 0, 3, and 4.
 */
 
-fn problem_111() {}
+fn problem_111() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_111() {
-        assert_eq!(true, false);
+        assert_eq!(problem_111(), 1);
     }
 }

@@ -30,12 +30,16 @@ You should return 2, since bishops 1 and 3 attack each other, as well as bishops
 3 and 4.
 */
 
-fn problem_068() {}
+fn problem_068() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_068() {
-        assert_eq!(true, false);
+        assert_eq!(problem_068(), 1);
     }
 }

@@ -21,12 +21,16 @@ You should return the following tree:
 d  e f  g
 */
 
-fn problem_048() {}
+fn problem_048() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_048() {
-        assert_eq!(true, false);
+        assert_eq!(problem_048(), 1);
     }
 }

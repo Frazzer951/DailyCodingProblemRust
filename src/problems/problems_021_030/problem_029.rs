@@ -11,12 +11,16 @@ encoded have no digits and consists solely of alphabetic characters. You can
 assume the string to be decoded is valid.
 */
 
-fn problem_029() {}
+fn problem_029() -> i64 {
+    0
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test_problem_029() {
-        assert_eq!(true, false);
+        assert_eq!(problem_029(), 1);
     }
 }
