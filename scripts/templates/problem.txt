@@ -1,0 +1,15 @@
+// NOT DONE
+
+/* {difficulty}
+{problem_body}
+*/
+
+fn problem_{problem_number}() {}
+
+#[cfg(test)]
+mod tests {
+    #[test]
+    fn test_problem_{problem_number}() {
+        assert_eq!(2 + 2, 4);
+    }
+}

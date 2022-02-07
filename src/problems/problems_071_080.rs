@@ -1,0 +1,10 @@
+pub mod problem_071;
+pub mod problem_072;
+pub mod problem_073;
+pub mod problem_074;
+pub mod problem_075;
+pub mod problem_076;
+pub mod problem_077;
+pub mod problem_078;
+pub mod problem_079;
+pub mod problem_080;

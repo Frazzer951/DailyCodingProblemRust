@@ -1,0 +1,16 @@
+// NOT DONE
+
+/* MEDIUM
+Implement a job scheduler which takes in a function f and an integer n, and
+calls f after n milliseconds.
+*/
+
+fn problem_010() {}
+
+#[cfg(test)]
+mod tests {
+    #[test]
+    fn test_problem_010() {
+        assert_eq!(2 + 2, 4);
+    }
+}
