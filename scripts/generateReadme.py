@@ -78,7 +78,7 @@ def create_missing_text(problems: List[str]) -> str:
 
 
 def create_skipped_text(problems: List[str]) -> str:
-    text = ["## Skipped️", "<details><summary>Skipped</summary>", "<p>", ""]
+    text = ["## Skipped️ ⏭️", "<details><summary>Skipped</summary>", "<p>", ""]
     text += create_readme_links(problems)
     text += ["", "</p>", "</details>", ""]
 

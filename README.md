@@ -354,7 +354,7 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
 <!-- end missing section -->
 
 <!-- start skipped section -->
-## Skipped️
+## Skipped️ ⏭️
 <details><summary>Skipped</summary>
 <p>
 
