@@ -22,7 +22,7 @@ jobs:
           python -m pip install --upgrade pip
       - name: Generate new README
         run: |
-          ./scripts/generate-readme
+          ./scripts/generateReadme.py
       - name: Commit new README
         run: |
           git config --global user.name 'Frazzer951'
