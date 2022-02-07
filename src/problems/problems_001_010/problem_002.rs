@@ -1,5 +1,3 @@
-// NOT DONE
-
 /* HARD
 Given an array of integers, return a new array such that each element at index i
 of the new array is the product of all the numbers in the original array except
@@ -12,8 +10,20 @@ For example, if our input was [1, 2, 3, 4, 5], the expected output would be
 Follow-up: what if you can't use division?
 */
 
-fn problem_002() -> i64 {
-    0
+fn problem_002(arr: Vec<i64>) -> Vec<i64> {
+    let mut new_vec = vec![1; arr.len()];
+
+    for i in 0..arr.len() {
+        let mut running_prod = 1;
+        for j in 0..arr.len() {
+            if i != j {
+                running_prod *= arr[j];
+            }
+        }
+        new_vec[i] = running_prod;
+    }
+
+    new_vec
 }
 
 #[cfg(test)]
@@ -22,6 +32,7 @@ mod tests {
 
     #[test]
     fn test_problem_002() {
-        assert_eq!(problem_002(), 1);
+        assert_eq!(problem_002(vec! {1, 2, 3, 4, 5}), vec! {120, 60, 40, 30, 24});
+        assert_eq!(problem_002(vec! {3,2,1}), vec! {2,3,6});
     }
 }
