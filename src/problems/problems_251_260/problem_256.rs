@@ -15,7 +15,8 @@ mod tests {
     use super::*;
 
     #[test]
+    #[ignore]
     fn test_problem_256() {
-        assert_eq!(problem_256(), 0);
+        assert_eq!(problem_256(), 1);
     }
 }

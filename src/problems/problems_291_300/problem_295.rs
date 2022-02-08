@@ -31,7 +31,8 @@ mod tests {
     use super::*;
 
     #[test]
+    #[ignore]
     fn test_problem_295() {
-        assert_eq!(problem_295(), 0);
+        assert_eq!(problem_295(), 1);
     }
 }

@@ -345,6 +345,7 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
  - [Problem 327](src/problems/problems_321_330/problem_327.rs)
  - [Problem 328](src/problems/problems_321_330/problem_328.rs)
  - [Problem 329](src/problems/problems_321_330/problem_329.rs)
+ - [Problem 330](src/problems/problems_321_330/problem_330.rs)
 
 </p>
 </details>
