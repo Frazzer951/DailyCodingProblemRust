@@ -24,3 +24,40 @@ impl<T: std::cmp::PartialEq + std::cmp::PartialOrd> BtNode<T> {
         }
     }
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_bt_node() {
+        let mut x = BtNode {
+            val: "m",
+            l: None,
+            r: None,
+        };
+        x.insert("z");
+        x.insert("b");
+        x.insert("c");
+        assert_eq!(
+            x,
+            BtNode {
+                val: "m",
+                l: Some(Box::new(BtNode {
+                    val: "b",
+                    l: None,
+                    r: Some(Box::new(BtNode {
+                        val: "c",
+                        l: None,
+                        r: None
+                    })),
+                })),
+                r: Some(Box::new(BtNode {
+                    val: "z",
+                    l: None,
+                    r: None
+                })),
+            }
+        );
+    }
+}
