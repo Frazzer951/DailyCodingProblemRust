@@ -22,8 +22,6 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
 <details><summary>Missing</summary>
 <p>
 
- - [Problem 005](src/problems/problems_001_010/problem_005.rs)
- - [Problem 006](src/problems/problems_001_010/problem_006.rs)
  - [Problem 007](src/problems/problems_001_010/problem_007.rs)
  - [Problem 008](src/problems/problems_001_010/problem_008.rs)
  - [Problem 009](src/problems/problems_001_010/problem_009.rs)
@@ -358,6 +356,8 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
 <details><summary>Skipped</summary>
 <p>
 
+ - [Problem 005](src/problems/problems_001_010/problem_005.rs)
+ - [Problem 006](src/problems/problems_001_010/problem_006.rs)
 
 </p>
 </details>
