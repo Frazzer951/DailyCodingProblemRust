@@ -11,4 +11,3 @@ target/
 config.json
 emails.json
 __pycache__/
-.idea/
