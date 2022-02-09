@@ -1,5 +1,3 @@
-// NOT DONE
-
 /* HARD
 Suppose we represent our file system by a string in the following manner:
 
@@ -48,8 +46,34 @@ The name of a file contains at least a period and an extension.
 The name of a directory or sub-directory will not contain a period.
 */
 
-fn problem_017() -> i64 {
-    0
+use std::collections::HashMap;
+
+fn is_file(f: &str) -> bool {
+    f.contains('.')
+}
+
+fn find_longest_filepath(filesystem: String) -> String {
+    let file_paths = filesystem.split("\n");
+
+    let mut depths: HashMap<usize, &str> = HashMap::new();
+    let mut filepaths: Vec<String> = Vec::new();
+
+    for path in file_paths {
+        let depth = path.matches("\t").count();
+        if is_file(path) {
+            let mut filepath = String::new();
+            for i in 0..depth {
+                filepath.push_str(&depths[&i]);
+                filepath.push('/');
+            }
+            filepath.push_str(path.trim_matches('\t'));
+            filepaths.push(filepath);
+        } else {
+            depths.insert(depth, path.trim_matches('\t'));
+        }
+    }
+    let longest_filepath = filepaths.iter().max_by_key(|x| x.len()).unwrap();
+    longest_filepath.to_string()
 }
 
 #[cfg(test)]
@@ -57,8 +81,12 @@ mod tests {
     use super::*;
 
     #[test]
-    #[ignore]
     fn test_problem_017() {
-        assert_eq!(problem_017(), 1);
+        assert_eq!(
+            find_longest_filepath(String::from(
+                "dir\n\tsubdir1\n\t\tfile1.ext\n\t\tsubsubdir1\n\tsubdir2\n\t\tsubsubdir2\n\t\t\tfile2.ext"
+            )),
+            String::from("dir/subdir2/subsubdir2/file2.ext")
+        );
     }
 }
