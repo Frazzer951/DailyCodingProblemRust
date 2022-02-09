@@ -1,5 +1,3 @@
-// NOT DONE
-
 /* MEDIUM
 Implement an autocomplete system. That is, given a query string s and a set of
 all possible query strings, return all strings in the set that have s as a
@@ -30,6 +28,9 @@ mod tests {
 
     #[test]
     fn test_problem_011() {
-        assert_eq!(problem_011("de", vec! {"dog", "deer", "deal"}), vec! {String::from("deer"), String::from("deal")});
+        assert_eq!(
+            problem_011("de", vec! {"dog", "deer", "deal"}),
+            vec! {String::from("deer"), String::from("deal")}
+        );
     }
 }
