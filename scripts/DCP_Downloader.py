@@ -7,7 +7,7 @@ import os
 import re
 
 
-def loadEmails():
+def load_emails():
     """Will load cached emails"""
     if os.path.isfile(config.proj_dir + "/emails.json"):
         with open(config.proj_dir + "/emails.json", "r", encoding="UTF-8") as f:
@@ -18,14 +18,14 @@ def loadEmails():
         return {}
 
 
-def saveEmails(emails):
+def save_emails(emails):
     """Will Save the cached emails"""
     with open(config.proj_dir + "/emails.json", "w", encoding="utf-8") as f:
         json.dump(emails, f, indent=2, sort_keys=True)
         logging.debug("Cache Saved")
 
 
-def getEmails(forceRefresh=False):
+def get_emails(force_refresh=False):
     """Will retrieve all emails from gmail"""
     m = imaplib.IMAP4_SSL("imap.gmail.com")
     m.login(config.user, config.password)
@@ -35,10 +35,10 @@ def getEmails(forceRefresh=False):
     resp, items = m.search(None, "ALL")
     items = items[0].split()
     logging.debug(len(items))
-    if forceRefresh:
+    if force_refresh:
         emails = {}
     else:
-        emails = loadEmails()
+        emails = load_emails()
 
     for emailid in items:
         resp, data = m.fetch(emailid, "(RFC822)")
@@ -93,13 +93,13 @@ def line_prepender(filename, line):
         f.write(line.rstrip("\r\n") + "\n" + content)
 
 
-def genProblem(problems, num):
+def gen_problem(problems, num):
     """Generate Missing Problems from Problem List"""
     # Create Filenames for all files with problems
     section = (num - 1) // 10
-    path = f"src/problems/problems_{section:02}1_{section+1:02}0"
+    path = f"src/problems/problems_{section:02}1_{section + 1:02}0"
     filename = f"{path}/problem_{num:03}.rs"
-    parent_filename = f"src/problems/problems_{section:02}1_{section+1:02}0.rs"
+    parent_filename = f"src/problems/problems_{section:02}1_{section + 1:02}0.rs"
 
     # Make sure the files exist
     if not os.path.exists("src"):
@@ -111,7 +111,7 @@ def genProblem(problems, num):
             logging.info(f"Generating {parent_filename}")
         line_prepender(
             "src/problems.rs",
-            f"mod problems_{section:02}1_{section+1:02}0;",
+            f"mod problems_{section:02}1_{section + 1:02}0;",
         )
 
     logging.debug(filename)
@@ -141,17 +141,17 @@ def genProblem(problems, num):
     )
 
 
-def addProblems(cacheOnly=False, forceRefresh=False):
-    if cacheOnly:
+def add_problems(cache_only=False, force_refresh=False):
+    if cache_only:
         logging.info("Loading Cache")
-        problems = loadEmails()
+        problems = load_emails()
     else:
         logging.info("Loading Emails")
-        problems = getEmails(forceRefresh)
-    saveEmails(problems)
+        problems = get_emails(force_refresh)
+    save_emails(problems)
     for num in problems:
-        genProblem(problems, int(num))
+        gen_problem(problems, int(num))
 
 
 if __name__ == "__main__":
-    addProblems()
+    add_problems()
