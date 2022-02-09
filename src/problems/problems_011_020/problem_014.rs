@@ -16,7 +16,7 @@ macro_rules! assert_delta {
 use rand::Rng;
 
 fn monte_carlo_pi() -> f64 {
-    let iterations = 1000000;
+    let iterations = 100000;
     let mut rng = rand::thread_rng();
 
     let mut total = 0;

@@ -23,6 +23,7 @@ mod tests {
     use super::*;
 
     #[test]
+    #[ignore]
     fn test_problem_020() {
         assert_eq!(problem_020(), 1);
     }
