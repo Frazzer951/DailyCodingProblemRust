@@ -1,4 +1,4 @@
-// NOT DONE
+// SKIPPED
 
 /* EASY
 Given two singly linked lists that intersect at some point, find the
@@ -23,7 +23,6 @@ mod tests {
     use super::*;
 
     #[test]
-    #[ignore]
     fn test_problem_020() {
         assert_eq!(problem_020(), 1);
     }
