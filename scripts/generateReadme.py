@@ -40,12 +40,23 @@ def get_problems() -> Dict[str, List[str]]:
             logging.debug(file)
             with open(os.path.join(folder, file), encoding="UTF-8") as f:
                 content = f.read()
-                if "// NOT DONE" in content:
-                    problems["Incomplete"].append(file)
-                elif "// SKIPPED" in content:
-                    problems["Skipped"].append(file)
+
+                difficulty = ""
+                if "/* EASY" in content:
+                    difficulty = "Easy"
+                elif "/* MEDIUM" in content:
+                    difficulty = "Medium"
+                elif "/* HARD" in content:
+                    difficulty = "Hard"
                 else:
-                    problems["Completed"].append(file)
+                    assert False, f"Unknown difficulty for {file}"
+
+                if "// NOT DONE" in content:
+                    problems["Incomplete"].append((file, difficulty))
+                elif "// SKIPPED" in content:
+                    problems["Skipped"].append((file, difficulty))
+                else:
+                    problems["Completed"].append((file, difficulty))
 
     return problems
 
@@ -53,10 +64,11 @@ def get_problems() -> Dict[str, List[str]]:
 def create_readme_links(files: List[str]) -> List[str]:
     text: List[str] = []
     files.sort()
-    for file in files:
+    for file, difficulty in files:
         num = int(file.rstrip(".rs").split("_")[-1])
         section = (num - 1) // 10
-        text.append(f" - [Problem {num:03}](src/problems/problems_{section:02}1_{section + 1:02}0/{file})")
+        text.append(
+            f" - [Problem {num:03}](src/problems/problems_{section:02}1_{section + 1:02}0/{file}) - {difficulty}")
 
     return text
 
