@@ -12,8 +12,16 @@ Hint: Try preprocessing the dictionary into a more efficient data structure to
 speed up queries.
 */
 
-fn problem_011() -> i64 {
-    0
+fn problem_011(qstr: &str, qstrs: Vec<&str>) -> Vec<String> {
+    let mut return_strs: Vec<String> = vec![];
+
+    for word in qstrs {
+        if qstr == &word[..qstr.len()] {
+            return_strs.push(String::from(word));
+        }
+    }
+
+    return_strs
 }
 
 #[cfg(test)]
@@ -21,8 +29,7 @@ mod tests {
     use super::*;
 
     #[test]
-    #[ignore]
     fn test_problem_011() {
-        assert_eq!(problem_011(), 1);
+        assert_eq!(problem_011("de", vec! {"dog", "deer", "deal"}), vec! {String::from("deer"), String::from("deal")});
     }
 }
