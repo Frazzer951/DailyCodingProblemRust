@@ -15,12 +15,15 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
  - [Problem 008](src/problems/problems_001_010/problem_008.rs) - Easy
  - [Problem 009](src/problems/problems_001_010/problem_009.rs) - Hard
  - [Problem 011](src/problems/problems_011_020/problem_011.rs) - Medium
+ - [Problem 012](src/problems/problems_011_020/problem_012.rs) - Hard
+ - [Problem 013](src/problems/problems_011_020/problem_013.rs) - Hard
  - [Problem 014](src/problems/problems_011_020/problem_014.rs) - Medium
  - [Problem 016](src/problems/problems_011_020/problem_016.rs) - Easy
  - [Problem 017](src/problems/problems_011_020/problem_017.rs) - Hard
  - [Problem 019](src/problems/problems_011_020/problem_019.rs) - Medium
  - [Problem 023](src/problems/problems_021_030/problem_023.rs) - Easy
  - [Problem 027](src/problems/problems_021_030/problem_027.rs) - Easy
+ - [Problem 029](src/problems/problems_021_030/problem_029.rs) - Easy
 
 </p>
 </details>
@@ -32,8 +35,6 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
 <details><summary>Missing</summary>
 <p>
 
- - [Problem 012](src/problems/problems_011_020/problem_012.rs) - Hard
- - [Problem 013](src/problems/problems_011_020/problem_013.rs) - Hard
  - [Problem 018](src/problems/problems_011_020/problem_018.rs) - Hard
  - [Problem 021](src/problems/problems_021_030/problem_021.rs) - Easy
  - [Problem 022](src/problems/problems_021_030/problem_022.rs) - Medium
@@ -41,7 +42,6 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
  - [Problem 025](src/problems/problems_021_030/problem_025.rs) - Hard
  - [Problem 026](src/problems/problems_021_030/problem_026.rs) - Medium
  - [Problem 028](src/problems/problems_021_030/problem_028.rs) - Medium
- - [Problem 029](src/problems/problems_021_030/problem_029.rs) - Easy
  - [Problem 030](src/problems/problems_021_030/problem_030.rs) - Medium
  - [Problem 031](src/problems/problems_031_040/problem_031.rs) - Easy
  - [Problem 032](src/problems/problems_031_040/problem_032.rs) - Hard
