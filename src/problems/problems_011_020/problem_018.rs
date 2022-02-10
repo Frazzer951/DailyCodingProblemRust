@@ -1,4 +1,4 @@
-// NOT DONE
+
 
 /* HARD
 Given an array of integers and a number k, where 1 <= k <= length of the array,
@@ -17,8 +17,18 @@ you do not need to store the results. You can simply print them out as you
 compute them.
 */
 
-fn problem_018() -> i64 {
-    0
+fn problem_018(arr: Vec<i64>, k: usize) -> Vec<i64> {
+    let mut max_arr = vec![];
+
+    for i in 0..=arr.len() - k {
+        let mut sub_arr = vec![];
+        for j in i..i + k {
+            sub_arr.push(arr[j]);
+        }
+        max_arr.push(sub_arr.iter().max().unwrap().clone());
+    }
+
+    max_arr
 }
 
 #[cfg(test)]
@@ -26,8 +36,8 @@ mod tests {
     use super::*;
 
     #[test]
-    #[ignore]
     fn test_problem_018() {
-        assert_eq!(problem_018(), 1);
+        // given array = [10, 5, 2, 7, 8, 7] and k = 3, we should get: [10, 7, 8, 8]
+        assert_eq!(problem_018(vec![10, 5, 2, 7, 8, 7], 3), vec![10, 7, 8, 8]);
     }
 }
