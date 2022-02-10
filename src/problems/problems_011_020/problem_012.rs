@@ -18,8 +18,15 @@ any number from a set of positive integers X? For example, if X = {1, 3, 5}, you
 could climb 1, 3, or 5 steps at a time.
 */
 
-fn problem_012() -> i64 {
-    0
+fn fib(n: i64) -> i64 {
+    if n <= 1 {
+        return n;
+    }
+    return fib(n - 1) + fib(n - 2);
+}
+
+fn problem_012(n: i64) -> i64 {
+    fib(n + 1)
 }
 
 #[cfg(test)]
@@ -27,8 +34,7 @@ mod tests {
     use super::*;
 
     #[test]
-    #[ignore]
     fn test_problem_012() {
-        assert_eq!(problem_012(), 1);
+        assert_eq!(problem_012(4), 5);
     }
 }
