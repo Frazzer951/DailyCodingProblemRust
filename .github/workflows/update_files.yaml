@@ -1,4 +1,4 @@
-name: Update README
+name: Update README And Format Files
 
 on:
   push:
@@ -25,4 +25,12 @@ jobs:
           git config --global user.name 'Frazzer951'
           git config --global user.email 'luke343279@gmail.com'
           [[ -n $(git status -s) ]] && git commit -am "docs: update README"
+          git push
+      - name: Run format
+        run: cargo fmt --verbose
+      - name: Commit formatted changes
+        run: |
+          git config --global user.name 'Frazzer951'
+          git config --global user.email 'luke343279@gmail.com'
+          [[ -n $(git status -s) ]] && git commit -am "docs: format Files"
           git push
