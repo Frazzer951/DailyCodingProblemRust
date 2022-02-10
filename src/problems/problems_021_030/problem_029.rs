@@ -1,5 +1,3 @@
-
-
 /* EASY
 Run-length encoding is a fast and simple method of encoding strings. The basic
 idea is to represent repeated successive characters as a single count and
@@ -38,7 +36,6 @@ fn run_length_encode(mut str: String) -> String {
 
 fn run_length_decode(mut str: String) -> String {
     let mut result = String::new();
-
 
     while !str.is_empty() {
         let mut chars = str.chars();
