@@ -346,6 +346,8 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
  - [Problem 331](src/problems/problems_331_340/problem_331.rs) - Medium
  - [Problem 332](src/problems/problems_331_340/problem_332.rs) - Easy
  - [Problem 333](src/problems/problems_331_340/problem_333.rs) - Medium
+ - [Problem 334](src/problems/problems_331_340/problem_334.rs) - Easy
+ - [Problem 335](src/problems/problems_331_340/problem_335.rs) - Hard
 
 </p>
 </details>
