@@ -101,47 +101,26 @@ jobs:
           command: clippy
           args: "--all-targets --all-features -- -D warnings -A dead_code"
 
-  lints_nightly:
-    name: Lints (nightly)
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout sources
-        uses: actions/checkout@v2
-      - name: Install stable toolchain
-        uses: actions-rs/toolchain@v1
-        with:
-          profile: minimal
-          toolchain: nightly
-          override: true
-          components: "rustfmt, clippy"
-      - name: Run cargo fmt
-        uses: actions-rs/cargo@v1
-        with:
-          command: fmt
-          args: "--all -- --check"
-      - name: Clippy with warnings
-        uses: actions-rs/cargo@v1
-        with:
-          command: clippy
-          args: "--all-targets --all-features -- -D warnings -A dead_code"
-
-  collect_coverage:
-    needs: check
-    name: Collect code coverage (with anonymous server)
-    runs-on: ubuntu-latest
-    container:
-      image: xd009642/tarpaulin:develop-nightly
-      options: --security-opt seccomp=unconfined
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-
-      - name: Generate code coverage
-        run: |
-          cargo +nightly tarpaulin --workspace --timeout 120 --out Xml
-
-      - name: Upload to codecov.io
-        uses: codecov/codecov-action@v2
-        with:
-          token: ${{secrets.CODECOV_TOKEN}}
-          fail_ci_if_error: true
+#  lints_nightly:
+#    name: Lints (nightly)
+#    runs-on: ubuntu-latest
+#    steps:
+#      - name: Checkout sources
+#        uses: actions/checkout@v2
+#      - name: Install stable toolchain
+#        uses: actions-rs/toolchain@v1
+#        with:
+#          profile: minimal
+#          toolchain: nightly
+#          override: true
+#          components: "rustfmt, clippy"
+#      - name: Run cargo fmt
+#        uses: actions-rs/cargo@v1
+#        with:
+#          command: fmt
+#          args: "--all -- --check"
+#      - name: Clippy with warnings
+#        uses: actions-rs/cargo@v1
+#        with:
+#          command: clippy
+#          args: "--all-targets --all-features -- -D warnings -A dead_code"
