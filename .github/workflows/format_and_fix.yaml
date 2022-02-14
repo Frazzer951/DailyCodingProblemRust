@@ -7,13 +7,32 @@ jobs:
     name: Format and Clippy Fixes
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout sources
+        uses: actions/checkout@v2
 
-      - name: Format
-        run: cargo fmt --verbose
+      - name: Install stable toolchain
+        uses: actions-rs/toolchain@v1
+        with:
+          profile: minimal
+          toolchain: stable
+          override: true
+          components: "rustfmt, clippy"
 
-      - name: Clippy
-        run: cargo clippy --fix
+      - uses: Swatinem/rust-cache@v1.3.0
+        with:
+          sharedKey: cache
+
+      - name: Run cargo fmt
+        uses: actions-rs/cargo@v1
+        with:
+          command: fmt
+          args: "--verbose"
+
+      - name: Clippy with warnings
+        uses: actions-rs/cargo@v1
+        with:
+          command: clippy
+          args: "--fix -- -A dead_code"
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
