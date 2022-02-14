@@ -1,5 +1,3 @@
-// NOT DONE
-
 /* HARD
 Implement regular expression matching with the following special characters:
 
@@ -18,8 +16,31 @@ return true. The same regular expression on the string "chats" should return
 false.
 */
 
-fn problem_025() -> i64 {
-    0
+fn problem_025(str: String, exp: String) -> bool {
+    let mut str_index = 0;
+
+    for i in 0..exp.len() {
+        let cur = str.chars().nth(i).unwrap();
+        match exp.chars().nth(i).unwrap() {
+            '.' => str_index += 1,
+            '*' => {
+                if exp.chars().nth(i + 1).unwrap() == cur {
+                    break;
+                }
+                while cur == str.chars().nth(str_index).unwrap() {
+                    str_index += 1;
+                }
+            }
+            _ => {
+                if exp.chars().nth(i).unwrap() != cur {
+                    return false;
+                }
+                str_index += 1;
+            }
+        }
+    }
+
+    str_index == str.len()
 }
 
 #[cfg(test)]
@@ -27,8 +48,11 @@ mod tests {
     use super::*;
 
     #[test]
-    #[ignore]
+
     fn test_problem_025() {
-        assert_eq!(problem_025(), 1);
+        assert_eq!(problem_025(String::from("ray"), String::from("ra.")), true);
+        assert_eq!(problem_025(String::from("raymond"), String::from("ra.")), false);
+        assert_eq!(problem_025(String::from("chat"), String::from(".*at")), true);
+        assert_eq!(problem_025(String::from("chats"), String::from(".*at")), false);
     }
 }
