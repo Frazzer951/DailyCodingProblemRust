@@ -1,0 +1,23 @@
+name: Format and Clippy Fixes
+
+on: [ push ]
+
+jobs:
+  cleanup:
+    name: Format and Clippy Fixes
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Format
+        run: cargo fmt --verbose
+
+      - name: Clippy
+        run: cargo clippy --fix
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          commit-message: "Cargo Fmt and Clippy Fixes"
+          title: "Cargo Fmt and Clippy Fixes"
+          delete-branch: true
