@@ -53,17 +53,17 @@ fn is_file(f: &str) -> bool {
 }
 
 fn find_longest_filepath(filesystem: String) -> String {
-    let file_paths = filesystem.split("\n");
+    let file_paths = filesystem.split('\n');
 
     let mut depths: HashMap<usize, &str> = HashMap::new();
     let mut filepaths: Vec<String> = Vec::new();
 
     for path in file_paths {
-        let depth = path.matches("\t").count();
+        let depth = path.matches('\t').count();
         if is_file(path) {
             let mut filepath = String::new();
             for i in 0..depth {
-                filepath.push_str(&depths[&i]);
+                filepath.push_str(depths[&i]);
                 filepath.push('/');
             }
             filepath.push_str(path.trim_matches('\t'));

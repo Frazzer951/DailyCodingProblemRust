@@ -22,25 +22,25 @@ fn same_children<T: std::cmp::PartialEq>(root: &BtNode<T>) -> bool {
         return true;
     }
 
-    if !root.l.is_none() && root.val != root.l.as_ref().unwrap().val {
+    if root.l.is_some() && root.val != root.l.as_ref().unwrap().val {
         return false;
     }
-    if !root.r.is_none() && root.val != root.r.as_ref().unwrap().val {
+    if root.r.is_some() && root.val != root.r.as_ref().unwrap().val {
         return false;
     }
 
-    let left = if !root.l.is_none() {
+    let left = if root.l.is_some() {
         same_children(&*root.l.as_ref().unwrap())
     } else {
         true
     };
-    let right = if !root.r.is_none() {
+    let right = if root.r.is_some() {
         same_children(&*root.r.as_ref().unwrap())
     } else {
         true
     };
 
-    return left && right;
+    left && right
 }
 
 fn count_unival_tree<T: std::cmp::PartialEq>(root: &BtNode<T>) -> i64 {
@@ -52,17 +52,17 @@ fn count_unival_tree<T: std::cmp::PartialEq>(root: &BtNode<T>) -> i64 {
     if same_children(root) {
         count += 1;
     }
-    let left = if !root.l.is_none() {
+    let left = if root.l.is_some() {
         count_unival_tree(&*root.l.as_ref().unwrap())
     } else {
         0
     };
-    let right = if !root.r.is_none() {
+    let right = if root.r.is_some() {
         count_unival_tree(&*root.r.as_ref().unwrap())
     } else {
         0
     };
-    return count + left + right;
+    count + left + right
 }
 
 #[cfg(test)]

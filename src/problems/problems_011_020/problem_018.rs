@@ -23,7 +23,7 @@ fn problem_018(arr: Vec<i64>, k: usize) -> Vec<i64> {
         for j in i..i + k {
             sub_arr.push(arr[j]);
         }
-        max_arr.push(sub_arr.iter().max().unwrap().clone());
+        max_arr.push(*sub_arr.iter().max().unwrap());
     }
 
     max_arr

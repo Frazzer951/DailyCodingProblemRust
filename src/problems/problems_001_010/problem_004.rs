@@ -11,7 +11,7 @@ You can modify the input array in-place.
 */
 
 fn problem_004(mut arr: Vec<i64>) -> i64 {
-    arr.sort();
+    arr.sort_unstable();
     let mut missing = 1;
     for i in arr {
         if i > 0 && i == missing {

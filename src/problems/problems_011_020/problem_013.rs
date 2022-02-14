@@ -22,7 +22,7 @@ fn problem_013(s: String, k: usize) -> usize {
             new_lower_bound = bounds.0;
         } else {
             let key_to_pop = h.iter().min_by_key(|(_, v)| *v).unwrap().0;
-            let key_to_pop = key_to_pop.clone();
+            let key_to_pop = *key_to_pop;
             new_lower_bound = h[&key_to_pop] + 1;
             h.remove(&key_to_pop);
         }

@@ -15,7 +15,7 @@ Given the set of words 'bed', 'bath', 'bedbath', 'and', 'beyond', and the string
 fn problem_022(word_set: Vec<String>, mut str: String) -> Vec<String> {
     let mut sentance = Vec::new();
 
-    while str.len() > 0 {
+    while !str.is_empty() {
         let mut word_found = false;
         for word in &word_set {
             let index = str.find(&word.to_string()).unwrap_or(str.len());

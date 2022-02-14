@@ -6,7 +6,7 @@ For example, given [(30, 75), (0, 50), (60, 150)], you should return 2.
 */
 
 fn problem_021(schedule: Vec<(u64, u64)>) -> u64 {
-    if schedule.len() == 0 {
+    if schedule.is_empty() {
         return 0;
     }
     let mut conflicts = vec![];

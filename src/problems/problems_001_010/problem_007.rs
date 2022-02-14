@@ -10,10 +10,10 @@ allowed.
 */
 
 fn problem_007(s: &str) -> i64 {
-    if s.len() == 0 {
+    if s.is_empty() {
         return 1;
     }
-    if s.chars().next().unwrap() == '0' {
+    if s.starts_with('0') {
         return 0;
     }
     if s.len() == 1 {
