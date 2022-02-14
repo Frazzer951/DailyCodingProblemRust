@@ -13,13 +13,12 @@ fn problem_021(schedule: Vec<(u64, u64)>) -> u64 {
 
     let cur_class = schedule[0];
 
-    for i in 1..schedule.len() {
-        let next_class = schedule[i];
+    for next_class in schedule.iter().skip(1) {
         if (cur_class.1 >= next_class.0 && cur_class.0 < next_class.1)
             || (cur_class.1 > next_class.0 && cur_class.1 <= next_class.1)
             || (cur_class.0 < next_class.1 && cur_class.0 > next_class.0)
         {
-            conflicts.push(schedule[i]);
+            conflicts.push(*next_class);
         }
     }
 

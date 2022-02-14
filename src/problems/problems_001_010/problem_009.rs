@@ -18,9 +18,9 @@ fn problem_009(v: Vec<i64>) -> i64 {
     let mut max_excluding_last = max(0, v[0]);
     let mut max_including_last = max(max_excluding_last, v[1]);
 
-    for i in 2..v.len() {
+    for i in v.iter().skip(2) {
         let prev_max_including_last = max_including_last;
-        max_including_last = max(max_including_last, max_excluding_last + v[i]);
+        max_including_last = max(max_including_last, max_excluding_last + i);
         max_excluding_last = prev_max_including_last;
     }
 

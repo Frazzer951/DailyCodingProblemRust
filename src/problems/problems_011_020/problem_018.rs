@@ -20,8 +20,8 @@ fn problem_018(arr: Vec<i64>, k: usize) -> Vec<i64> {
 
     for i in 0..=arr.len() - k {
         let mut sub_arr = vec![];
-        for j in i..i + k {
-            sub_arr.push(arr[j]);
+        for j in arr.iter().skip(i).take(k) {
+            sub_arr.push(*j);
         }
         max_arr.push(*sub_arr.iter().max().unwrap());
     }

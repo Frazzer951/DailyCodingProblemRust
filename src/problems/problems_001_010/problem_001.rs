@@ -25,7 +25,7 @@ mod tests {
 
     #[test]
     fn test_problem_001() {
-        assert_eq!(problem_001(vec! {10,15,3,7}, 17), true);
-        assert_eq!(problem_001(vec! {10,15,3,7}, 16), false);
+        assert!(problem_001(vec! {10,15,3,7}, 17));
+        assert!(!problem_001(vec! {10,15,3,7}, 16));
     }
 }

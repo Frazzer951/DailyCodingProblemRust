@@ -41,8 +41,8 @@ mod tests {
 
     #[test]
     fn test_problem_027() {
-        assert_eq!(problem_027("([])[]({})"), true);
-        assert_eq!(problem_027("([)]"), false);
-        assert_eq!(problem_027("((()"), false);
+        assert!(problem_027("([])[]({})"));
+        assert!(!problem_027("([)]"));
+        assert!(!problem_027("((()"));
     }
 }

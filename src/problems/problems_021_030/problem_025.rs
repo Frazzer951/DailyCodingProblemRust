@@ -50,9 +50,9 @@ mod tests {
     #[test]
 
     fn test_problem_025() {
-        assert_eq!(problem_025(String::from("ray"), String::from("ra.")), true);
-        assert_eq!(problem_025(String::from("raymond"), String::from("ra.")), false);
-        assert_eq!(problem_025(String::from("chat"), String::from(".*at")), true);
-        assert_eq!(problem_025(String::from("chats"), String::from(".*at")), false);
+        assert!(problem_025(String::from("ray"), String::from("ra.")));
+        assert!(!problem_025(String::from("raymond"), String::from("ra.")));
+        assert!(problem_025(String::from("chat"), String::from(".*at")));
+        assert!(!problem_025(String::from("chats"), String::from(".*at")));
     }
 }

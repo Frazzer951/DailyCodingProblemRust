@@ -5,10 +5,12 @@ Monte Carlo method.
 Hint: The basic equation of a circle is x2 + y2 = r2.
 */
 
+#[allow(unused_macros)]
 macro_rules! assert_delta {
     ($x:expr, $y:expr, $d:expr) => {
-        if !(($x - $y).abs() < $d) {
-            panic!("{} - {} = {} which is greater than {}", $x, $y, ($x - $y).abs(), $d);
+        let diff = ($x - $y).abs();
+        if (diff >= $d) {
+            panic!("{} - {} = {} which is greater than {}", $x, $y, diff, $d);
         }
     };
 }
@@ -41,6 +43,6 @@ mod tests {
 
     #[test]
     fn test_problem_014() {
-        assert_delta!(monte_carlo_pi(), 3.14, 0.01);
+        assert_delta!(monte_carlo_pi(), std::f64::consts::PI, 0.1);
     }
 }

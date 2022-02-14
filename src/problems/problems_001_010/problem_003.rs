@@ -47,7 +47,7 @@ fn deserialize(node_str: String) -> BtNode<String> {
         };
     }
 
-    let comma_index = nodes.find(',').unwrap_or(nodes.len());
+    let comma_index = nodes.find(',').unwrap_or_else(|| nodes.len());
     if comma_index == nodes.len() {
         let left = deserialize(String::from(&nodes[1..nodes.len() - 1]));
         return BtNode {

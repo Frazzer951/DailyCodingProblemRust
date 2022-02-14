@@ -26,7 +26,7 @@ use std::collections::{hash_set::HashSet, VecDeque};
 #[derive(PartialEq, Eq, Hash, Clone)]
 struct Point(i64, i64);
 
-fn get_walkable_neighbors(board: &Vec<Vec<bool>>, point: &Point) -> Vec<Point> {
+fn get_walkable_neighbors(board: &[Vec<bool>], point: &Point) -> Vec<Point> {
     let row = point.0;
     let col = point.1;
     let mut neighbors = Vec::new();

@@ -9,7 +9,7 @@ encoded have no digits and consists solely of alphabetic characters. You can
 assume the string to be decoded is valid.
 */
 
-fn count_char(str: &String, c: char) -> usize {
+fn count_char(str: &str, c: char) -> usize {
     let mut count = 0;
     for i in str.chars() {
         if i == c {

@@ -13,14 +13,14 @@ Follow-up: what if you can't use division?
 fn problem_002(arr: Vec<i64>) -> Vec<i64> {
     let mut new_vec = vec![1; arr.len()];
 
-    for i in 0..arr.len() {
+    for (i, v) in new_vec.iter_mut().enumerate().take(arr.len()) {
         let mut running_prod = 1;
-        for j in 0..arr.len() {
+        for (j, a) in arr.iter().enumerate() {
             if i != j {
-                running_prod *= arr[j];
+                running_prod *= a;
             }
         }
-        new_vec[i] = running_prod;
+        *v = running_prod;
     }
 
     new_vec

@@ -10,9 +10,9 @@ impl<T: std::cmp::PartialEq + std::cmp::PartialOrd> BtNode<T> {
             return;
         }
         let target_node = if new_val < self.val { &mut self.l } else { &mut self.r };
-        match target_node {
-            &mut Some(ref mut subnode) => subnode.insert(new_val),
-            &mut None => {
+        match *target_node {
+            Some(ref mut subnode) => subnode.insert(new_val),
+            None => {
                 let new_node = BtNode {
                     val: new_val,
                     l: None,

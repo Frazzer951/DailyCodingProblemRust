@@ -18,7 +18,7 @@ fn problem_022(word_set: Vec<String>, mut str: String) -> Vec<String> {
     while !str.is_empty() {
         let mut word_found = false;
         for word in &word_set {
-            let index = str.find(&word.to_string()).unwrap_or(str.len());
+            let index = str.find(&word.to_string()).unwrap_or_else(|| str.len());
             if index == 0 {
                 sentance.push(word.clone().to_string());
                 str.replace_range(0..word.len(), "");
