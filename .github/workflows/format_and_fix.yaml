@@ -32,7 +32,7 @@ jobs:
         uses: actions-rs/cargo@v1
         with:
           command: clippy
-          args: "--fix -- -A dead_code"
+          args: "--fix --allow-dirty -- -A dead_code"
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
