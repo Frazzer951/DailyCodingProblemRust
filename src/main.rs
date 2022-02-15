@@ -1,7 +1,7 @@
 mod problems;
 mod utils {
     pub mod bt_node;
-    pub mod sl_node;
+    pub mod linked_list;
 }
 
 fn main() {
