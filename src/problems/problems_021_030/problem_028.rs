@@ -23,8 +23,49 @@ For example, given the list of words ["the", "quick", "brown", "fox", "jumps",
 "the   lazy   dog"] # 4 extra spaces distributed evenly
 */
 
-fn problem_028() -> i64 {
-    0
+fn problem_028(mut words: Vec<String>, k: usize) -> Vec<String> {
+    let mut padded_strings = vec![];
+
+    while !words.is_empty() {
+        let mut length = 0;
+        let mut line = vec![];
+        while length < k {
+            if words.is_empty() {
+                break;
+            };
+            let word = words[0].clone();
+            if length + word.len() + line.len() <= k {
+                line.push(word);
+                words.remove(0);
+                length += line[line.len() - 1].len();
+            } else {
+                break;
+            }
+        }
+        length += line.len() - 1;
+        let mut add_spaces = k - length;
+
+        while add_spaces > 0 {
+            for i in 0..line.len() - 1 {
+                if add_spaces == 0 {
+                    break;
+                }
+                line[i] += " ";
+                add_spaces -= 1;
+            }
+        }
+
+        let mut temp = String::new();
+        for i in 0..line.len() {
+            temp += &line[i];
+            if i != line.len() - 1 {
+                temp += " ";
+            }
+        }
+        padded_strings.push(temp);
+    }
+
+    padded_strings
 }
 
 #[cfg(test)]
@@ -32,8 +73,27 @@ mod tests {
     use super::*;
 
     #[test]
-    #[ignore]
     fn test_problem_028() {
-        assert_eq!(problem_028(), 1);
+        assert_eq!(
+            problem_028(
+                vec![
+                    String::from("the"),
+                    String::from("quick"),
+                    String::from("brown"),
+                    String::from("fox"),
+                    String::from("jumps"),
+                    String::from("over"),
+                    String::from("the"),
+                    String::from("lazy"),
+                    String::from("dog")
+                ],
+                16
+            ),
+            [
+                String::from("the  quick brown"),
+                String::from("fox  jumps  over"),
+                String::from("the   lazy   dog"),
+            ]
+        );
     }
 }
