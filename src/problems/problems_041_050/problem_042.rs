@@ -1,4 +1,4 @@
-// NOT DONE
+// SKIPPED
 
 /* HARD
 Given a list of integers S and a target number k, write a function that returns
