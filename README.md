@@ -29,6 +29,10 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
  - [Problem 027](src/problems/problems_021_030/problem_027.rs) - Easy
  - [Problem 028](src/problems/problems_021_030/problem_028.rs) - Medium
  - [Problem 029](src/problems/problems_021_030/problem_029.rs) - Easy
+ - [Problem 030](src/problems/problems_021_030/problem_030.rs) - Medium
+ - [Problem 031](src/problems/problems_031_040/problem_031.rs) - Easy
+ - [Problem 033](src/problems/problems_031_040/problem_033.rs) - Easy
+ - [Problem 034](src/problems/problems_031_040/problem_034.rs) - Medium
 
 </p>
 </details>
@@ -40,11 +44,6 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
 <details><summary>Missing</summary>
 <p>
 
- - [Problem 030](src/problems/problems_021_030/problem_030.rs) - Medium
- - [Problem 031](src/problems/problems_031_040/problem_031.rs) - Easy
- - [Problem 032](src/problems/problems_031_040/problem_032.rs) - Hard
- - [Problem 033](src/problems/problems_031_040/problem_033.rs) - Easy
- - [Problem 034](src/problems/problems_031_040/problem_034.rs) - Medium
  - [Problem 035](src/problems/problems_031_040/problem_035.rs) - Hard
  - [Problem 036](src/problems/problems_031_040/problem_036.rs) - Medium
  - [Problem 037](src/problems/problems_031_040/problem_037.rs) - Easy
@@ -364,6 +363,7 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
  - [Problem 020](src/problems/problems_011_020/problem_020.rs) - Easy
  - [Problem 024](src/problems/problems_021_030/problem_024.rs) - Medium
  - [Problem 026](src/problems/problems_021_030/problem_026.rs) - Medium
+ - [Problem 032](src/problems/problems_031_040/problem_032.rs) - Hard
 
 </p>
 </details>
