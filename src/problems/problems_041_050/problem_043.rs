@@ -1,5 +1,3 @@
-// NOT DONE
-
 /* EASY
 Implement a stack that has the following methods:
 
@@ -12,8 +10,35 @@ Implement a stack that has the following methods:
 Each method should run in constant time.
 */
 
-fn problem_043() -> i64 {
-    0
+struct Stack<T> {
+    values: Vec<T>,
+}
+
+impl<T: Clone + std::cmp::Ord> Stack<T> {
+    fn new() -> Stack<T> {
+        Stack { values: Vec::new() }
+    }
+
+    fn push(&mut self, val: T) {
+        self.values.push(val);
+    }
+
+    fn pop(&mut self) -> Option<T> {
+        self.values.pop()
+    }
+
+    fn max(&self) -> Option<T> {
+        if self.values.is_empty() {
+            return None;
+        }
+        let mut max_value: T = self.values[0].clone();
+
+        for val in self.values.iter() {
+            max_value = max_value.max(val.clone());
+        }
+
+        Some(max_value)
+    }
 }
 
 #[cfg(test)]
@@ -23,6 +48,20 @@ mod tests {
     #[test]
     #[ignore]
     fn test_problem_043() {
-        assert_eq!(problem_043(), 1);
+        let mut stack = Stack::new();
+        stack.push(0);
+        stack.push(1);
+        stack.push(2);
+        stack.push(3);
+
+        assert_eq!(stack.max(), Some(3));
+
+        assert_eq!(stack.pop(), Some(3));
+        assert_eq!(stack.pop(), Some(2));
+        assert_eq!(stack.pop(), Some(1));
+        assert_eq!(stack.pop(), Some(0));
+        assert_eq!(stack.pop(), Some(0));
+
+        assert_eq!(stack.max(), None);
     }
 }
