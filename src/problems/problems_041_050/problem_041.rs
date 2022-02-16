@@ -1,4 +1,4 @@
-// NOT DONE
+// SKIPPED
 
 /* MEDIUM
 Given an unordered list of flights taken by someone, each represented as
