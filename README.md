@@ -33,6 +33,7 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
  - [Problem 031](src/problems/problems_031_040/problem_031.rs) - Easy
  - [Problem 033](src/problems/problems_031_040/problem_033.rs) - Easy
  - [Problem 034](src/problems/problems_031_040/problem_034.rs) - Medium
+ - [Problem 035](src/problems/problems_031_040/problem_035.rs) - Hard
  - [Problem 037](src/problems/problems_031_040/problem_037.rs) - Easy
  - [Problem 038](src/problems/problems_031_040/problem_038.rs) - Hard
 
@@ -46,7 +47,6 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
 <details><summary>Missing</summary>
 <p>
 
- - [Problem 035](src/problems/problems_031_040/problem_035.rs) - Hard
  - [Problem 039](src/problems/problems_031_040/problem_039.rs) - Medium
  - [Problem 040](src/problems/problems_031_040/problem_040.rs) - Hard
  - [Problem 041](src/problems/problems_041_050/problem_041.rs) - Medium
