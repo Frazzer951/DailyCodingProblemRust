@@ -40,6 +40,7 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
  - [Problem 040](src/problems/problems_031_040/problem_040.rs) - Hard
  - [Problem 043](src/problems/problems_041_050/problem_043.rs) - Easy
  - [Problem 045](src/problems/problems_041_050/problem_045.rs) - Easy
+ - [Problem 049](src/problems/problems_041_050/problem_049.rs) - Medium
 
 </p>
 </details>
@@ -55,7 +56,6 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
  - [Problem 046](src/problems/problems_041_050/problem_046.rs) - Hard
  - [Problem 047](src/problems/problems_041_050/problem_047.rs) - Easy
  - [Problem 048](src/problems/problems_041_050/problem_048.rs) - Medium
- - [Problem 049](src/problems/problems_041_050/problem_049.rs) - Medium
  - [Problem 050](src/problems/problems_041_050/problem_050.rs) - Easy
  - [Problem 051](src/problems/problems_051_060/problem_051.rs) - Medium
  - [Problem 052](src/problems/problems_051_060/problem_052.rs) - Hard
