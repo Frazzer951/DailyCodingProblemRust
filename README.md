@@ -46,6 +46,11 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
  - [Problem 054](src/problems/problems_051_060/problem_054.rs) - Hard
  - [Problem 062](src/problems/problems_061_070/problem_062.rs) - Medium
  - [Problem 063](src/problems/problems_061_070/problem_063.rs) - Easy
+ - [Problem 338](src/problems/problems_331_340/problem_338.rs) - Medium
+ - [Problem 339](src/problems/problems_331_340/problem_339.rs) - Easy
+ - [Problem 340](src/problems/problems_331_340/problem_340.rs) - Easy
+ - [Problem 342](src/problems/problems_341_350/problem_342.rs) - Medium
+ - [Problem 343](src/problems/problems_341_350/problem_343.rs) - Medium
 
 </p>
 </details>
@@ -343,12 +348,7 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
  - [Problem 335](src/problems/problems_331_340/problem_335.rs) - Hard
  - [Problem 336](src/problems/problems_331_340/problem_336.rs) - Medium
  - [Problem 337](src/problems/problems_331_340/problem_337.rs) - Hard
- - [Problem 338](src/problems/problems_331_340/problem_338.rs) - Medium
- - [Problem 339](src/problems/problems_331_340/problem_339.rs) - Easy
- - [Problem 340](src/problems/problems_331_340/problem_340.rs) - Easy
  - [Problem 341](src/problems/problems_341_350/problem_341.rs) - Easy
- - [Problem 342](src/problems/problems_341_350/problem_342.rs) - Medium
- - [Problem 343](src/problems/problems_341_350/problem_343.rs) - Medium
 
 </p>
 </details>
