@@ -3,7 +3,7 @@
 /* MEDIUM
 reduce (also known as fold) is a function that takes in an array, a combining
 function, and an initial value and builds up a result by calling the combining
-function on each element of the array, left to right. For example, we can write 
+function on each element of the array, left to right. For example, we can write
 sum() in terms of reduce:
 
 def add(a, b):
