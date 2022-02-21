@@ -1,5 +1,3 @@
-// NOT DONE
-
 /* HARD
 Sudoku is a puzzle where you're given a partially-filled 9 by 9 grid with
 digits. The objective is to fill the grid with the constraint that every row,
