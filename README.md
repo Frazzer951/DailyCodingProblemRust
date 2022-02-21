@@ -43,6 +43,9 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
  - [Problem 047](src/problems/problems_041_050/problem_047.rs) - Easy
  - [Problem 049](src/problems/problems_041_050/problem_049.rs) - Medium
  - [Problem 050](src/problems/problems_041_050/problem_050.rs) - Easy
+ - [Problem 054](src/problems/problems_051_060/problem_054.rs) - Hard
+ - [Problem 062](src/problems/problems_061_070/problem_062.rs) - Medium
+ - [Problem 063](src/problems/problems_061_070/problem_063.rs) - Easy
 
 </p>
 </details>
@@ -59,7 +62,6 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
  - [Problem 051](src/problems/problems_051_060/problem_051.rs) - Medium
  - [Problem 052](src/problems/problems_051_060/problem_052.rs) - Hard
  - [Problem 053](src/problems/problems_051_060/problem_053.rs) - Medium
- - [Problem 054](src/problems/problems_051_060/problem_054.rs) - Hard
  - [Problem 055](src/problems/problems_051_060/problem_055.rs) - Easy
  - [Problem 056](src/problems/problems_051_060/problem_056.rs) - Medium
  - [Problem 057](src/problems/problems_051_060/problem_057.rs) - Medium
@@ -67,8 +69,6 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
  - [Problem 059](src/problems/problems_051_060/problem_059.rs) - Hard
  - [Problem 060](src/problems/problems_051_060/problem_060.rs) - Medium
  - [Problem 061](src/problems/problems_061_070/problem_061.rs) - Medium
- - [Problem 062](src/problems/problems_061_070/problem_062.rs) - Medium
- - [Problem 063](src/problems/problems_061_070/problem_063.rs) - Easy
  - [Problem 064](src/problems/problems_061_070/problem_064.rs) - Hard
  - [Problem 065](src/problems/problems_061_070/problem_065.rs) - Easy
  - [Problem 066](src/problems/problems_061_070/problem_066.rs) - Medium
