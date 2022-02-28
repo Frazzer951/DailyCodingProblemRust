@@ -349,6 +349,12 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
  - [Problem 336](src/problems/problems_331_340/problem_336.rs) - Medium
  - [Problem 337](src/problems/problems_331_340/problem_337.rs) - Hard
  - [Problem 341](src/problems/problems_341_350/problem_341.rs) - Easy
+ - [Problem 344](src/problems/problems_341_350/problem_344.rs) - Hard
+ - [Problem 345](src/problems/problems_341_350/problem_345.rs) - Medium
+ - [Problem 346](src/problems/problems_341_350/problem_346.rs) - Medium
+ - [Problem 347](src/problems/problems_341_350/problem_347.rs) - Easy
+ - [Problem 348](src/problems/problems_341_350/problem_348.rs) - Easy
+ - [Problem 349](src/problems/problems_341_350/problem_349.rs) - Hard
 
 </p>
 </details>
