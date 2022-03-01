@@ -74,7 +74,7 @@ def create_readme_links(files: List[str]) -> List[str]:
 
 
 def create_completed_text(problems: List[str]) -> str:
-    text = ["## Completed ⭐️", "<details><summary>Completed</summary>", "<p>", ""]
+    text = [f"## Completed ⭐️ - {len(problems)}", "<details><summary>Completed</summary>", "<p>", ""]
     text += create_readme_links(problems)
     text += ["", "</p>", "</details>", ""]
 
@@ -82,7 +82,7 @@ def create_completed_text(problems: List[str]) -> str:
 
 
 def create_missing_text(problems: List[str]) -> str:
-    text = ["## Missing ❌️", "<details><summary>Missing</summary>", "<p>", ""]
+    text = [f"## Missing ❌️ - {len(problems)}", "<details><summary>Missing</summary>", "<p>", ""]
     text += create_readme_links(problems)
     text += ["", "</p>", "</details>", ""]
 
@@ -90,7 +90,7 @@ def create_missing_text(problems: List[str]) -> str:
 
 
 def create_skipped_text(problems: List[str]) -> str:
-    text = ["## Skipped️ ⏭️", "<details><summary>Skipped</summary>", "<p>", ""]
+    text = [f"## Skipped️ ⏭️ - {len(problems)}", "<details><summary>Skipped</summary>", "<p>", ""]
     text += create_readme_links(problems)
     text += ["", "</p>", "</details>", ""]
 
