@@ -1,6 +1,9 @@
 name: Format and Clippy Fixes
 
-on: [ push ]
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   cleanup:
