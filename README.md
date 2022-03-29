@@ -58,7 +58,7 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
 <!-- end completed section -->
 
 <!-- start missing section -->
-## Missing ❌️ - 294
+## Missing ❌️ - 323
 <details><summary>Missing</summary>
 <p>
 
@@ -356,6 +356,35 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
  - [Problem 348](src/problems/problems_341_350/problem_348.rs) - Easy
  - [Problem 349](src/problems/problems_341_350/problem_349.rs) - Hard
  - [Problem 350](src/problems/problems_341_350/problem_350.rs) - Medium
+ - [Problem 351](src/problems/problems_351_360/problem_351.rs) - Hard
+ - [Problem 352](src/problems/problems_351_360/problem_352.rs) - Easy
+ - [Problem 353](src/problems/problems_351_360/problem_353.rs) - Medium
+ - [Problem 354](src/problems/problems_351_360/problem_354.rs) - Hard
+ - [Problem 355](src/problems/problems_351_360/problem_355.rs) - Hard
+ - [Problem 356](src/problems/problems_351_360/problem_356.rs) - Hard
+ - [Problem 357](src/problems/problems_351_360/problem_357.rs) - Hard
+ - [Problem 358](src/problems/problems_351_360/problem_358.rs) - Hard
+ - [Problem 359](src/problems/problems_351_360/problem_359.rs) - Easy
+ - [Problem 360](src/problems/problems_351_360/problem_360.rs) - Medium
+ - [Problem 361](src/problems/problems_361_370/problem_361.rs) - Medium
+ - [Problem 362](src/problems/problems_361_370/problem_362.rs) - Easy
+ - [Problem 363](src/problems/problems_361_370/problem_363.rs) - Medium
+ - [Problem 364](src/problems/problems_361_370/problem_364.rs) - Medium
+ - [Problem 365](src/problems/problems_361_370/problem_365.rs) - Hard
+ - [Problem 366](src/problems/problems_361_370/problem_366.rs) - Medium
+ - [Problem 367](src/problems/problems_361_370/problem_367.rs) - Medium
+ - [Problem 368](src/problems/problems_361_370/problem_368.rs) - Hard
+ - [Problem 369](src/problems/problems_361_370/problem_369.rs) - Medium
+ - [Problem 370](src/problems/problems_361_370/problem_370.rs) - Easy
+ - [Problem 371](src/problems/problems_371_380/problem_371.rs) - Hard
+ - [Problem 372](src/problems/problems_371_380/problem_372.rs) - Easy
+ - [Problem 373](src/problems/problems_371_380/problem_373.rs) - Hard
+ - [Problem 374](src/problems/problems_371_380/problem_374.rs) - Hard
+ - [Problem 375](src/problems/problems_371_380/problem_375.rs) - Medium
+ - [Problem 376](src/problems/problems_371_380/problem_376.rs) - Easy
+ - [Problem 377](src/problems/problems_371_380/problem_377.rs) - Hard
+ - [Problem 378](src/problems/problems_371_380/problem_378.rs) - Medium
+ - [Problem 379](src/problems/problems_371_380/problem_379.rs) - Easy
 
 </p>
 </details>
