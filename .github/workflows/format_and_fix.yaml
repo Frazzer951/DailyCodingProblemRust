@@ -38,7 +38,7 @@ jobs:
           args: "--fix --allow-dirty -- -A dead_code"
 
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v3
+        uses: peter-evans/create-pull-request@v4
         with:
           commit-message: "Cargo Fmt and Clippy Fixes"
           title: "Cargo Fmt and Clippy Fixes"
