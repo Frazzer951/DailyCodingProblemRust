@@ -33,3 +33,6 @@ mod problems_311_320;
 mod problems_321_330;
 mod problems_331_340;
 mod problems_341_350;
+mod problems_351_360;
+mod problems_361_370;
+mod problems_371_380;
