@@ -1,0 +1,36 @@
+// NOT DONE
+
+/* EASY
+Given a string, generate all possible subsequences of the string.
+
+For example, given the string xyz, return an array or set with the following
+strings:
+
+
+x
+y
+z
+xy
+xz
+yz
+xyz
+
+
+Note that zx is not a valid subsequence since it is not in the order of the
+given string.
+*/
+
+fn problem_379() -> i64 {
+    0
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    #[ignore]
+    fn test_problem_379() {
+        assert_eq!(problem_379(), 1);
+    }
+}
