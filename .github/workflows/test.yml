@@ -19,7 +19,7 @@ jobs:
           profile: minimal
           toolchain: stable
           override: true
-      - uses: Swatinem/rust-cache@v1.3.0
+      - uses: Swatinem/rust-cache@v1.4.0
         with:
           sharedKey: cache
       - name: Run cargo check
@@ -65,7 +65,7 @@ jobs:
           profile: minimal
           toolchain: stable
           override: true
-      - uses: Swatinem/rust-cache@v1.3.0
+      - uses: Swatinem/rust-cache@v1.4.0
         with:
           sharedKey: cache
       - name: Run tests
@@ -87,7 +87,7 @@ jobs:
           toolchain: stable
           override: true
           components: "rustfmt, clippy"
-      - uses: Swatinem/rust-cache@v1.3.0
+      - uses: Swatinem/rust-cache@v1.4.0
         with:
           sharedKey: cache
       - name: Run cargo fmt
