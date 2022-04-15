@@ -3,7 +3,7 @@
 My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) in Rust
 
 <!-- start completed section -->
-## Completed ⭐️
+## Completed ⭐️ - 44
 <details><summary>Completed</summary>
 <p>
 
@@ -58,7 +58,7 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
 <!-- end completed section -->
 
 <!-- start missing section -->
-## Missing ❌️
+## Missing ❌️ - 340
 <details><summary>Missing</summary>
 <p>
 
@@ -409,7 +409,7 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
 <!-- end missing section -->
 
 <!-- start skipped section -->
-## Skipped️ ⏭️
+## Skipped️ ⏭️ - 12
 <details><summary>Skipped</summary>
 <p>
 
