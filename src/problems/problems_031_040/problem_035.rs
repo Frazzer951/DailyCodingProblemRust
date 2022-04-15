@@ -9,7 +9,7 @@ For example, given the array ['G', 'B', 'R', 'R', 'B', 'R', 'G'], it should
 become ['R', 'R', 'R', 'G', 'G', 'B', 'B'].
 */
 
-fn problem_035(arr: &mut Vec<char>) {
+fn problem_035(arr: &mut [char]) {
     let mut r = 0;
     let mut g = 0;
     let mut b = 0;
