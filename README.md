@@ -58,7 +58,7 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
 <!-- end completed section -->
 
 <!-- start missing section -->
-## Missing ❌️ - 340
+## Missing ❌️ - 346
 <details><summary>Missing</summary>
 <p>
 
@@ -402,6 +402,12 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
  - [Problem 394](src/problems/problems_391_400/problem_394.rs) - Easy
  - [Problem 395](src/problems/problems_391_400/problem_395.rs) - Medium
  - [Problem 396](src/problems/problems_391_400/problem_396.rs) - Hard
+ - [Problem 397](src/problems/problems_391_400/problem_397.rs) - Medium
+ - [Problem 398](src/problems/problems_391_400/problem_398.rs) - Medium
+ - [Problem 399](src/problems/problems_391_400/problem_399.rs) - Hard
+ - [Problem 400](src/problems/problems_391_400/problem_400.rs) - Hard
+ - [Problem 401](src/problems/problems_401_410/problem_401.rs) - Easy
+ - [Problem 402](src/problems/problems_401_410/problem_402.rs) - Easy
 
 </p>
 </details>
