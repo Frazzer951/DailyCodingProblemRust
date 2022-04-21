@@ -1,5 +1,3 @@
-// NOT DONE
-
 /* MEDIUM
 We can determine how "out of order" an array A is by counting the number of
 inversions it has. Two elements A[i] and A[j] form an inversion if A[i] > A[j]
@@ -15,8 +13,17 @@ three inversions: (2, 1), (4, 1), and (4, 3). The array [5, 4, 3, 2, 1] has ten
 inversions: every distinct pair forms an inversion.
 */
 
-fn problem_044() -> i64 {
-    0
+fn problem_044(a: Vec<i64>) -> i64 {
+    let mut count = 0;
+    for i in 0..a.len() {
+        for j in i + 1..a.len() {
+            if a[i] > a[j] {
+                count += 1;
+            }
+        }
+    }
+
+    count
 }
 
 #[cfg(test)]
@@ -26,6 +33,7 @@ mod tests {
     #[test]
     #[ignore]
     fn test_problem_044() {
-        assert_eq!(problem_044(), 1);
+        assert_eq!(problem_044(vec![2, 4, 1, 3, 5]), 3);
+        assert_eq!(problem_044(vec![5, 4, 3, 2, 1]), 10);
     }
 }
