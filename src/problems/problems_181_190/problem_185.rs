@@ -23,17 +23,16 @@ and
 return 6.
 */
 
-fn problem_185() -> i64 {
-    0
-}
+//fn problem_185() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_185() {
-        assert_eq!(problem_185(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_185() {
+//        assert_eq!(problem_185(), 1);
+//    }
+//}

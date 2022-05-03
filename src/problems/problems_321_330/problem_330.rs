@@ -19,17 +19,16 @@ Given a 2-CNF formula, find a way to assign truth values to satisfy it, or
 return False if this is impossible.
 */
 
-fn problem_330() -> i64 {
-    0
-}
+//fn problem_330() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_330() {
-        assert_eq!(problem_330(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_330() {
+//        assert_eq!(problem_330(), 1);
+//    }
+//}

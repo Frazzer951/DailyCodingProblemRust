@@ -27,17 +27,16 @@ Due to some improbably low flight prices, the cheapest itinerary would be JFK ->
 ATL -> ORD -> LAX, costing $440.
 */
 
-fn problem_346() -> i64 {
-    0
-}
+//fn problem_346() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_346() {
-        assert_eq!(problem_346(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_346() {
+//        assert_eq!(problem_346(), 1);
+//    }
+//}

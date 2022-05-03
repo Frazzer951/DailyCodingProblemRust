@@ -13,17 +13,16 @@ You can assume that all values get cleared at the end of the day, and that you
 will not be asked for start and end values that wrap around midnight.
 */
 
-fn problem_242() -> i64 {
-    0
-}
+//fn problem_242() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_242() {
-        assert_eq!(problem_242(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_242() {
+//        assert_eq!(problem_242(), 1);
+//    }
+//}

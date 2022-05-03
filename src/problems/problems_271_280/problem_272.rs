@@ -8,17 +8,16 @@ total.
 For example, throw_dice(3, 6, 7) should equal 15.
 */
 
-fn problem_272() -> i64 {
-    0
-}
+//fn problem_272() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_272() {
-        assert_eq!(problem_272(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_272() {
+//        assert_eq!(problem_272(), 1);
+//    }
+//}

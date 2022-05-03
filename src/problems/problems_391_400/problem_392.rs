@@ -26,17 +26,16 @@ For example, given the following matrix:
 Return 14.
 */
 
-fn problem_392() -> i64 {
-    0
-}
+//fn problem_392() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_392() {
-        assert_eq!(problem_392(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_392() {
+//        assert_eq!(problem_392(), 1);
+//    }
+//}

@@ -1,4 +1,4 @@
-// SKIPPED
+// NOT DONE
 
 /* EASY
 Given two singly linked lists that intersect at some point, find the
@@ -14,17 +14,16 @@ Do this in O(M + N) time (where M and N are the lengths of the lists) and
 constant space.
 */
 
-fn problem_020() -> i64 {
-    0
-}
+//fn problem_020() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_020() {
-        assert_eq!(problem_020(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_020() {
+//        assert_eq!(problem_020(), 1);
+//    }
+//}

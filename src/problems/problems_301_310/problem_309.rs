@@ -15,17 +15,16 @@ Given an input such as the one above, return the lowest possible cost of moving
 people to remove all gaps.
 */
 
-fn problem_309() -> i64 {
-    0
-}
+//fn problem_309() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_309() {
-        assert_eq!(problem_309(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_309() {
+//        assert_eq!(problem_309(), 1);
+//    }
+//}

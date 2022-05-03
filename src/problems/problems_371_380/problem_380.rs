@@ -11,17 +11,16 @@ and the remainder is 1.
 Bonus: Can you do it in O(log n) time?
 */
 
-fn problem_380() -> i64 {
-    0
-}
+//fn problem_380() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_380() {
-        assert_eq!(problem_380(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_380() {
+//        assert_eq!(problem_380(), 1);
+//    }
+//}

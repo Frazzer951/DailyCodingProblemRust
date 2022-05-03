@@ -9,17 +9,16 @@ Given a dictionary of words and an input word, create a function that returns
 all valid step words.
 */
 
-fn problem_266() -> i64 {
-    0
-}
+//fn problem_266() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_266() {
-        assert_eq!(problem_266(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_266() {
+//        assert_eq!(problem_266(), 1);
+//    }
+//}

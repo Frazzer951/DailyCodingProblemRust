@@ -28,17 +28,16 @@ We do not remove the tree at the root or its left child because it still has a 1
 as a descendant.
 */
 
-fn problem_146() -> i64 {
-    0
-}
+//fn problem_146() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_146() {
-        assert_eq!(problem_146(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_146() {
+//        assert_eq!(problem_146(), 1);
+//    }
+//}

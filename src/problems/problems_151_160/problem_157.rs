@@ -8,17 +8,16 @@ racecar, which is a palindrome. daily should return false, since there's no
 rearrangement that can form a palindrome.
 */
 
-fn problem_157() -> i64 {
-    0
-}
+//fn problem_157() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_157() {
-        assert_eq!(problem_157(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_157() {
+//        assert_eq!(problem_157(), 1);
+//    }
+//}

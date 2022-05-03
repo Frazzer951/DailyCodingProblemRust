@@ -8,17 +8,16 @@ For example, given [5, 10, 15, 20, 25], return the sets {10, 25} and {5, 15, 20}
 , which has a difference of 5, which is the smallest possible difference.
 */
 
-fn problem_186() -> i64 {
-    0
-}
+//fn problem_186() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_186() {
-        assert_eq!(problem_186(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_186() {
+//        assert_eq!(problem_186(), 1);
+//    }
+//}

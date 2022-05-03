@@ -9,17 +9,16 @@ For example, 10101010 should be 01010101. 11100010 should be 11010001.
 Bonus: Can you do this in one line?
 */
 
-fn problem_109() -> i64 {
-    0
-}
+//fn problem_109() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_109() {
-        assert_eq!(problem_109(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_109() {
+//        assert_eq!(problem_109(), 1);
+//    }
+//}

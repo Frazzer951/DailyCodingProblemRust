@@ -22,17 +22,16 @@ Given an input k, return the kth row of Pascal's triangle.
 Bonus: Can you do this using only O(k) space?
 */
 
-fn problem_295() -> i64 {
-    0
-}
+//fn problem_295() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_295() {
-        assert_eq!(problem_295(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_295() {
+//        assert_eq!(problem_295(), 1);
+//    }
+//}

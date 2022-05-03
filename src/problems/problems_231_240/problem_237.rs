@@ -14,17 +14,16 @@ about the root node. The following tree is an example:
 Given a k-ary tree, determine whether it is symmetric.
 */
 
-fn problem_237() -> i64 {
-    0
-}
+//fn problem_237() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_237() {
-        assert_eq!(problem_237(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_237() {
+//        assert_eq!(problem_237(), 1);
+//    }
+//}

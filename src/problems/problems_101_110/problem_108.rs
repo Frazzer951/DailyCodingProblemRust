@@ -8,17 +8,16 @@ For example, if A is abcde and B is cdeab, return true. If A is abc and B is acb
 , return false.
 */
 
-fn problem_108() -> i64 {
-    0
-}
+//fn problem_108() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_108() {
-        assert_eq!(problem_108(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_108() {
+//        assert_eq!(problem_108(), 1);
+//    }
+//}

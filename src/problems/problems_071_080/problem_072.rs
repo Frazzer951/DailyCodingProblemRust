@@ -39,17 +39,16 @@ A
 Should return null, since we have an infinite loop.
 */
 
-fn problem_072() -> i64 {
-    0
-}
+//fn problem_072() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_072() {
-        assert_eq!(problem_072(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_072() {
+//        assert_eq!(problem_072(), 1);
+//    }
+//}

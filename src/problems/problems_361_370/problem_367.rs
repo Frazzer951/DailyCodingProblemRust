@@ -25,17 +25,16 @@ for num in merge_iterators(foo, bar):
 Bonus: Make it work without pulling in the contents of the iterators in memory.
 */
 
-fn problem_367() -> i64 {
-    0
-}
+//fn problem_367() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_367() {
-        assert_eq!(problem_367(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_367() {
+//        assert_eq!(problem_367(), 1);
+//    }
+//}

@@ -11,17 +11,16 @@ interface:
  * get(i): gets the value at index i.
 */
 
-fn problem_134() -> i64 {
-    0
-}
+//fn problem_134() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_134() {
-        assert_eq!(problem_134(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_134() {
+//        assert_eq!(problem_134(), 1);
+//    }
+//}

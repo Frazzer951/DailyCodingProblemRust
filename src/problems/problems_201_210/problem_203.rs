@@ -8,17 +8,16 @@ array does not contain duplicates.
 For example, given [5, 7, 10, 3, 4], return 3.
 */
 
-fn problem_203() -> i64 {
-    0
-}
+//fn problem_203() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_203() {
-        assert_eq!(problem_203(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_203() {
+//        assert_eq!(problem_203(), 1);
+//    }
+//}

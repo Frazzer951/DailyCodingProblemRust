@@ -6,17 +6,16 @@ how can you efficiently sort it? Assume that you cannot store an array of a
 billion elements in memory.
 */
 
-fn problem_251() -> i64 {
-    0
-}
+//fn problem_251() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_251() {
-        assert_eq!(problem_251(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_251() {
+//        assert_eq!(problem_251(), 1);
+//    }
+//}

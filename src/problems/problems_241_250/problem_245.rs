@@ -10,17 +10,16 @@ For example, given [6, 2, 4, 0, 5, 1, 1, 4, 2, 9], you should return 2, as the
 optimal solution involves jumping from 6 to 5, and then from 5 to 9.
 */
 
-fn problem_245() -> i64 {
-    0
-}
+//fn problem_245() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_245() {
-        assert_eq!(problem_245(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_245() {
+//        assert_eq!(problem_245(), 1);
+//    }
+//}

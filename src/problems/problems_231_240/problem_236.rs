@@ -10,17 +10,16 @@ Determine if a new point p lies inside this polygon. (If p is on the boundary of
 the polygon, you should return False).
 */
 
-fn problem_236() -> i64 {
-    0
-}
+//fn problem_236() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_236() {
-        assert_eq!(problem_236(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_236() {
+//        assert_eq!(problem_236(), 1);
+//    }
+//}

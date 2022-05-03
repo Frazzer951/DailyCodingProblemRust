@@ -7,17 +7,16 @@ You're given a string consisting solely of (, ), and *. * can represent either a
 For example, (()* and (*) are balanced. )*( is not balanced.
 */
 
-fn problem_142() -> i64 {
-    0
-}
+//fn problem_142() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_142() {
-        assert_eq!(problem_142(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_142() {
+//        assert_eq!(problem_142(), 1);
+//    }
+//}

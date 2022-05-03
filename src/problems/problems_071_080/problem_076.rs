@@ -43,17 +43,16 @@ Your function should return 3, since we would need to remove all the columns to
 order it.
 */
 
-fn problem_076() -> i64 {
-    0
-}
+//fn problem_076() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_076() {
-        assert_eq!(problem_076(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_076() {
+//        assert_eq!(problem_076(), 1);
+//    }
+//}

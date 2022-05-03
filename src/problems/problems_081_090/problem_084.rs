@@ -15,17 +15,16 @@ For example, this matrix has 4 islands.
 1 1 0 0 1
 */
 
-fn problem_084() -> i64 {
-    0
-}
+//fn problem_084() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_084() {
-        assert_eq!(problem_084(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_084() {
+//        assert_eq!(problem_084(), 1);
+//    }
+//}

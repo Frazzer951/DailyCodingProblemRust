@@ -14,17 +14,16 @@ are no substrings composed of "dog" and "cat" in s.
 The order of the indices does not matter.
 */
 
-fn problem_172() -> i64 {
-    0
-}
+//fn problem_172() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_172() {
-        assert_eq!(problem_172(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_172() {
+//        assert_eq!(problem_172(), 1);
+//    }
+//}

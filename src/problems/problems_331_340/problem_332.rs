@@ -8,17 +8,16 @@ pairs (a, b) satisfy the following conditions:
  * a XOR b = N
 */
 
-fn problem_332() -> i64 {
-    0
-}
+//fn problem_332() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_332() {
-        assert_eq!(problem_332(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_332() {
+//        assert_eq!(problem_332(), 1);
+//    }
+//}

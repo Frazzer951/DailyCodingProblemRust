@@ -20,17 +20,16 @@ Note that zx is not a valid subsequence since it is not in the order of the
 given string.
 */
 
-fn problem_379() -> i64 {
-    0
-}
+//fn problem_379() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_379() {
-        assert_eq!(problem_379(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_379() {
+//        assert_eq!(problem_379(), 1);
+//    }
+//}

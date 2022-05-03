@@ -9,17 +9,16 @@ Follow-up: Does your solution work for the following cases: "hello/world:here/",
 "hello//world:here"
 */
 
-fn problem_114() -> i64 {
-    0
-}
+//fn problem_114() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_114() {
-        assert_eq!(problem_114(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_114() {
+//        assert_eq!(problem_114(), 1);
+//    }
+//}

@@ -31,7 +31,6 @@ mod tests {
     use super::*;
 
     #[test]
-    #[ignore]
     fn test_problem_044() {
         assert_eq!(problem_044(vec![2, 4, 1, 3, 5]), 3);
         assert_eq!(problem_044(vec![5, 4, 3, 2, 1]), 10);

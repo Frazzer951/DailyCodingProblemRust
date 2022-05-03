@@ -13,17 +13,16 @@ located at [10, -5, 0, 16]. In this case, the best pairing would require us to
 send the mouse at 1 to the hole at -5, so our function should return 6.
 */
 
-fn problem_324() -> i64 {
-    0
-}
+//fn problem_324() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_324() {
-        assert_eq!(problem_324(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_324() {
+//        assert_eq!(problem_324(), 1);
+//    }
+//}

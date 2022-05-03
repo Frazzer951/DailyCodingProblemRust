@@ -11,17 +11,16 @@ You can assume that you can do some pre-processing. sum() should be optimized
 over the pre-processing step.
 */
 
-fn problem_400() -> i64 {
-    0
-}
+//fn problem_400() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_400() {
-        assert_eq!(problem_400(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_400() {
+//        assert_eq!(problem_400(), 1);
+//    }
+//}

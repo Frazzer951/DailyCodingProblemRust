@@ -32,17 +32,16 @@ Using this scheme, Jackson and Jaxen both map to J250.
 Implement Soundex.
 */
 
-fn problem_349() -> i64 {
-    0
-}
+//fn problem_349() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_349() {
-        assert_eq!(problem_349(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_349() {
+//        assert_eq!(problem_349(), 1);
+//    }
+//}

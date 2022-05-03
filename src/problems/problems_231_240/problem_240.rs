@@ -8,17 +8,16 @@ can sit side by side.
 What is the minimum number of swaps necessary for this to happen?
 */
 
-fn problem_240() -> i64 {
-    0
-}
+//fn problem_240() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_240() {
-        assert_eq!(problem_240(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_240() {
+//        assert_eq!(problem_240(), 1);
+//    }
+//}

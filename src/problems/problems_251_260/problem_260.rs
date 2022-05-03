@@ -7,17 +7,16 @@ last. Given this information, reconstruct an array that is consistent with it.
 For example, given [None, +, +, -, +], you could return [1, 2, 3, 0, 4].
 */
 
-fn problem_260() -> i64 {
-    0
-}
+//fn problem_260() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_260() {
-        assert_eq!(problem_260(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_260() {
+//        assert_eq!(problem_260(), 1);
+//    }
+//}

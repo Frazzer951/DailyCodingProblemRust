@@ -18,17 +18,16 @@ Given perfect knowledge of the sequence of cards in the deck, implement a
 blackjack solver that maximizes the player's score (that is, wins minus losses).
 */
 
-fn problem_238() -> i64 {
-    0
-}
+//fn problem_238() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_238() {
-        assert_eq!(problem_238(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_238() {
+//        assert_eq!(problem_238(), 1);
+//    }
+//}

@@ -16,17 +16,16 @@ consider the case of (coach, bus) and (coach, teacher).
 Follow-up: what if we can assume that (a, b) and (a, c) do in fact imply (b, c)?
 */
 
-fn problem_345() -> i64 {
-    0
-}
+//fn problem_345() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_345() {
-        assert_eq!(problem_345(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_345() {
+//        assert_eq!(problem_345(), 1);
+//    }
+//}

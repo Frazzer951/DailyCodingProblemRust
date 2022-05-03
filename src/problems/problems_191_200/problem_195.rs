@@ -19,17 +19,16 @@ And i1 = 1, j1 = 1, i2 = 3, j2 = 3, return 15 as there are 15 numbers in the
 matrix smaller than 6 or greater than 23.
 */
 
-fn problem_195() -> i64 {
-    0
-}
+//fn problem_195() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_195() {
-        assert_eq!(problem_195(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_195() {
+//        assert_eq!(problem_195(), 1);
+//    }
+//}

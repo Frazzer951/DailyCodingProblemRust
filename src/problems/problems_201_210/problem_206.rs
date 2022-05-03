@@ -10,17 +10,16 @@ example, given the array ["a", "b", "c"] and the permutation [2, 1, 0], return
 ["c", "b", "a"].
 */
 
-fn problem_206() -> i64 {
-    0
-}
+//fn problem_206() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_206() {
-        assert_eq!(problem_206(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_206() {
+//        assert_eq!(problem_206(), 1);
+//    }
+//}

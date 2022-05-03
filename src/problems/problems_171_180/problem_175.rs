@@ -25,17 +25,16 @@ One instance of running this Markov chain might produce { 'a': 3012, 'b': 1656,
 'c': 332 }.
 */
 
-fn problem_175() -> i64 {
-    0
-}
+//fn problem_175() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_175() {
-        assert_eq!(problem_175(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_175() {
+//        assert_eq!(problem_175(), 1);
+//    }
+//}

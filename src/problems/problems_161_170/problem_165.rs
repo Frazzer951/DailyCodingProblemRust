@@ -14,17 +14,16 @@ For example, given the array [3, 4, 9, 6, 1], return [1, 1, 2, 1, 0], since:
  * There are no smaller elements to the right of 1
 */
 
-fn problem_165() -> i64 {
-    0
-}
+//fn problem_165() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_165() {
-        assert_eq!(problem_165(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_165() {
+//        assert_eq!(problem_165(), 1);
+//    }
+//}

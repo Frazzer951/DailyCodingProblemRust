@@ -14,17 +14,16 @@ Write a program to determine whether a given matrix qualifies as a crossword
 grid.
 */
 
-fn problem_352() -> i64 {
-    0
-}
+//fn problem_352() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_352() {
-        assert_eq!(problem_352(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_352() {
+//        assert_eq!(problem_352(), 1);
+//    }
+//}

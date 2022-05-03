@@ -30,17 +30,16 @@ Move 2 to 3
 Move 1 to 3
 */
 
-fn problem_128() -> i64 {
-    0
-}
+//fn problem_128() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_128() {
-        assert_eq!(problem_128(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_128() {
+//        assert_eq!(problem_128(), 1);
+//    }
+//}

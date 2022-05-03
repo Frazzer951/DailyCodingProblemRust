@@ -13,17 +13,16 @@ For example, suppose your input is {[1, 7, 3], [2, 1, 6, 7, 9], [3, 9, 5]}. In
 this case a satisfactory playlist could be [2, 1, 6, 7, 3, 9, 5].
 */
 
-fn problem_360() -> i64 {
-    0
-}
+//fn problem_360() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_360() {
-        assert_eq!(problem_360(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_360() {
+//        assert_eq!(problem_360(), 1);
+//    }
+//}

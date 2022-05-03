@@ -21,17 +21,16 @@ Given a three-word puzzle like the one above, create an algorithm that finds a
 solution.
 */
 
-fn problem_250() -> i64 {
-    0
-}
+//fn problem_250() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_250() {
-        assert_eq!(problem_250(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_250() {
+//        assert_eq!(problem_250(), 1);
+//    }
+//}

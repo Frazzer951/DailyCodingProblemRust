@@ -26,17 +26,16 @@ The transitive closure of this graph would be:
 Given a graph, find its transitive closure.
 */
 
-fn problem_255() -> i64 {
-    0
-}
+//fn problem_255() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_255() {
-        assert_eq!(problem_255(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_255() {
+//        assert_eq!(problem_255(), 1);
+//    }
+//}

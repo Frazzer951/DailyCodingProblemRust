@@ -24,17 +24,16 @@ Given an input consisting of brick lengths for each row such as the one above,
 return the fewest number of bricks that must be cut to create a vertical line.
 */
 
-fn problem_281() -> i64 {
-    0
-}
+//fn problem_281() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_281() {
-        assert_eq!(problem_281(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_281() {
+//        assert_eq!(problem_281(), 1);
+//    }
+//}

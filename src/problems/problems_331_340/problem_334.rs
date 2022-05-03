@@ -12,17 +12,16 @@ For example, given the input [5, 2, 7, 8], you should return True, since (5 * 2
 Write a function that plays the 24 game.
 */
 
-fn problem_334() -> i64 {
-    0
-}
+//fn problem_334() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_334() {
-        assert_eq!(problem_334(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_334() {
+//        assert_eq!(problem_334(), 1);
+//    }
+//}

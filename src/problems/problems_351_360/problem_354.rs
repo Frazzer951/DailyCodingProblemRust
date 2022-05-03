@@ -16,17 +16,16 @@ Some questions you may want to consider as part of your solution are:
  * How can you update your database when Wikipedia pages are added or updated?
 */
 
-fn problem_354() -> i64 {
-    0
-}
+//fn problem_354() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_354() {
-        assert_eq!(problem_354(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_354() {
+//        assert_eq!(problem_354(), 1);
+//    }
+//}

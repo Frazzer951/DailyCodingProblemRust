@@ -39,7 +39,6 @@ mod tests {
     use super::*;
 
     #[test]
-    #[ignore]
     fn test_problem_031() {
         assert_eq!(problem_031("kitten", "sitting"), 3);
     }

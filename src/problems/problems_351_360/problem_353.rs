@@ -17,17 +17,16 @@ bars of the histogram. For the diagram above, for example, this would be six,
 representing the 2 x 3 area at the bottom right.
 */
 
-fn problem_353() -> i64 {
-    0
-}
+//fn problem_353() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_353() {
-        assert_eq!(problem_353(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_353() {
+//        assert_eq!(problem_353(), 1);
+//    }
+//}

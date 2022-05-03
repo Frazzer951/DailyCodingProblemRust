@@ -12,17 +12,16 @@ Given the multiset {15, 5, 20, 10, 35}, it would return false, since we can't
 split it up into two subsets that add up to the same sum.
 */
 
-fn problem_060() -> i64 {
-    0
-}
+//fn problem_060() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_060() {
-        assert_eq!(problem_060(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_060() {
+//        assert_eq!(problem_060(), 1);
+//    }
+//}

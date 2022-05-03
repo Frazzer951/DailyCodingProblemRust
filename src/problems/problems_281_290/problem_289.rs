@@ -25,17 +25,16 @@ Given a list of non-zero starting values [a, b, c], and assuming optimal play,
 determine whether the first player has a forced win.
 */
 
-fn problem_289() -> i64 {
-    0
-}
+//fn problem_289() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_289() {
-        assert_eq!(problem_289(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_289() {
+//        assert_eq!(problem_289(), 1);
+//    }
+//}

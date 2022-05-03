@@ -19,17 +19,16 @@ And then called kv.max_key(1), it should return 2, since it's the largest key
 with value 1.
 */
 
-fn problem_368() -> i64 {
-    0
-}
+//fn problem_368() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_368() {
-        assert_eq!(problem_368(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_368() {
+//        assert_eq!(problem_368(), 1);
+//    }
+//}

@@ -13,17 +13,16 @@ Implement a quack using three stacks and O(1) additional memory, so that the
 amortized time for any push, pop, or pull operation is O(1).
 */
 
-fn problem_365() -> i64 {
-    0
-}
+//fn problem_365() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_365() {
-        assert_eq!(problem_365(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_365() {
+//        assert_eq!(problem_365(), 1);
+//    }
+//}

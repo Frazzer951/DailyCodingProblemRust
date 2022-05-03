@@ -15,17 +15,16 @@ For example, 4 - 2 - 1 - 7 is a valid pattern, whereas 2 - 1 - 7 is not.
 Find the total number of valid unlock patterns of length N, where 1 <= N <= 9.
 */
 
-fn problem_239() -> i64 {
-    0
-}
+//fn problem_239() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_239() {
-        assert_eq!(problem_239(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_239() {
+//        assert_eq!(problem_239(), 1);
+//    }
+//}

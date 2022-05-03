@@ -19,17 +19,16 @@ Return the following 3 partitions:
 Which each add up to 8.
 */
 
-fn problem_399() -> i64 {
-    0
-}
+//fn problem_399() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_399() {
-        assert_eq!(problem_399(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_399() {
+//        assert_eq!(problem_399(), 1);
+//    }
+//}

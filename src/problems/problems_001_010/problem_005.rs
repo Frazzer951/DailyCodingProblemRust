@@ -1,4 +1,4 @@
-// SKIPPED
+// NOT DONE
 
 /* MEDIUM
 cons(a, b) constructs a pair, and car(pair) and cdr(pair) returns the first and
@@ -16,17 +16,16 @@ def cons(a, b):
 Implement car and cdr.
 */
 
-fn problem_005() -> i64 {
-    0
-}
+//fn problem_005() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_005() {
-        assert_eq!(problem_005(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_005() {
+//        assert_eq!(problem_005(), 1);
+//    }
+//}

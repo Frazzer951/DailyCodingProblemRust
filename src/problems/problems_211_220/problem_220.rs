@@ -11,17 +11,16 @@ Write a program that returns the maximum amount of money you can win with
 certainty, if you move first, assuming your opponent plays optimally.
 */
 
-fn problem_220() -> i64 {
-    0
-}
+//fn problem_220() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_220() {
-        assert_eq!(problem_220(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_220() {
+//        assert_eq!(problem_220(), 1);
+//    }
+//}

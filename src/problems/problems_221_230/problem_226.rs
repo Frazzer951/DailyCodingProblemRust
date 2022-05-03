@@ -9,17 +9,16 @@ For example, given ['xww', 'wxyz', 'wxyw', 'ywx', 'ywz'], you should return
 ['x', 'z', 'w', 'y'].
 */
 
-fn problem_226() -> i64 {
-    0
-}
+//fn problem_226() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_226() {
-        assert_eq!(problem_226(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_226() {
+//        assert_eq!(problem_226(), 1);
+//    }
+//}

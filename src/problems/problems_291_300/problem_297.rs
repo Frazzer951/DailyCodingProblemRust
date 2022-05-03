@@ -23,17 +23,16 @@ For the input above, the answer would be 2, as drinks 1 and 5 will satisfy
 everyone.
 */
 
-fn problem_297() -> i64 {
-    0
-}
+//fn problem_297() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_297() {
-        assert_eq!(problem_297(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_297() {
+//        assert_eq!(problem_297(), 1);
+//    }
+//}

@@ -29,17 +29,16 @@ As a result, your function should return [(0, 3), (4, 5), (11, 3), (15, 0), (19,
 4), (23, 0)].
 */
 
-fn problem_286() -> i64 {
-    0
-}
+//fn problem_286() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_286() {
-        assert_eq!(problem_286(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_286() {
+//        assert_eq!(problem_286(), 1);
+//    }
+//}

@@ -14,17 +14,16 @@ k = 10, you should return: ["the quick", "brown fox", "jumps over", "the lazy",
 "dog"]. No string in the list has a length of more than 10.
 */
 
-fn problem_057() -> i64 {
-    0
-}
+//fn problem_057() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_057() {
-        assert_eq!(problem_057(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_057() {
+//        assert_eq!(problem_057(), 1);
+//    }
+//}

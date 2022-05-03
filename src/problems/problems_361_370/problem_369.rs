@@ -10,17 +10,16 @@ Also, provide max(), min(), and average() functions that give the
 max/min/average of all values seen thus far.
 */
 
-fn problem_369() -> i64 {
-    0
-}
+//fn problem_369() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_369() {
-        assert_eq!(problem_369(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_369() {
+//        assert_eq!(problem_369(), 1);
+//    }
+//}

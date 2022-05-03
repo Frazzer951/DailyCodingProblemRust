@@ -10,17 +10,16 @@ For example, given the input string racecarannakayak, return ["racecar", "anna",
 Given the input string abc, return ["a", "b", "c"].
 */
 
-fn problem_181() -> i64 {
-    0
-}
+//fn problem_181() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_181() {
-        assert_eq!(problem_181(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_181() {
+//        assert_eq!(problem_181(), 1);
+//    }
+//}

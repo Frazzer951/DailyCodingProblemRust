@@ -25,17 +25,16 @@ this case you should return False:
 {123456: 4, 345678: 4, 567890: 4}
 */
 
-fn problem_361() -> i64 {
-    0
-}
+//fn problem_361() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_361() {
-        assert_eq!(problem_361(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_361() {
+//        assert_eq!(problem_361(), 1);
+//    }
+//}

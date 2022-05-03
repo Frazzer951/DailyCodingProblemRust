@@ -23,17 +23,16 @@ For example, given the following matrix:
 You should return True, since the bishop is attacking the king diagonally.
 */
 
-fn problem_267() -> i64 {
-    0
-}
+//fn problem_267() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_267() {
-        assert_eq!(problem_267(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_267() {
+//        assert_eq!(problem_267(), 1);
+//    }
+//}

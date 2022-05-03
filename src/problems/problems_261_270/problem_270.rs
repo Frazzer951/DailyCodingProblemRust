@@ -26,17 +26,16 @@ You should return 9, because propagating the message from 0 -> 2 -> 3 -> 4 will
 take that much time.
 */
 
-fn problem_270() -> i64 {
-    0
-}
+//fn problem_270() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_270() {
-        assert_eq!(problem_270(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_270() {
+//        assert_eq!(problem_270(), 1);
+//    }
+//}

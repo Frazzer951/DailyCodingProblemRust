@@ -17,17 +17,16 @@ mapsum.insert("column", 2)
 assert mapsum.sum("col") == 5
 */
 
-fn problem_232() -> i64 {
-    0
-}
+//fn problem_232() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_232() {
-        assert_eq!(problem_232(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_232() {
+//        assert_eq!(problem_232(), 1);
+//    }
+//}

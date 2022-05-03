@@ -8,17 +8,16 @@ index 4 might end up at indices 3, 4, or 5.
 Come up with an algorithm that sorts this list in O(N log k) time.
 */
 
-fn problem_306() -> i64 {
-    0
-}
+//fn problem_306() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_306() {
-        assert_eq!(problem_306(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_306() {
+//        assert_eq!(problem_306(), 1);
+//    }
+//}

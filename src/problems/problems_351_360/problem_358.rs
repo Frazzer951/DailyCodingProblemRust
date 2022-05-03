@@ -11,17 +11,16 @@ Create a data structure that performs all the following operations in O(1) time:
  * get_min: Return a key with the lowest value.
 */
 
-fn problem_358() -> i64 {
-    0
-}
+//fn problem_358() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_358() {
-        assert_eq!(problem_358(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_358() {
+//        assert_eq!(problem_358(), 1);
+//    }
+//}

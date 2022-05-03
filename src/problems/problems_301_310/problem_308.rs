@@ -14,17 +14,16 @@ For example, suppose the input is ['F', '|', 'T', '&', 'T']. In this case, there
 are two acceptable groupings: (F | T) & T and F | (T & T).
 */
 
-fn problem_308() -> i64 {
-    0
-}
+//fn problem_308() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_308() {
-        assert_eq!(problem_308(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_308() {
+//        assert_eq!(problem_308(), 1);
+//    }
+//}

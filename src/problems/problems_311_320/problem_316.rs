@@ -10,17 +10,16 @@ Given such an array, determine the denominations that must be in use. In the
 case above, for example, there must be coins with value 2, 3, and 4.
 */
 
-fn problem_316() -> i64 {
-    0
-}
+//fn problem_316() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_316() {
-        assert_eq!(problem_316(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_316() {
+//        assert_eq!(problem_316(), 1);
+//    }
+//}

@@ -14,17 +14,16 @@ For example, if N = 5 and k = 2, the order of executions would be [2, 4, 1, 5,
 Bonus: Find an O(log N) solution if k = 2.
 */
 
-fn problem_225() -> i64 {
-    0
-}
+//fn problem_225() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_225() {
-        assert_eq!(problem_225(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_225() {
+//        assert_eq!(problem_225(), 1);
+//    }
+//}

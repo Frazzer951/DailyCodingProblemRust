@@ -10,17 +10,16 @@ It should run in O(N) time.
 Hint: Make sure each one of the 52! permutations of the deck is equally likely.
 */
 
-fn problem_051() -> i64 {
-    0
-}
+//fn problem_051() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_051() {
-        assert_eq!(problem_051(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_051() {
+//        assert_eq!(problem_051(), 1);
+//    }
+//}

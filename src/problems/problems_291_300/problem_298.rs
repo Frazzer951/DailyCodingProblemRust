@@ -13,17 +13,16 @@ For example, given the input [2, 1, 2, 3, 3, 1, 3, 5], the longest portion will
 involve types 1 and 3, with a length of four.
 */
 
-fn problem_298() -> i64 {
-    0
-}
+//fn problem_298() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_298() {
-        assert_eq!(problem_298(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_298() {
+//        assert_eq!(problem_298(), 1);
+//    }
+//}

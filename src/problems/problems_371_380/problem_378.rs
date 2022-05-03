@@ -14,17 +14,16 @@ You should return the following, as a string:
 '[null, 123, ["a", "b"], {"c": "d"}]'
 */
 
-fn problem_378() -> i64 {
-    0
-}
+//fn problem_378() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_378() {
-        assert_eq!(problem_378(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_378() {
+//        assert_eq!(problem_378(), 1);
+//    }
+//}

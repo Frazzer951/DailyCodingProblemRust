@@ -14,17 +14,16 @@ Given s = abcdefg and lst = ["bcd", "def"], return the string a<b>bcdef</b>g,
 since they overlap.
 */
 
-fn problem_383() -> i64 {
-    0
-}
+//fn problem_383() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_383() {
-        assert_eq!(problem_383(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_383() {
+//        assert_eq!(problem_383(), 1);
+//    }
+//}

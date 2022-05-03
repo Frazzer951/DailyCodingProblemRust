@@ -16,17 +16,16 @@ For example, given k = 18 and the following binary tree:
 Return True since the path 8 -> 4 -> 6 sums to 18.
 */
 
-fn problem_394() -> i64 {
-    0
-}
+//fn problem_394() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_394() {
-        assert_eq!(problem_394(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_394() {
+//        assert_eq!(problem_394(), 1);
+//    }
+//}

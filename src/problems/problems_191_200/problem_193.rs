@@ -15,17 +15,16 @@ dollars and sell it at 10 dollars. Since we did two transactions, there is a 4
 dollar fee, so we have 7 + 6 = 13 profit minus 4 dollars of fees.
 */
 
-fn problem_193() -> i64 {
-    0
-}
+//fn problem_193() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_193() {
-        assert_eq!(problem_193(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_193() {
+//        assert_eq!(problem_193(), 1);
+//    }
+//}

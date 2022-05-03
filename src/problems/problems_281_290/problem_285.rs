@@ -13,17 +13,16 @@ view to the west.
 Can you do this using just one forward pass through the array?
 */
 
-fn problem_285() -> i64 {
-    0
-}
+//fn problem_285() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_285() {
-        assert_eq!(problem_285(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_285() {
+//        assert_eq!(problem_285(), 1);
+//    }
+//}

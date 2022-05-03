@@ -8,17 +8,16 @@ Given a column number, return its alphabetical column id. For example, given 1,
 return "A". Given 27, return "AA".
 */
 
-fn problem_212() -> i64 {
-    0
-}
+//fn problem_212() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_212() {
-        assert_eq!(problem_212(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_212() {
+//        assert_eq!(problem_212(), 1);
+//    }
+//}

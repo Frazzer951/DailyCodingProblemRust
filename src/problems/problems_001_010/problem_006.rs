@@ -1,4 +1,4 @@
-// SKIPPED
+// NOT DONE
 
 /* HARD
 An XOR linked list is a more memory efficient doubly linked list. Instead of
@@ -12,17 +12,16 @@ have access to get_pointer anddereference_pointer functions that converts
 between nodes and memory addresses.
 */
 
-fn problem_006() -> i64 {
-    0
-}
+//fn problem_006() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_006() {
-        assert_eq!(problem_006(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_006() {
+//        assert_eq!(problem_006(), 1);
+//    }
+//}

@@ -24,17 +24,16 @@ Given a friendship list such as the one above, determine the number of friend
 groups in the class.
 */
 
-fn problem_279() -> i64 {
-    0
-}
+//fn problem_279() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_279() {
-        assert_eq!(problem_279(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_279() {
+//        assert_eq!(problem_279(), 1);
+//    }
+//}

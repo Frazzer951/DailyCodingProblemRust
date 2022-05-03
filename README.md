@@ -59,11 +59,23 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
 <!-- end completed section -->
 
 <!-- start missing section -->
-## Missing ❌️ - 345
+## Missing ❌️ - 369
 <details><summary>Missing</summary>
 <p>
 
+ - [Problem 005](src/problems/problems_001_010/problem_005.rs) - Medium
+ - [Problem 006](src/problems/problems_001_010/problem_006.rs) - Hard
+ - [Problem 010](src/problems/problems_001_010/problem_010.rs) - Medium
+ - [Problem 015](src/problems/problems_011_020/problem_015.rs) - Medium
+ - [Problem 020](src/problems/problems_011_020/problem_020.rs) - Easy
+ - [Problem 024](src/problems/problems_021_030/problem_024.rs) - Medium
+ - [Problem 026](src/problems/problems_021_030/problem_026.rs) - Medium
+ - [Problem 032](src/problems/problems_031_040/problem_032.rs) - Hard
+ - [Problem 036](src/problems/problems_031_040/problem_036.rs) - Medium
+ - [Problem 041](src/problems/problems_041_050/problem_041.rs) - Medium
+ - [Problem 042](src/problems/problems_041_050/problem_042.rs) - Hard
  - [Problem 046](src/problems/problems_041_050/problem_046.rs) - Hard
+ - [Problem 048](src/problems/problems_041_050/problem_048.rs) - Medium
  - [Problem 051](src/problems/problems_051_060/problem_051.rs) - Medium
  - [Problem 052](src/problems/problems_051_060/problem_052.rs) - Hard
  - [Problem 053](src/problems/problems_051_060/problem_053.rs) - Medium
@@ -408,6 +420,18 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
  - [Problem 400](src/problems/problems_391_400/problem_400.rs) - Hard
  - [Problem 401](src/problems/problems_401_410/problem_401.rs) - Easy
  - [Problem 402](src/problems/problems_401_410/problem_402.rs) - Easy
+ - [Problem 403](src/problems/problems_401_410/problem_403.rs) - Easy
+ - [Problem 404](src/problems/problems_401_410/problem_404.rs) - Easy
+ - [Problem 405](src/problems/problems_401_410/problem_405.rs) - Hard
+ - [Problem 406](src/problems/problems_401_410/problem_406.rs) - Hard
+ - [Problem 407](src/problems/problems_401_410/problem_407.rs) - Medium
+ - [Problem 408](src/problems/problems_401_410/problem_408.rs) - Medium
+ - [Problem 409](src/problems/problems_401_410/problem_409.rs) - Hard
+ - [Problem 410](src/problems/problems_401_410/problem_410.rs) - Hard
+ - [Problem 411](src/problems/problems_411_420/problem_411.rs) - Hard
+ - [Problem 412](src/problems/problems_411_420/problem_412.rs) - Medium
+ - [Problem 413](src/problems/problems_411_420/problem_413.rs) - Hard
+ - [Problem 414](src/problems/problems_411_420/problem_414.rs) - Hard
 
 </p>
 </details>
@@ -415,22 +439,10 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
 <!-- end missing section -->
 
 <!-- start skipped section -->
-## Skipped️ ⏭️ - 12
+## Skipped️ ⏭️ - 0
 <details><summary>Skipped</summary>
 <p>
 
- - [Problem 005](src/problems/problems_001_010/problem_005.rs) - Medium
- - [Problem 006](src/problems/problems_001_010/problem_006.rs) - Hard
- - [Problem 010](src/problems/problems_001_010/problem_010.rs) - Medium
- - [Problem 015](src/problems/problems_011_020/problem_015.rs) - Medium
- - [Problem 020](src/problems/problems_011_020/problem_020.rs) - Easy
- - [Problem 024](src/problems/problems_021_030/problem_024.rs) - Medium
- - [Problem 026](src/problems/problems_021_030/problem_026.rs) - Medium
- - [Problem 032](src/problems/problems_031_040/problem_032.rs) - Hard
- - [Problem 036](src/problems/problems_031_040/problem_036.rs) - Medium
- - [Problem 041](src/problems/problems_041_050/problem_041.rs) - Medium
- - [Problem 042](src/problems/problems_041_050/problem_042.rs) - Hard
- - [Problem 048](src/problems/problems_041_050/problem_048.rs) - Medium
 
 </p>
 </details>

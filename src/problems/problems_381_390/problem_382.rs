@@ -16,17 +16,16 @@ should produce:
 deadbeef
 */
 
-fn problem_382() -> i64 {
-    0
-}
+//fn problem_382() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_382() {
-        assert_eq!(problem_382(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_382() {
+//        assert_eq!(problem_382(), 1);
+//    }
+//}

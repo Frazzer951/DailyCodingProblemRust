@@ -6,17 +6,16 @@ The path must go through at least one node, and does not need to go through the
 root.
 */
 
-fn problem_094() -> i64 {
-    0
-}
+//fn problem_094() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_094() {
-        assert_eq!(problem_094(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_094() {
+//        assert_eq!(problem_094(), 1);
+//    }
+//}

@@ -1,4 +1,4 @@
-// SKIPPED
+// NOT DONE
 
 /* MEDIUM
 Given an unordered list of flights taken by someone, each represented as
@@ -20,17 +20,16 @@ though ['A', 'C', 'A', 'B', 'C'] is also a valid itinerary. However, the first
 one is lexicographically smaller.
 */
 
-fn problem_041() -> i64 {
-    0
-}
+//fn problem_041() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_041() {
-        assert_eq!(problem_041(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_041() {
+//        assert_eq!(problem_041(), 1);
+//    }
+//}

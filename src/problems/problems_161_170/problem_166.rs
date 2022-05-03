@@ -15,17 +15,16 @@ Do not use flatten or otherwise clone the arrays. Some of the arrays can be
 empty.
 */
 
-fn problem_166() -> i64 {
-    0
-}
+//fn problem_166() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_166() {
-        assert_eq!(problem_166(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_166() {
+//        assert_eq!(problem_166(), 1);
+//    }
+//}

@@ -7,17 +7,16 @@ are not the same. If this is not possible, return null.
 For example, if s = yyz then return yzy. If s = yyy then return null.
 */
 
-fn problem_366() -> i64 {
-    0
-}
+//fn problem_366() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_366() {
-        assert_eq!(problem_366(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_366() {
+//        assert_eq!(problem_366(), 1);
+//    }
+//}

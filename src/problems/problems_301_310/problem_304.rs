@@ -9,17 +9,16 @@ the board at any point, however, it is not allowed to jump back on.
 After k moves, what is the probability that the knight remains on the board?
 */
 
-fn problem_304() -> i64 {
-    0
-}
+//fn problem_304() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_304() {
-        assert_eq!(problem_304(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_304() {
+//        assert_eq!(problem_304(), 1);
+//    }
+//}

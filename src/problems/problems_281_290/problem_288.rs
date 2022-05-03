@@ -19,17 +19,16 @@ For example, this algorithm terminates in three steps when starting from 1234:
 Write a function that returns how many steps this will take for a given input N.
 */
 
-fn problem_288() -> i64 {
-    0
-}
+//fn problem_288() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_288() {
-        assert_eq!(problem_288(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_288() {
+//        assert_eq!(problem_288(), 1);
+//    }
+//}

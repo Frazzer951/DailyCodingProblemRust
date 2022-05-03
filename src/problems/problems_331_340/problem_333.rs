@@ -10,17 +10,16 @@ Given a list of N people and the above operation, find a way to identify the
 celebrity in O(N) time.
 */
 
-fn problem_333() -> i64 {
-    0
-}
+//fn problem_333() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_333() {
-        assert_eq!(problem_333(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_333() {
+//        assert_eq!(problem_333(), 1);
+//    }
+//}

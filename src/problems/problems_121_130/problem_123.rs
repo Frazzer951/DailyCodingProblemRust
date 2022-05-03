@@ -18,17 +18,16 @@ And here are examples of non-numbers:
  * "-"
 */
 
-fn problem_123() -> i64 {
-    0
-}
+//fn problem_123() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_123() {
-        assert_eq!(problem_123(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_123() {
+//        assert_eq!(problem_123(), 1);
+//    }
+//}

@@ -16,17 +16,16 @@ better than [1, 2, 5], which has an absolute difference of |1.3 - 1| + |2.3 - 2|
 + |4.4 - 5| = 1.
 */
 
-fn problem_355() -> i64 {
-    0
-}
+//fn problem_355() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_355() {
-        assert_eq!(problem_355(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_355() {
+//        assert_eq!(problem_355(), 1);
+//    }
+//}

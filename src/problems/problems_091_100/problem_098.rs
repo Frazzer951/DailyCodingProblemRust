@@ -20,17 +20,16 @@ exists(board, "ABCCED") returns true,exists(board, "SEE") returns true,
 exists(board, "ABCB") returns false.
 */
 
-fn problem_098() -> i64 {
-    0
-}
+//fn problem_098() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_098() {
-        assert_eq!(problem_098(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_098() {
+//        assert_eq!(problem_098(), 1);
+//    }
+//}

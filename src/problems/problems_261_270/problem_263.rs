@@ -15,17 +15,16 @@ We can consider a sentence valid if it conforms to the following rules:
  4. The sentence must end with a terminal mark immediately following a word.
 */
 
-fn problem_263() -> i64 {
-    0
-}
+//fn problem_263() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_263() {
-        assert_eq!(problem_263(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_263() {
+//        assert_eq!(problem_263(), 1);
+//    }
+//}

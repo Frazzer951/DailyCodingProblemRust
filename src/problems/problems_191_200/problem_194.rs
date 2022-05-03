@@ -7,17 +7,16 @@ line segments connecting each point pi to qi. Write an algorithm to determine
 how many pairs of the line segments intersect.
 */
 
-fn problem_194() -> i64 {
-    0
-}
+//fn problem_194() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_194() {
-        assert_eq!(problem_194(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_194() {
+//        assert_eq!(problem_194(), 1);
+//    }
+//}

@@ -14,17 +14,16 @@ at least 3 citations.
 Given a list of paper citations of a researcher, calculate their h-index.
 */
 
-fn problem_241() -> i64 {
-    0
-}
+//fn problem_241() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_241() {
-        assert_eq!(problem_241(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_241() {
+//        assert_eq!(problem_241(), 1);
+//    }
+//}

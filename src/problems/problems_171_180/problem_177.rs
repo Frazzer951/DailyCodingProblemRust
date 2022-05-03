@@ -11,17 +11,16 @@ Given the linked list 1 -> 2 -> 3 -> 4 -> 5 and k = 3, it should become 3 -> 4
 -> 5 -> 1 -> 2.
 */
 
-fn problem_177() -> i64 {
-    0
-}
+//fn problem_177() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_177() {
-        assert_eq!(problem_177(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_177() {
+//        assert_eq!(problem_177(), 1);
+//    }
+//}

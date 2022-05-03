@@ -19,17 +19,16 @@ You should return the following:
 ['/login', '/user', '/one']
 */
 
-fn problem_391() -> i64 {
-    0
-}
+//fn problem_391() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_391() {
-        assert_eq!(problem_391(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_391() {
+//        assert_eq!(problem_391(), 1);
+//    }
+//}

@@ -12,17 +12,16 @@ below.
 1   2  2   1
 */
 
-fn problem_336() -> i64 {
-    0
-}
+//fn problem_336() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_336() {
-        assert_eq!(problem_336(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_336() {
+//        assert_eq!(problem_336(), 1);
+//    }
+//}

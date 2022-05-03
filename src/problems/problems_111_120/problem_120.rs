@@ -7,17 +7,16 @@ the first instance and in every odd call of getInstance(), return the second
 instance.
 */
 
-fn problem_120() -> i64 {
-    0
-}
+//fn problem_120() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_120() {
-        assert_eq!(problem_120(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_120() {
+//        assert_eq!(problem_120(), 1);
+//    }
+//}

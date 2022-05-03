@@ -32,17 +32,16 @@ Your function should return 3, since we can make the words 'eat', 'in', and
 and 'rain', but that would be incorrect since that's only 2 words.
 */
 
-fn problem_341() -> i64 {
-    0
-}
+//fn problem_341() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_341() {
-        assert_eq!(problem_341(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_341() {
+//        assert_eq!(problem_341(), 1);
+//    }
+//}

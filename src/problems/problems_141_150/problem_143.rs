@@ -13,17 +13,16 @@ For example, given x = 10 and lst = [9, 12, 3, 5, 14, 10, 10], one partition may
 be [9, 3, 5, 10, 10, 12, 14].
 */
 
-fn problem_143() -> i64 {
-    0
-}
+//fn problem_143() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_143() {
-        assert_eq!(problem_143(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_143() {
+//        assert_eq!(problem_143(), 1);
+//    }
+//}

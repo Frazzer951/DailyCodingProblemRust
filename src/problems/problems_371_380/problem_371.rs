@@ -19,17 +19,16 @@ this example, you should return:
 }
 */
 
-fn problem_371() -> i64 {
-    0
-}
+//fn problem_371() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_371() {
-        assert_eq!(problem_371(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_371() {
+//        assert_eq!(problem_371(), 1);
+//    }
+//}

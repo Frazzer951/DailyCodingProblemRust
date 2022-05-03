@@ -29,17 +29,16 @@ it should become:
 You can assume keys do not contain dots in them, i.e. no clobbering will occur.
 */
 
-fn problem_173() -> i64 {
-    0
-}
+//fn problem_173() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_173() {
-        assert_eq!(problem_173(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_173() {
+//        assert_eq!(problem_173(), 1);
+//    }
+//}

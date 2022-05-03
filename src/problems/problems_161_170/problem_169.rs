@@ -7,17 +7,16 @@ For example, the linked list 4 -> 1 -> -3 -> 99 should become -3 -> 1 -> 4 -> 99
 .
 */
 
-fn problem_169() -> i64 {
-    0
-}
+//fn problem_169() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_169() {
-        assert_eq!(problem_169(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_169() {
+//        assert_eq!(problem_169(), 1);
+//    }
+//}

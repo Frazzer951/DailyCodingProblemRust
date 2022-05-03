@@ -8,17 +8,16 @@ Describe and give an example of each of the following types of polymorphism:
  * Subtype polymorphism
 */
 
-fn problem_174() -> i64 {
-    0
-}
+//fn problem_174() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_174() {
-        assert_eq!(problem_174(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_174() {
+//        assert_eq!(problem_174(), 1);
+//    }
+//}

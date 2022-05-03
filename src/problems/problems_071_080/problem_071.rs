@@ -6,17 +6,16 @@ uniform probability, implement a function rand5() that returns an integer from 1
 to 5 (inclusive).
 */
 
-fn problem_071() -> i64 {
-    0
-}
+//fn problem_071() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_071() {
-        assert_eq!(problem_071(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_071() {
+//        assert_eq!(problem_071(), 1);
+//    }
+//}

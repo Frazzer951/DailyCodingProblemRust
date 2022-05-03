@@ -1,4 +1,4 @@
-// SKIPPED
+// NOT DONE
 
 /* MEDIUM
 Implement locking in a binary tree. A binary tree node can be locked or unlocked
@@ -18,17 +18,16 @@ no need for actual locks or mutexes. Each method should run in O(h), where h is
 the height of the tree.
 */
 
-fn problem_024() -> i64 {
-    0
-}
+//fn problem_024() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_024() {
-        assert_eq!(problem_024(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_024() {
+//        assert_eq!(problem_024(), 1);
+//    }
+//}

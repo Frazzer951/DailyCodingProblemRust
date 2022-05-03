@@ -23,17 +23,16 @@ For example, if the input is the following:
 The total active time would be 1260 seconds.
 */
 
-fn problem_370() -> i64 {
-    0
-}
+//fn problem_370() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_370() {
-        assert_eq!(problem_370(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_370() {
+//        assert_eq!(problem_370(), 1);
+//    }
+//}

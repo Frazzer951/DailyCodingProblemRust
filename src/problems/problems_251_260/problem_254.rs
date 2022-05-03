@@ -25,17 +25,16 @@ You should convert it to:
        6     7
 */
 
-fn problem_254() -> i64 {
-    0
-}
+//fn problem_254() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_254() {
-        assert_eq!(problem_254(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_254() {
+//        assert_eq!(problem_254(), 1);
+//    }
+//}

@@ -9,17 +9,16 @@ For example, given the intervals [(1, 4), (4, 5), (7, 9), (9, 12)], you should
 return [4, 9].
 */
 
-fn problem_200() -> i64 {
-    0
-}
+//fn problem_200() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_200() {
-        assert_eq!(problem_200(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_200() {
+//        assert_eq!(problem_200(), 1);
+//    }
+//}

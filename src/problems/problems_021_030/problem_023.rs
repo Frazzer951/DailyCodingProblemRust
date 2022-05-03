@@ -71,7 +71,6 @@ mod tests {
     use super::*;
 
     #[test]
-    #[ignore]
     fn test_problem_023() {
         assert_eq!(
             shortest_path(

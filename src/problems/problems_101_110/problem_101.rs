@@ -25,17 +25,16 @@ d, then
 If a < c OR a==c AND b < d.
 */
 
-fn problem_101() -> i64 {
-    0
-}
+//fn problem_101() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_101() {
-        assert_eq!(problem_101(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_101() {
+//        assert_eq!(problem_101(), 1);
+//    }
+//}

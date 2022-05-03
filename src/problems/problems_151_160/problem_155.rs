@@ -9,17 +9,16 @@ You can assume that such element exists.
 For example, given [1, 2, 1, 1, 3, 4, 0], return 1.
 */
 
-fn problem_155() -> i64 {
-    0
-}
+//fn problem_155() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_155() {
-        assert_eq!(problem_155(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_155() {
+//        assert_eq!(problem_155(), 1);
+//    }
+//}

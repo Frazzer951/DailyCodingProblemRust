@@ -16,17 +16,16 @@ should produce:
 3q2+7w==
 */
 
-fn problem_381() -> i64 {
-    0
-}
+//fn problem_381() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_381() {
-        assert_eq!(problem_381(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_381() {
+//        assert_eq!(problem_381(), 1);
+//    }
+//}

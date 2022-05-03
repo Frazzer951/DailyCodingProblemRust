@@ -27,17 +27,16 @@ pipes = {
 }
 */
 
-fn problem_299() -> i64 {
-    0
-}
+//fn problem_299() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_299() {
-        assert_eq!(problem_299(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_299() {
+//        assert_eq!(problem_299(), 1);
+//    }
+//}

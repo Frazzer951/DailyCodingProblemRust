@@ -22,17 +22,16 @@ G G G
 B B B
 */
 
-fn problem_151() -> i64 {
-    0
-}
+//fn problem_151() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_151() {
-        assert_eq!(problem_151(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_151() {
+//        assert_eq!(problem_151(), 1);
+//    }
+//}

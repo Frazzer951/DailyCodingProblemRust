@@ -7,17 +7,16 @@ list without performing any multiplication, division, or bit-shift operations.
 Do this in O(log N) time.
 */
 
-fn problem_271() -> i64 {
-    0
-}
+//fn problem_271() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_271() {
-        assert_eq!(problem_271(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_271() {
+//        assert_eq!(problem_271(), 1);
+//    }
+//}

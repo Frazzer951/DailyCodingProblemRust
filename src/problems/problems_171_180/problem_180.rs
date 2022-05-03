@@ -13,17 +13,16 @@ If the stack is [1, 2, 3, 4], it should become [1, 4, 2, 3].
 Hint: Try working backwards from the end state.
 */
 
-fn problem_180() -> i64 {
-    0
-}
+//fn problem_180() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_180() {
-        assert_eq!(problem_180(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_180() {
+//        assert_eq!(problem_180(), 1);
+//    }
+//}

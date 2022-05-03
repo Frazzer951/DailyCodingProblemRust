@@ -21,17 +21,16 @@ for f in functions:
 How can we make it print out what we apparently want?
 */
 
-fn problem_188() -> i64 {
-    0
-}
+//fn problem_188() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_188() {
-        assert_eq!(problem_188(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_188() {
+//        assert_eq!(problem_188(), 1);
+//    }
+//}

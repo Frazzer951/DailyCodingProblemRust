@@ -27,17 +27,16 @@ A N B
 is considered valid.
 */
 
-fn problem_087() -> i64 {
-    0
-}
+//fn problem_087() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_087() {
-        assert_eq!(problem_087(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_087() {
+//        assert_eq!(problem_087(), 1);
+//    }
+//}

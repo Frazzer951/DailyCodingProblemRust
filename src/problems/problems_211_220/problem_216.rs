@@ -24,17 +24,16 @@ XL.
 For the input XIV, for instance, you should return 14.
 */
 
-fn problem_216() -> i64 {
-    0
-}
+//fn problem_216() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_216() {
-        assert_eq!(problem_216(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_216() {
+//        assert_eq!(problem_216(), 1);
+//    }
+//}

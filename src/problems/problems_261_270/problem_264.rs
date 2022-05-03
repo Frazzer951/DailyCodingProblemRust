@@ -12,17 +12,16 @@ possible solution would be 00010111.
 Create an algorithm that finds a De Bruijn sequence.
 */
 
-fn problem_264() -> i64 {
-    0
-}
+//fn problem_264() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_264() {
-        assert_eq!(problem_264(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_264() {
+//        assert_eq!(problem_264(), 1);
+//    }
+//}

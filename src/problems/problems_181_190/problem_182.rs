@@ -9,17 +9,16 @@ Given an undirected graph, check if the graph is minimally-connected. You can
 choose to represent the graph as either an adjacency matrix or adjacency list.
 */
 
-fn problem_182() -> i64 {
-    0
-}
+//fn problem_182() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_182() {
-        assert_eq!(problem_182(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_182() {
+//        assert_eq!(problem_182(), 1);
+//    }
+//}

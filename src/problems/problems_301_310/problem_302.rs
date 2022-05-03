@@ -16,17 +16,16 @@ Considering the edges of the matrix as boundaries, this divides the grid into
 three triangles, so you should return 3.
 */
 
-fn problem_302() -> i64 {
-    0
-}
+//fn problem_302() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_302() {
-        assert_eq!(problem_302(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_302() {
+//        assert_eq!(problem_302(), 1);
+//    }
+//}

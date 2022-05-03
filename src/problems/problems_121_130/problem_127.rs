@@ -27,17 +27,16 @@ return 124 (99 + 25) as:
 4 -> 2 -> 1
 */
 
-fn problem_127() -> i64 {
-    0
-}
+//fn problem_127() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_127() {
-        assert_eq!(problem_127(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_127() {
+//        assert_eq!(problem_127(), 1);
+//    }
+//}

@@ -9,17 +9,16 @@ neighbors. It is guaranteed that the first and last elements are lower than all
 others.
 */
 
-fn problem_311() -> i64 {
-    0
-}
+//fn problem_311() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_311() {
-        assert_eq!(problem_311(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_311() {
+//        assert_eq!(problem_311(), 1);
+//    }
+//}

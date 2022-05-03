@@ -11,17 +11,16 @@ For example, suppose we are given the string daily and k = 1. The best we can
 create in this case is ailyd.
 */
 
-fn problem_347() -> i64 {
-    0
-}
+//fn problem_347() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_347() {
-        assert_eq!(problem_347(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_347() {
+//        assert_eq!(problem_347(), 1);
+//    }
+//}

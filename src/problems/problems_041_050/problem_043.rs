@@ -46,7 +46,6 @@ mod tests {
     use super::*;
 
     #[test]
-    #[ignore]
     fn test_problem_043() {
         let mut stack = Stack::new();
         stack.push(0);
@@ -60,7 +59,7 @@ mod tests {
         assert_eq!(stack.pop(), Some(2));
         assert_eq!(stack.pop(), Some(1));
         assert_eq!(stack.pop(), Some(0));
-        assert_eq!(stack.pop(), Some(0));
+        assert_eq!(stack.pop(), None);
 
         assert_eq!(stack.max(), None);
     }

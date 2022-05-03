@@ -8,17 +8,16 @@ For example, given the string tweet, return tteew. eettw would also be
 acceptable.
 */
 
-fn problem_386() -> i64 {
-    0
-}
+//fn problem_386() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_386() {
-        assert_eq!(problem_386(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_386() {
+//        assert_eq!(problem_386(), 1);
+//    }
+//}

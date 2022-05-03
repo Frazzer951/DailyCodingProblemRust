@@ -30,17 +30,16 @@ Our position: (0, 2)
 Coins: [(0, 4), (1, 0), (2, 0), (3, 2)]
 */
 
-fn problem_376() -> i64 {
-    0
-}
+//fn problem_376() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_376() {
-        assert_eq!(problem_376(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_376() {
+//        assert_eq!(problem_376(), 1);
+//    }
+//}

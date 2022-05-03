@@ -15,17 +15,16 @@ Here is an example:
 Write a program to determine whether a given input is a Toeplitz matrix.
 */
 
-fn problem_315() -> i64 {
-    0
-}
+//fn problem_315() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_315() {
-        assert_eq!(problem_315(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_315() {
+//        assert_eq!(problem_315(), 1);
+//    }
+//}

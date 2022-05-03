@@ -33,17 +33,16 @@ students = {
 }
 */
 
-fn problem_292() -> i64 {
-    0
-}
+//fn problem_292() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_292() {
-        assert_eq!(problem_292(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_292() {
+//        assert_eq!(problem_292(), 1);
+//    }
+//}

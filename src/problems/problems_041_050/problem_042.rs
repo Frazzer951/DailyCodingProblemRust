@@ -1,4 +1,4 @@
-// SKIPPED
+// NOT DONE
 
 /* HARD
 Given a list of integers S and a target number k, write a function that returns
@@ -12,17 +12,16 @@ For example, given S = [12, 1, 61, 5, 9, 2] and k = 24, return [12, 9, 2, 1]
 since it sums up to 24.
 */
 
-fn problem_042() -> i64 {
-    0
-}
+//fn problem_042() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_042() {
-        assert_eq!(problem_042(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_042() {
+//        assert_eq!(problem_042(), 1);
+//    }
+//}

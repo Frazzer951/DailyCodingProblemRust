@@ -11,17 +11,16 @@ and 4 20% of the time.
 You can generate random numbers between 0 and 1 uniformly.
 */
 
-fn problem_152() -> i64 {
-    0
-}
+//fn problem_152() -> i64 {
+//    0
+//}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    #[ignore]
-    fn test_problem_152() {
-        assert_eq!(problem_152(), 1);
-    }
-}
+//#[cfg(test)]
+//mod tests {
+//    use super::*;
+//
+//    #[test]
+//    fn test_problem_152() {
+//        assert_eq!(problem_152(), 1);
+//    }
+//}
