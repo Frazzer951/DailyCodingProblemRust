@@ -1,4 +1,4 @@
-// NOT DONE
+// SKIPPED
 
 /* HARD
 An XOR linked list is a more memory efficient doubly linked list. Instead of

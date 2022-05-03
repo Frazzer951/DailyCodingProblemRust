@@ -59,12 +59,10 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
 <!-- end completed section -->
 
 <!-- start missing section -->
-## Missing ❌️ - 369
+## Missing ❌️ - 367
 <details><summary>Missing</summary>
 <p>
 
- - [Problem 005](src/problems/problems_001_010/problem_005.rs) - Medium
- - [Problem 006](src/problems/problems_001_010/problem_006.rs) - Hard
  - [Problem 010](src/problems/problems_001_010/problem_010.rs) - Medium
  - [Problem 015](src/problems/problems_011_020/problem_015.rs) - Medium
  - [Problem 020](src/problems/problems_011_020/problem_020.rs) - Easy
@@ -439,10 +437,12 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
 <!-- end missing section -->
 
 <!-- start skipped section -->
-## Skipped️ ⏭️ - 0
+## Skipped️ ⏭️ - 2
 <details><summary>Skipped</summary>
 <p>
 
+ - [Problem 005](src/problems/problems_001_010/problem_005.rs) - Medium
+ - [Problem 006](src/problems/problems_001_010/problem_006.rs) - Hard
 
 </p>
 </details>
