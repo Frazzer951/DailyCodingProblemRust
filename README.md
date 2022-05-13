@@ -59,7 +59,7 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
 <!-- end completed section -->
 
 <!-- start missing section -->
-## Missing ❌️ - 367
+## Missing ❌️ - 377
 <details><summary>Missing</summary>
 <p>
 
@@ -430,6 +430,16 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
  - [Problem 412](src/problems/problems_411_420/problem_412.rs) - Medium
  - [Problem 413](src/problems/problems_411_420/problem_413.rs) - Hard
  - [Problem 414](src/problems/problems_411_420/problem_414.rs) - Hard
+ - [Problem 415](src/problems/problems_411_420/problem_415.rs) - Hard
+ - [Problem 416](src/problems/problems_411_420/problem_416.rs) - Easy
+ - [Problem 417](src/problems/problems_411_420/problem_417.rs) - Easy
+ - [Problem 418](src/problems/problems_411_420/problem_418.rs) - Easy
+ - [Problem 419](src/problems/problems_411_420/problem_419.rs) - Easy
+ - [Problem 420](src/problems/problems_411_420/problem_420.rs) - Easy
+ - [Problem 421](src/problems/problems_421_430/problem_421.rs) - Medium
+ - [Problem 422](src/problems/problems_421_430/problem_422.rs) - Easy
+ - [Problem 423](src/problems/problems_421_430/problem_423.rs) - Easy
+ - [Problem 424](src/problems/problems_421_430/problem_424.rs) - Medium
 
 </p>
 </details>
