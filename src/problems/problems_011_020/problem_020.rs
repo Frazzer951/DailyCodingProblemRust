@@ -1,4 +1,4 @@
-// NOT DONE
+// SKIPPED
 
 /* EASY
 Given two singly linked lists that intersect at some point, find the

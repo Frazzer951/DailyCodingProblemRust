@@ -1,4 +1,4 @@
-// NOT DONE
+// SKIPPED
 
 /* MEDIUM
 Given a singly linked list and an integer k, remove the kth last element from
