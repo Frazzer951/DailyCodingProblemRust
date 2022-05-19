@@ -43,12 +43,16 @@ mod tests {
 
     #[test]
     fn test_problem_340() {
-        assert_eq!(problem_340(vec![Point(1, 1),
-                                    Point(-1, -1),
-                                    Point(3, 4),
-                                    Point(6, 1),
-                                    Point(-1, -6),
-                                    Point(-4, -3)]),
-                   (Point(1, 1), Point(-1, -1)));
+        assert_eq!(
+            problem_340(vec![
+                Point(1, 1),
+                Point(-1, -1),
+                Point(3, 4),
+                Point(6, 1),
+                Point(-1, -6),
+                Point(-4, -3)
+            ]),
+            (Point(1, 1), Point(-1, -1))
+        );
     }
 }

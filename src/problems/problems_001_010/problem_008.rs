@@ -80,22 +80,35 @@ mod tests {
          / \
         1   1
         */
-        let node =
-            BtNode { val: 0,
-                     l: Some(Box::new(BtNode { val: 1,
-                                               l: None,
-                                               r: None })),
-                     r: Some(Box::new(BtNode { val: 0,
-                                               l: Some(Box::new(BtNode { val: 1,
-                                                                         l: Some(Box::new(BtNode { val: 1,
-                                                                                                   l: None,
-                                                                                                   r: None })),
-                                                                         r: Some(Box::new(BtNode { val: 1,
-                                                                                                   l: None,
-                                                                                                   r: None })) })),
-                                               r: Some(Box::new(BtNode { val: 0,
-                                                                         l: None,
-                                                                         r: None })) })) };
+        let node = BtNode {
+            val: 0,
+            l: Some(Box::new(BtNode {
+                val: 1,
+                l: None,
+                r: None,
+            })),
+            r: Some(Box::new(BtNode {
+                val: 0,
+                l: Some(Box::new(BtNode {
+                    val: 1,
+                    l: Some(Box::new(BtNode {
+                        val: 1,
+                        l: None,
+                        r: None,
+                    })),
+                    r: Some(Box::new(BtNode {
+                        val: 1,
+                        l: None,
+                        r: None,
+                    })),
+                })),
+                r: Some(Box::new(BtNode {
+                    val: 0,
+                    l: None,
+                    r: None,
+                })),
+            })),
+        };
         assert_eq!(count_unival_tree(&node), 5);
     }
 }

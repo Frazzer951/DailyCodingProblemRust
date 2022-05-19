@@ -39,24 +39,40 @@ mod tests {
 
     #[test]
     fn test_problem_022() {
-        assert_eq!(problem_022(vec![String::from("quick"),
-                                    String::from("brown"),
-                                    String::from("the"),
-                                    String::from("fox")],
-                               String::from("thequickbrownfox")),
-                   vec![String::from("the"),
-                        String::from("quick"),
-                        String::from("brown"),
-                        String::from("fox")]);
-        assert_eq!(problem_022(vec![String::from("bed"),
-                                    String::from("bath"),
-                                    String::from("bedbath"),
-                                    String::from("and"),
-                                    String::from("beyond")],
-                               String::from("bedbathandbeyond")),
-                   vec![String::from("bed"),
-                        String::from("bath"),
-                        String::from("and"),
-                        String::from("beyond")]);
+        assert_eq!(
+            problem_022(
+                vec![
+                    String::from("quick"),
+                    String::from("brown"),
+                    String::from("the"),
+                    String::from("fox")
+                ],
+                String::from("thequickbrownfox")
+            ),
+            vec![
+                String::from("the"),
+                String::from("quick"),
+                String::from("brown"),
+                String::from("fox")
+            ]
+        );
+        assert_eq!(
+            problem_022(
+                vec![
+                    String::from("bed"),
+                    String::from("bath"),
+                    String::from("bedbath"),
+                    String::from("and"),
+                    String::from("beyond")
+                ],
+                String::from("bedbathandbeyond")
+            ),
+            vec![
+                String::from("bed"),
+                String::from("bath"),
+                String::from("and"),
+                String::from("beyond")
+            ]
+        );
     }
 }

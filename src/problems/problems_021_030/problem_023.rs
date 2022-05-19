@@ -72,12 +72,18 @@ mod tests {
 
     #[test]
     fn test_problem_023() {
-        assert_eq!(shortest_path(vec![vec![false, false, false, false],
-                                      vec![true, true, false, true],
-                                      vec![false, false, false, false],
-                                      vec![false, false, false, false],],
-                                 Point(3, 0),
-                                 Point(0, 0),),
-                   7);
+        assert_eq!(
+            shortest_path(
+                vec![
+                    vec![false, false, false, false],
+                    vec![true, true, false, true],
+                    vec![false, false, false, false],
+                    vec![false, false, false, false],
+                ],
+                Point(3, 0),
+                Point(0, 0),
+            ),
+            7
+        );
     }
 }

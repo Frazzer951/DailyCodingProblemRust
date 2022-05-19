@@ -72,18 +72,26 @@ mod tests {
 
     #[test]
     fn test_problem_028() {
-        assert_eq!(problem_028(vec![String::from("the"),
-                                    String::from("quick"),
-                                    String::from("brown"),
-                                    String::from("fox"),
-                                    String::from("jumps"),
-                                    String::from("over"),
-                                    String::from("the"),
-                                    String::from("lazy"),
-                                    String::from("dog")],
-                               16),
-                   [String::from("the  quick brown"),
-                    String::from("fox  jumps  over"),
-                    String::from("the   lazy   dog"),]);
+        assert_eq!(
+            problem_028(
+                vec![
+                    String::from("the"),
+                    String::from("quick"),
+                    String::from("brown"),
+                    String::from("fox"),
+                    String::from("jumps"),
+                    String::from("over"),
+                    String::from("the"),
+                    String::from("lazy"),
+                    String::from("dog")
+                ],
+                16
+            ),
+            [
+                String::from("the  quick brown"),
+                String::from("fox  jumps  over"),
+                String::from("the   lazy   dog"),
+            ]
+        );
     }
 }
