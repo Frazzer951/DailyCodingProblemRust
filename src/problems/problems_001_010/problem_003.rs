@@ -40,31 +40,25 @@ fn deserialize(node_str: String) -> BtNode<String> {
     let nodes = String::from(&node_str[colon_index + 1..]);
 
     if nodes.len() == 2 {
-        return BtNode {
-            val: node_name,
-            l: None,
-            r: None,
-        };
+        return BtNode { val: node_name,
+                        l: None,
+                        r: None };
     }
 
     let comma_index = nodes.find(',').unwrap_or(nodes.len());
     if comma_index == nodes.len() {
         let left = deserialize(String::from(&nodes[1..nodes.len() - 1]));
-        return BtNode {
-            val: node_name,
-            l: Some(Box::new(left)),
-            r: None,
-        };
+        return BtNode { val: node_name,
+                        l: Some(Box::new(left)),
+                        r: None };
     }
 
     let left = deserialize(String::from(&nodes[1..comma_index]));
     let right = deserialize(String::from(&nodes[comma_index + 1..nodes.len() - 1]));
 
-    BtNode {
-        val: node_name,
-        l: Some(Box::new(left)),
-        r: Some(Box::new(right)),
-    }
+    BtNode { val: node_name,
+             l: Some(Box::new(left)),
+             r: Some(Box::new(right)) }
 }
 
 #[cfg(test)]
@@ -73,45 +67,29 @@ mod tests {
 
     #[test]
     fn test_serialize_003() {
-        let node = BtNode {
-            val: String::from("root"),
-            l: Some(Box::new(BtNode {
-                val: String::from("left"),
-                l: Some(Box::new(BtNode {
-                    val: String::from("left.left"),
-                    l: None,
-                    r: None,
-                })),
-                r: None,
-            })),
-            r: Some(Box::new(BtNode {
-                val: String::from("right"),
-                l: None,
-                r: None,
-            })),
-        };
+        let node = BtNode { val: String::from("root"),
+                            l: Some(Box::new(BtNode { val: String::from("left"),
+                                                      l: Some(Box::new(BtNode { val: String::from("left.left"),
+                                                                                l: None,
+                                                                                r: None })),
+                                                      r: None })),
+                            r: Some(Box::new(BtNode { val: String::from("right"),
+                                                      l: None,
+                                                      r: None })) };
         assert_eq!(serialize(&node), "root:{left:{left.left:{}},right:{}}");
     }
 
     #[test]
     fn test_deserialize_003() {
-        let node = BtNode {
-            val: String::from("root"),
-            l: Some(Box::new(BtNode {
-                val: String::from("left"),
-                l: Some(Box::new(BtNode {
-                    val: String::from("left.left"),
-                    l: None,
-                    r: None,
-                })),
-                r: None,
-            })),
-            r: Some(Box::new(BtNode {
-                val: String::from("right"),
-                l: None,
-                r: None,
-            })),
-        };
+        let node = BtNode { val: String::from("root"),
+                            l: Some(Box::new(BtNode { val: String::from("left"),
+                                                      l: Some(Box::new(BtNode { val: String::from("left.left"),
+                                                                                l: None,
+                                                                                r: None })),
+                                                      r: None })),
+                            r: Some(Box::new(BtNode { val: String::from("right"),
+                                                      l: None,
+                                                      r: None })) };
         assert_eq!(deserialize(serialize(&node)), node);
     }
 
@@ -119,23 +97,15 @@ mod tests {
     fn test_serialize_deserialize_003() {
         // node = Node('root', Node('left', Node('left.left')), Node('right'))
         // assert deserialize(serialize(node)).left.left.val == 'left.left'
-        let node = BtNode {
-            val: String::from("root"),
-            l: Some(Box::new(BtNode {
-                val: String::from("left"),
-                l: Some(Box::new(BtNode {
-                    val: String::from("left.left"),
-                    l: None,
-                    r: None,
-                })),
-                r: None,
-            })),
-            r: Some(Box::new(BtNode {
-                val: String::from("right"),
-                l: None,
-                r: None,
-            })),
-        };
+        let node = BtNode { val: String::from("root"),
+                            l: Some(Box::new(BtNode { val: String::from("left"),
+                                                      l: Some(Box::new(BtNode { val: String::from("left.left"),
+                                                                                l: None,
+                                                                                r: None })),
+                                                      r: None })),
+                            r: Some(Box::new(BtNode { val: String::from("right"),
+                                                      l: None,
+                                                      r: None })) };
         assert_eq!(deserialize(serialize(&node)).l.unwrap().l.unwrap().val, "left.left");
     }
 }

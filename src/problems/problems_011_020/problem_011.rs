@@ -28,9 +28,7 @@ mod tests {
 
     #[test]
     fn test_problem_011() {
-        assert_eq!(
-            problem_011("de", vec! {"dog", "deer", "deal"}),
-            vec! {String::from("deer"), String::from("deal")}
-        );
+        assert_eq!(problem_011("de", vec! {"dog", "deer", "deal"}),
+                   vec! {String::from("deer"), String::from("deal")});
     }
 }

@@ -65,13 +65,7 @@ mod tests {
 
     #[test]
     fn test_problem_039() {
-        assert_eq!(
-            problem_039(vec![
-                vec![false, true, false],
-                vec![false, true, false],
-                vec![false, true, false],
-            ]),
-            vec![vec![false, false, false], vec![true, true, true], vec![false, false, false],]
-        );
+        assert_eq!(problem_039(vec![vec![false, true, false], vec![false, true, false], vec![false, true, false],]),
+                   vec![vec![false, false, false], vec![true, true, true], vec![false, false, false],]);
     }
 }

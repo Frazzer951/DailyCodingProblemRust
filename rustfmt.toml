@@ -1,8 +1,11 @@
-#brace_style = "PreferSameLine"
-#indent_style = "Block"
+brace_style = "PreferSameLine"
+comment_width = 127
+group_imports = "StdExternalCrate"
+indent_style = "Visual"
 max_width = 127
-#normalize_comments = true
-#reorder_impl_items = true
+reorder_impl_items = true
 reorder_imports = true
 reorder_modules = true
 tab_spaces = 4
+unstable_features = true
+wrap_comments = true

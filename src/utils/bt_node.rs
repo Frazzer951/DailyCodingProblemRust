@@ -13,11 +13,9 @@ impl<T: std::cmp::PartialEq + std::cmp::PartialOrd> BtNode<T> {
         match *target_node {
             Some(ref mut subnode) => subnode.insert(new_val),
             None => {
-                let new_node = BtNode {
-                    val: new_val,
-                    l: None,
-                    r: None,
-                };
+                let new_node = BtNode { val: new_val,
+                                        l: None,
+                                        r: None };
                 let boxed_node = Some(Box::new(new_node));
                 *target_node = boxed_node;
             }
@@ -31,33 +29,21 @@ mod tests {
 
     #[test]
     fn test_bt_node() {
-        let mut x = BtNode {
-            val: "m",
-            l: None,
-            r: None,
-        };
+        let mut x = BtNode { val: "m",
+                             l: None,
+                             r: None };
         x.insert("z");
         x.insert("b");
         x.insert("c");
-        assert_eq!(
-            x,
-            BtNode {
-                val: "m",
-                l: Some(Box::new(BtNode {
-                    val: "b",
-                    l: None,
-                    r: Some(Box::new(BtNode {
-                        val: "c",
-                        l: None,
-                        r: None
-                    })),
-                })),
-                r: Some(Box::new(BtNode {
-                    val: "z",
-                    l: None,
-                    r: None
-                })),
-            }
-        );
+        assert_eq!(x,
+                   BtNode { val: "m",
+                            l: Some(Box::new(BtNode { val: "b",
+                                                      l: None,
+                                                      r: Some(Box::new(BtNode { val: "c",
+                                                                                l: None,
+                                                                                r: None })) })),
+                            r: Some(Box::new(BtNode { val: "z",
+                                                      l: None,
+                                                      r: None })) });
     }
 }

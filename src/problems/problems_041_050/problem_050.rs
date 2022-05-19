@@ -50,35 +50,21 @@ mod tests {
 
     #[test]
     fn test_problem_050() {
-        let root = BtNode {
-            val: '*',
-            l: Some(Box::new(BtNode {
-                val: '+',
-                l: Some(Box::new(BtNode {
-                    val: '3',
-                    l: None,
-                    r: None,
-                })),
-                r: Some(Box::new(BtNode {
-                    val: '2',
-                    l: None,
-                    r: None,
-                })),
-            })),
-            r: Some(Box::new(BtNode {
-                val: '+',
-                l: Some(Box::new(BtNode {
-                    val: '4',
-                    l: None,
-                    r: None,
-                })),
-                r: Some(Box::new(BtNode {
-                    val: '5',
-                    l: None,
-                    r: None,
-                })),
-            })),
-        };
+        let root = BtNode { val: '*',
+                            l: Some(Box::new(BtNode { val: '+',
+                                                      l: Some(Box::new(BtNode { val: '3',
+                                                                                l: None,
+                                                                                r: None })),
+                                                      r: Some(Box::new(BtNode { val: '2',
+                                                                                l: None,
+                                                                                r: None })) })),
+                            r: Some(Box::new(BtNode { val: '+',
+                                                      l: Some(Box::new(BtNode { val: '4',
+                                                                                l: None,
+                                                                                r: None })),
+                                                      r: Some(Box::new(BtNode { val: '5',
+                                                                                l: None,
+                                                                                r: None })) })) };
         assert_eq!(problem_050(root), 45);
     }
 }
