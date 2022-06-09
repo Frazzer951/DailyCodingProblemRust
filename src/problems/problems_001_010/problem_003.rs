@@ -23,11 +23,11 @@ use crate::utils::bt_node::BtNode;
 fn serialize<T: std::fmt::Display>(root: &BtNode<T>) -> String {
     let mut node_str = root.val.to_string() + ":{";
     if root.l.is_some() {
-        node_str += &serialize(&*root.l.as_ref().unwrap());
+        node_str += &serialize(root.l.as_ref().unwrap());
     }
     if root.r.is_some() {
         node_str += ",";
-        node_str += &serialize(&*root.r.as_ref().unwrap());
+        node_str += &serialize(root.r.as_ref().unwrap());
     }
     node_str += "}";
 
