@@ -66,20 +66,32 @@ mod tests {
 
     #[test]
     fn test_problem_063() {
-        assert!(problem_063(vec![vec!['F', 'A', 'C', 'I'],
-                                 vec!['O', 'B', 'Q', 'P'],
-                                 vec!['A', 'N', 'O', 'B'],
-                                 vec!['M', 'A', 'S', 'S']],
-                            "FOAM"));
-        assert!(problem_063(vec![vec!['F', 'A', 'C', 'I'],
-                                 vec!['O', 'B', 'Q', 'P'],
-                                 vec!['A', 'N', 'O', 'B'],
-                                 vec!['M', 'A', 'S', 'S']],
-                            "MASS"));
-        assert!(!problem_063(vec![vec!['F', 'A', 'C', 'I'],
-                                  vec!['O', 'B', 'Q', 'P'],
-                                  vec!['A', 'N', 'O', 'B'],
-                                  vec!['M', 'A', 'S', 'S']],
-                             "CARS"));
+        assert!(problem_063(
+            vec![
+                vec!['F', 'A', 'C', 'I'],
+                vec!['O', 'B', 'Q', 'P'],
+                vec!['A', 'N', 'O', 'B'],
+                vec!['M', 'A', 'S', 'S']
+            ],
+            "FOAM"
+        ));
+        assert!(problem_063(
+            vec![
+                vec!['F', 'A', 'C', 'I'],
+                vec!['O', 'B', 'Q', 'P'],
+                vec!['A', 'N', 'O', 'B'],
+                vec!['M', 'A', 'S', 'S']
+            ],
+            "MASS"
+        ));
+        assert!(!problem_063(
+            vec![
+                vec!['F', 'A', 'C', 'I'],
+                vec!['O', 'B', 'Q', 'P'],
+                vec!['A', 'N', 'O', 'B'],
+                vec!['M', 'A', 'S', 'S']
+            ],
+            "CARS"
+        ));
     }
 }

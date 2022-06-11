@@ -32,14 +32,18 @@ mod tests {
 
     #[test]
     fn test_problem_037() {
-        assert_eq!(problem_037(vec![1, 2, 3]),
-                   vec![vec![],
-                        vec![1],
-                        vec![2],
-                        vec![1, 2],
-                        vec![3],
-                        vec![1, 3],
-                        vec![2, 3],
-                        vec![1, 2, 3]]);
+        assert_eq!(
+            problem_037(vec![1, 2, 3]),
+            vec![
+                vec![],
+                vec![1],
+                vec![2],
+                vec![1, 2],
+                vec![3],
+                vec![1, 3],
+                vec![2, 3],
+                vec![1, 2, 3]
+            ]
+        );
     }
 }

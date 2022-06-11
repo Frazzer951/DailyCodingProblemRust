@@ -15,17 +15,11 @@ struct Stack<T> {
 }
 
 impl<T: Clone + std::cmp::Ord> Stack<T> {
-    fn new() -> Stack<T> {
-        Stack { values: Vec::new() }
-    }
+    fn new() -> Stack<T> { Stack { values: Vec::new() } }
 
-    fn push(&mut self, val: T) {
-        self.values.push(val);
-    }
+    fn push(&mut self, val: T) { self.values.push(val); }
 
-    fn pop(&mut self) -> Option<T> {
-        self.values.pop()
-    }
+    fn pop(&mut self) -> Option<T> { self.values.pop() }
 
     fn max(&self) -> Option<T> {
         if self.values.is_empty() {

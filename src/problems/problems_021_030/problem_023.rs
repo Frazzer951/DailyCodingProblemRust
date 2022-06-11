@@ -21,7 +21,8 @@ of steps required to reach the end is 7, since we would need to go through (1,
 2) because there is a wall everywhere else on the second row.
 */
 
-use std::collections::{hash_set::HashSet, VecDeque};
+use std::collections::hash_set::HashSet;
+use std::collections::VecDeque;
 
 #[derive(PartialEq, Eq, Hash, Clone)]
 struct Point(i64, i64);
@@ -72,12 +73,18 @@ mod tests {
 
     #[test]
     fn test_problem_023() {
-        assert_eq!(shortest_path(vec![vec![false, false, false, false],
-                                      vec![true, true, false, true],
-                                      vec![false, false, false, false],
-                                      vec![false, false, false, false],],
-                                 Point(3, 0),
-                                 Point(0, 0),),
-                   7);
+        assert_eq!(
+            shortest_path(
+                vec![
+                    vec![false, false, false, false],
+                    vec![true, true, false, true],
+                    vec![false, false, false, false],
+                    vec![false, false, false, false],
+                ],
+                Point(3, 0),
+                Point(0, 0),
+            ),
+            7
+        );
     }
 }

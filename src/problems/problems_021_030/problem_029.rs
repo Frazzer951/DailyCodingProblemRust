@@ -57,7 +57,13 @@ mod tests {
 
     #[test]
     fn test_problem_029() {
-        assert_eq!(run_length_encode(String::from("AAAABBBCCDAA")), String::from("4A3B2C1D2A"));
-        assert_eq!(run_length_decode(String::from("4A3B2C1D2A")), String::from("AAAABBBCCDAA"));
+        assert_eq!(
+            run_length_encode(String::from("AAAABBBCCDAA")),
+            String::from("4A3B2C1D2A")
+        );
+        assert_eq!(
+            run_length_decode(String::from("4A3B2C1D2A")),
+            String::from("AAAABBBCCDAA")
+        );
     }
 }

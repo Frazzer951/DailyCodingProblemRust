@@ -10,16 +10,18 @@ You should be as efficient with time and space as possible.
 */
 
 struct OrderLog {
-    orders: Vec<i64>,
+    orders:    Vec<i64>,
     cur_index: usize,
-    size: usize,
+    size:      usize,
 }
 
 impl OrderLog {
     fn new(n: usize) -> OrderLog {
-        OrderLog { orders: vec![0; n],
-                   cur_index: 0,
-                   size: n }
+        OrderLog {
+            orders:    vec![0; n],
+            cur_index: 0,
+            size:      n,
+        }
     }
 
     fn record(&mut self, order_id: i64) {

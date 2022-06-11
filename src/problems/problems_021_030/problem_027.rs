@@ -25,10 +25,10 @@ fn problem_027(string: &str) -> bool {
                 if c != next_bracket_char.unwrap() {
                     return false;
                 }
-            }
+            },
             _ => {
                 panic!("Unexpected character: {}", c);
-            }
+            },
         }
     }
 
