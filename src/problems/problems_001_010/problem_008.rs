@@ -30,12 +30,12 @@ fn same_children<T: std::cmp::PartialEq>(root: &BtNode<T>) -> bool {
     }
 
     let left = if root.l.is_some() {
-        same_children(&*root.l.as_ref().unwrap())
+        same_children(root.l.as_ref().unwrap())
     } else {
         true
     };
     let right = if root.r.is_some() {
-        same_children(&*root.r.as_ref().unwrap())
+        same_children(root.r.as_ref().unwrap())
     } else {
         true
     };
@@ -53,12 +53,12 @@ fn count_unival_tree<T: std::cmp::PartialEq>(root: &BtNode<T>) -> i64 {
         count += 1;
     }
     let left = if root.l.is_some() {
-        count_unival_tree(&*root.l.as_ref().unwrap())
+        count_unival_tree(root.l.as_ref().unwrap())
     } else {
         0
     };
     let right = if root.r.is_some() {
-        count_unival_tree(&*root.r.as_ref().unwrap())
+        count_unival_tree(root.r.as_ref().unwrap())
     } else {
         0
     };

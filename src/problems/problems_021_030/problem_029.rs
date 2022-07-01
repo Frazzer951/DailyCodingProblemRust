@@ -28,7 +28,7 @@ fn run_length_encode(mut str: String) -> String {
         let c = str.chars().next().unwrap();
         let count = count_char(&str, c);
         str.replace_range(0..count, "");
-        result.push_str(&format!("{}{}", count, c));
+        result.push_str(format!("{}{}", count, c).as_str());
     }
 
     result
