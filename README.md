@@ -59,7 +59,7 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
 <!-- end completed section -->
 
 <!-- start missing section -->
-## Missing ❌️ - 378
+## Missing ❌️ - 421
 <details><summary>Missing</summary>
 <p>
 
@@ -441,6 +441,49 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
  - [Problem 427](src/problems/problems_421_430/problem_427.rs) - Medium
  - [Problem 428](src/problems/problems_421_430/problem_428.rs) - Hard
  - [Problem 429](src/problems/problems_421_430/problem_429.rs) - Medium
+ - [Problem 430](src/problems/problems_421_430/problem_430.rs) - Hard
+ - [Problem 431](src/problems/problems_431_440/problem_431.rs) - Medium
+ - [Problem 432](src/problems/problems_431_440/problem_432.rs) - Hard
+ - [Problem 433](src/problems/problems_431_440/problem_433.rs) - Medium
+ - [Problem 434](src/problems/problems_431_440/problem_434.rs) - Easy
+ - [Problem 435](src/problems/problems_431_440/problem_435.rs) - Medium
+ - [Problem 436](src/problems/problems_431_440/problem_436.rs) - Hard
+ - [Problem 437](src/problems/problems_431_440/problem_437.rs) - Medium
+ - [Problem 438](src/problems/problems_431_440/problem_438.rs) - Easy
+ - [Problem 439](src/problems/problems_431_440/problem_439.rs) - Medium
+ - [Problem 440](src/problems/problems_431_440/problem_440.rs) - Medium
+ - [Problem 441](src/problems/problems_441_450/problem_441.rs) - Medium
+ - [Problem 442](src/problems/problems_441_450/problem_442.rs) - Hard
+ - [Problem 443](src/problems/problems_441_450/problem_443.rs) - Medium
+ - [Problem 444](src/problems/problems_441_450/problem_444.rs) - Hard
+ - [Problem 445](src/problems/problems_441_450/problem_445.rs) - Medium
+ - [Problem 446](src/problems/problems_441_450/problem_446.rs) - Medium
+ - [Problem 447](src/problems/problems_441_450/problem_447.rs) - Medium
+ - [Problem 448](src/problems/problems_441_450/problem_448.rs) - Hard
+ - [Problem 449](src/problems/problems_441_450/problem_449.rs) - Easy
+ - [Problem 450](src/problems/problems_441_450/problem_450.rs) - Hard
+ - [Problem 451](src/problems/problems_451_460/problem_451.rs) - Easy
+ - [Problem 452](src/problems/problems_451_460/problem_452.rs) - Easy
+ - [Problem 453](src/problems/problems_451_460/problem_453.rs) - Easy
+ - [Problem 454](src/problems/problems_451_460/problem_454.rs) - Medium
+ - [Problem 455](src/problems/problems_451_460/problem_455.rs) - Medium
+ - [Problem 456](src/problems/problems_451_460/problem_456.rs) - Easy
+ - [Problem 457](src/problems/problems_451_460/problem_457.rs) - Hard
+ - [Problem 458](src/problems/problems_451_460/problem_458.rs) - Hard
+ - [Problem 459](src/problems/problems_451_460/problem_459.rs) - Medium
+ - [Problem 460](src/problems/problems_451_460/problem_460.rs) - Medium
+ - [Problem 461](src/problems/problems_461_470/problem_461.rs) - Medium
+ - [Problem 462](src/problems/problems_461_470/problem_462.rs) - Hard
+ - [Problem 463](src/problems/problems_461_470/problem_463.rs) - Easy
+ - [Problem 464](src/problems/problems_461_470/problem_464.rs) - Medium
+ - [Problem 465](src/problems/problems_461_470/problem_465.rs) - Easy
+ - [Problem 466](src/problems/problems_461_470/problem_466.rs) - Easy
+ - [Problem 467](src/problems/problems_461_470/problem_467.rs) - Medium
+ - [Problem 468](src/problems/problems_461_470/problem_468.rs) - Medium
+ - [Problem 469](src/problems/problems_461_470/problem_469.rs) - Medium
+ - [Problem 470](src/problems/problems_461_470/problem_470.rs) - Medium
+ - [Problem 471](src/problems/problems_471_480/problem_471.rs) - Easy
+ - [Problem 472](src/problems/problems_471_480/problem_472.rs) - Medium
 
 </p>
 </details>
