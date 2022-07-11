@@ -26,17 +26,17 @@ fn problem_034(str: &str) -> String {
 
     if str.chars().next().unwrap() == str.chars().nth(str.len() - 1).unwrap() {
         let mut ret = String::from(str.chars().next().unwrap());
-        ret.push_str(&*problem_034(&str[1..str.len() - 1]));
+        ret.push_str(&problem_034(&str[1..str.len() - 1]));
         ret.push(str.chars().nth(str.len() - 1).unwrap());
         return ret;
     }
 
     let mut one = String::from(str.chars().next().unwrap());
-    one.push_str(&*problem_034(&str[1..]));
+    one.push_str(&problem_034(&str[1..]));
     one.push(str.chars().next().unwrap());
 
     let mut two = String::from(str.chars().nth(str.len() - 1).unwrap());
-    two.push_str(&*problem_034(&str[..str.len() - 1]));
+    two.push_str(&problem_034(&str[..str.len() - 1]));
     two.push(str.chars().nth(str.len() - 1).unwrap());
 
     if one.len() < two.len() {
