@@ -9,8 +9,8 @@ fn is_valid(board: Vec<usize>) -> bool {
     let current_queen_row = (board.len() - 1) as i64;
     let current_queen_col = board[board.len() - 1] as i64;
 
-    print!("Board:");
-    print!("{:#?}", board);
+    // print!("Board:");
+    // print!("{:#?}", board);
 
     for (row, val) in board.iter().enumerate().take(board.len() - 1) {
         let diff = (current_queen_col - *val as i64).abs();
