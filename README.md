@@ -3,7 +3,7 @@
 My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) in Rust
 
 <!-- start completed section -->
-## Completed ⭐️ - 45
+## Completed ⭐️ - 46
 <details><summary>Completed</summary>
 <p>
 
@@ -34,6 +34,7 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
  - [Problem 033](src/problems/problems_031_040/problem_033.rs) - Easy
  - [Problem 034](src/problems/problems_031_040/problem_034.rs) - Medium
  - [Problem 035](src/problems/problems_031_040/problem_035.rs) - Hard
+ - [Problem 036](src/problems/problems_031_040/problem_036.rs) - Medium
  - [Problem 037](src/problems/problems_031_040/problem_037.rs) - Easy
  - [Problem 038](src/problems/problems_031_040/problem_038.rs) - Hard
  - [Problem 039](src/problems/problems_031_040/problem_039.rs) - Medium
@@ -59,13 +60,10 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
 <!-- end completed section -->
 
 <!-- start missing section -->
-## Missing ❌️ - 432
+## Missing ❌️ - 429
 <details><summary>Missing</summary>
 <p>
 
- - [Problem 024](src/problems/problems_021_030/problem_024.rs) - Medium
- - [Problem 032](src/problems/problems_031_040/problem_032.rs) - Hard
- - [Problem 036](src/problems/problems_031_040/problem_036.rs) - Medium
  - [Problem 041](src/problems/problems_041_050/problem_041.rs) - Medium
  - [Problem 042](src/problems/problems_041_050/problem_042.rs) - Hard
  - [Problem 046](src/problems/problems_041_050/problem_046.rs) - Hard
@@ -502,7 +500,7 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
 <!-- end missing section -->
 
 <!-- start skipped section -->
-## Skipped️ ⏭️ - 6
+## Skipped️ ⏭️ - 8
 <details><summary>Skipped</summary>
 <p>
 
@@ -511,7 +509,9 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
  - [Problem 010](src/problems/problems_001_010/problem_010.rs) - Medium
  - [Problem 015](src/problems/problems_011_020/problem_015.rs) - Medium
  - [Problem 020](src/problems/problems_011_020/problem_020.rs) - Easy
+ - [Problem 024](src/problems/problems_021_030/problem_024.rs) - Medium
  - [Problem 026](src/problems/problems_021_030/problem_026.rs) - Medium
+ - [Problem 032](src/problems/problems_031_040/problem_032.rs) - Hard
 
 </p>
 </details>
