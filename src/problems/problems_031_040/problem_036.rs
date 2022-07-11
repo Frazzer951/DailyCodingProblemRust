@@ -12,7 +12,9 @@ fn second_largest_helper(root: &BtNode<i32>, c: &mut i32) -> Option<i32> {
 
     if root.r.is_some() {
         let result = second_largest_helper(root.r.as_ref().unwrap().as_ref(), c);
-        if result.is_some() { return result; }
+        if result.is_some() {
+            return result;
+        }
     }
 
     *c += 1;
@@ -23,15 +25,15 @@ fn second_largest_helper(root: &BtNode<i32>, c: &mut i32) -> Option<i32> {
 
     if root.l.is_some() {
         let result = second_largest_helper(root.l.as_ref().unwrap().as_ref(), c);
-        if result.is_some() { return result; }
+        if result.is_some() {
+            return result;
+        }
     }
 
     None
 }
 
-fn problem_036(node: BtNode<i32>) -> i32 {
-    second_largest_helper(&node, &mut 0).unwrap()
-}
+fn problem_036(node: BtNode<i32>) -> i32 { second_largest_helper(&node, &mut 0).unwrap() }
 
 #[cfg(test)]
 mod tests {
