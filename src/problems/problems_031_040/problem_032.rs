@@ -1,4 +1,4 @@
-// NOT DONE
+// SKIPPED
 
 /* HARD
 Suppose you are given a table of currency exchange rates, represented as a 2D

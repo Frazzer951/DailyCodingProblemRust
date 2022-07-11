@@ -1,4 +1,4 @@
-// NOT DONE
+// SKIPPED
 
 /* MEDIUM
 Implement locking in a binary tree. A binary tree node can be locked or unlocked
