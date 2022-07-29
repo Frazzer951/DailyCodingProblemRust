@@ -61,7 +61,7 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
 <!-- end completed section -->
 
 <!-- start missing section -->
-## Missing ❌️ - 439
+## Missing ❌️ - 446
 <details><summary>Missing</summary>
 <p>
 
@@ -504,6 +504,13 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
  - [Problem 492](src/problems/problems_491_500/problem_492.rs) - Medium
  - [Problem 493](src/problems/problems_491_500/problem_493.rs) - Medium
  - [Problem 494](src/problems/problems_491_500/problem_494.rs) - Medium
+ - [Problem 495](src/problems/problems_491_500/problem_495.rs) - Medium
+ - [Problem 496](src/problems/problems_491_500/problem_496.rs) - Easy
+ - [Problem 497](src/problems/problems_491_500/problem_497.rs) - Medium
+ - [Problem 498](src/problems/problems_491_500/problem_498.rs) - Easy
+ - [Problem 499](src/problems/problems_491_500/problem_499.rs) - Easy
+ - [Problem 500](src/problems/problems_491_500/problem_500.rs) - Easy
+ - [Problem 501](src/problems/problems_501_510/problem_501.rs) - Medium
 
 </p>
 </details>
