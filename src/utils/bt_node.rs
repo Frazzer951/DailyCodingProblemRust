@@ -5,7 +5,7 @@ pub struct BtNode<T> {
     pub r:   Option<Box<BtNode<T>>>,
 }
 
-impl<T: std::cmp::PartialEq + std::cmp::PartialOrd + std::clone::Clone> BtNode<T> {
+impl<T: PartialEq + PartialOrd + Clone> BtNode<T> {
     pub fn new(val: T) -> BtNode<T> { BtNode { val, l: None, r: None } }
 
     pub fn new_from_vec(vals: Vec<T>) -> BtNode<T> {

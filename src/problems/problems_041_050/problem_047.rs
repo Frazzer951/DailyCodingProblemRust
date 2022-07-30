@@ -32,7 +32,6 @@ mod tests {
     use super::*;
 
     #[test]
-
     fn test_problem_047() {
         assert_eq!(problem_047(vec![9, 11, 8, 5, 7, 10]), 5);
     }

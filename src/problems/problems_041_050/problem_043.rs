@@ -14,7 +14,7 @@ struct Stack<T> {
     values: Vec<T>,
 }
 
-impl<T: Clone + std::cmp::Ord> Stack<T> {
+impl<T: Clone + Ord> Stack<T> {
     fn new() -> Stack<T> { Stack { values: Vec::new() } }
 
     fn push(&mut self, val: T) { self.values.push(val); }

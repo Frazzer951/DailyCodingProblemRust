@@ -17,7 +17,7 @@ For example, the following tree has 5 unival subtrees:
 
 use crate::utils::bt_node::BtNode;
 
-fn same_children<T: std::cmp::PartialEq>(root: &BtNode<T>) -> bool {
+fn same_children<T: PartialEq>(root: &BtNode<T>) -> bool {
     if root.l.is_none() && root.r.is_none() {
         return true;
     }
@@ -43,7 +43,7 @@ fn same_children<T: std::cmp::PartialEq>(root: &BtNode<T>) -> bool {
     left && right
 }
 
-fn count_unival_tree<T: std::cmp::PartialEq>(root: &BtNode<T>) -> i64 {
+fn count_unival_tree<T: PartialEq>(root: &BtNode<T>) -> i64 {
     if root.l.is_none() && root.r.is_none() {
         return 1;
     }

@@ -5,6 +5,8 @@ Monte Carlo method.
 Hint: The basic equation of a circle is x2 + y2 = r2.
 */
 
+use rand::Rng;
+
 #[allow(unused_macros)]
 macro_rules! assert_delta {
     ($x:expr, $y:expr, $d:expr) => {
@@ -14,8 +16,6 @@ macro_rules! assert_delta {
         }
     };
 }
-
-use rand::Rng;
 
 fn monte_carlo_pi() -> f64 {
     let iterations = 100000;
