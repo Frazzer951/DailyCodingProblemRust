@@ -21,21 +21,20 @@ impl<T: std::cmp::PartialEq + std::cmp::PartialOrd + std::clone::Clone> BtNode<T
     }
 
     pub fn insert(&mut self, new_val: T) {
-        if self.val == new_val {
-            return;
-        }
-        let target_node = if new_val < self.val { &mut self.l } else { &mut self.r };
-        match *target_node {
-            Some(ref mut subnode) => subnode.insert(new_val),
-            None => {
-                let new_node = BtNode {
-                    val: new_val,
-                    l:   None,
-                    r:   None,
-                };
-                let boxed_node = Some(Box::new(new_node));
-                *target_node = boxed_node;
-            },
+        if self.val != new_val {
+            let target_node = if new_val < self.val { &mut self.l } else { &mut self.r };
+            match *target_node {
+                Some(ref mut sub_node) => sub_node.insert(new_val),
+                None => {
+                    let new_node = BtNode {
+                        val: new_val,
+                        l:   None,
+                        r:   None,
+                    };
+                    let boxed_node = Some(Box::new(new_node));
+                    *target_node = boxed_node;
+                },
+            }
         }
     }
 
