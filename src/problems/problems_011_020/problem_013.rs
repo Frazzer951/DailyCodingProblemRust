@@ -39,5 +39,6 @@ mod tests {
     #[test]
     fn test_problem_013() {
         assert_eq!(problem_013(String::from("abcba"), 2), 3);
+        assert_eq!(problem_013(String::from("abcba"), 0), 0);
     }
 }
