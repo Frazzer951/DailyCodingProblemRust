@@ -1,15 +1,15 @@
+<div align="center">
+
 # DailyCodingProblem
 
 My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) in Rust
-
-<div align="center">
 
 [![codecov](https://codecov.io/gh/Frazzer951/DailyCodingProblemRust/branch/main/graph/badge.svg?token=BBF04PUALA)](https://codecov.io/gh/Frazzer951/DailyCodingProblemRust)
 
 [![codecov](https://codecov.io/gh/Frazzer951/DailyCodingProblemRust/branch/main/graphs/sunburst.svg?token=BBF04PUALA
 )](https://codecov.io/gh/Frazzer951/DailyCodingProblemRust)
 
-</div>
+
 
 <!-- start completed section -->
 ## Completed ⭐️ - 48
@@ -544,3 +544,5 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
 </details>
 
 <!-- end skipped section -->
+
+</div>
