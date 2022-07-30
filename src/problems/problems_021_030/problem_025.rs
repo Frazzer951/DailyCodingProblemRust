@@ -16,7 +16,7 @@ return true. The same regular expression on the string "chats" should return
 false.
 */
 
-fn problem_025(str: String, exp: String) -> bool {
+fn is_match(str: String, exp: String) -> bool {
     let mut str_index = 0;
 
     for i in 0..exp.len() {
@@ -48,11 +48,19 @@ mod tests {
     use super::*;
 
     #[test]
+    fn test_is_match_1() {
+        assert!(is_match(String::from("ray"), String::from("ra.")));
+        assert!(!is_match(String::from("raymond"), String::from("ra.")));
+    }
 
-    fn test_problem_025() {
-        assert!(problem_025(String::from("ray"), String::from("ra.")));
-        assert!(!problem_025(String::from("raymond"), String::from("ra.")));
-        assert!(problem_025(String::from("chat"), String::from(".*at")));
-        assert!(!problem_025(String::from("chats"), String::from(".*at")));
+    #[test]
+    fn test_is_match_2() {
+        assert!(is_match(String::from("chat"), String::from(".*at")));
+        assert!(!is_match(String::from("chats"), String::from(".*at")));
+    }
+
+    #[test]
+    fn test_is_match_3() {
+        assert!(!is_match(String::from("cat"), String::from("hat")));
     }
 }
