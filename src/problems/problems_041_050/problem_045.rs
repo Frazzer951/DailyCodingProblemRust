@@ -35,7 +35,9 @@ mod tests {
 
     #[test]
     fn test_problem_045() {
-        let val = rand7();
-        assert!(val <= 7 || val >= 1);
+        for _ in 0..100 {
+            let val = rand7();
+            assert!(val <= 7 || val >= 1);
+        }
     }
 }
