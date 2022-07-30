@@ -37,5 +37,6 @@ mod tests {
         assert_eq!(problem_009(vec! {5, 1, 1, 5}), 10);
         assert_eq!(problem_009(vec! {5, 1, 1, 5, 1, 3}), 13);
         assert_eq!(problem_009(vec! {1, 7, 3, 4, 1, 1, 10}), 21);
+        assert_eq!(problem_009(vec! {-1}), 0);
     }
 }
