@@ -19,24 +19,24 @@ fn is_palindrome(str: &str) -> bool {
     str == reverse
 }
 
-fn problem_034(str: &str) -> String {
+fn create_palindrome(str: &str) -> String {
     if is_palindrome(str) {
         return String::from(str);
     }
 
     if str.chars().next().unwrap() == str.chars().nth(str.len() - 1).unwrap() {
         let mut ret = String::from(str.chars().next().unwrap());
-        ret.push_str(&problem_034(&str[1..str.len() - 1]));
+        ret.push_str(&create_palindrome(&str[1..str.len() - 1]));
         ret.push(str.chars().nth(str.len() - 1).unwrap());
         return ret;
     }
 
     let mut one = String::from(str.chars().next().unwrap());
-    one.push_str(&problem_034(&str[1..]));
+    one.push_str(&create_palindrome(&str[1..]));
     one.push(str.chars().next().unwrap());
 
     let mut two = String::from(str.chars().nth(str.len() - 1).unwrap());
-    two.push_str(&problem_034(&str[..str.len() - 1]));
+    two.push_str(&create_palindrome(&str[..str.len() - 1]));
     two.push(str.chars().nth(str.len() - 1).unwrap());
 
     if one.len() < two.len() {
@@ -55,7 +55,11 @@ mod tests {
 
     #[test]
     fn test_problem_034() {
-        assert_eq!(problem_034("race"), String::from("ecarace"));
-        assert_eq!(problem_034("google"), String::from("elgoogle"));
+        assert_eq!(create_palindrome("race"), String::from("ecarace"));
+        assert_eq!(create_palindrome("google"), String::from("elgoogle"));
+        assert_eq!(create_palindrome("a"), String::from("a"));
+        assert_eq!(create_palindrome("aa"), String::from("aa"));
+        assert_eq!(create_palindrome("alsa"), String::from("alsla"));
+        assert_eq!(create_palindrome("abb"), String::from("abba"));
     }
 }
