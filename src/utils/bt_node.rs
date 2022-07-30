@@ -115,4 +115,19 @@ mod tests {
             },
         );
     }
+
+    #[test]
+    fn test_bt_duplicate_insert() {
+        let mut root = BtNode::new("a");
+        root.insert("a");
+
+        assert_eq!(
+            root,
+            BtNode {
+                val: "a",
+                l:   None,
+                r:   None,
+            },
+        );
+    }
 }
