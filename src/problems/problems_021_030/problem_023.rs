@@ -46,14 +46,14 @@ fn get_walkable_neighbors(board: &[Vec<bool>], point: &Point) -> Vec<Point> {
     neighbors
 }
 
-fn shortest_path(board: Vec<Vec<bool>>, start: Point, end: Point) -> i64 {
+fn shortest_path(board: Vec<Vec<bool>>, start: Point, end: Point) -> Option<i64> {
     let mut seen = HashSet::new();
     let mut queue = VecDeque::from([(start, 0)]);
 
     while !queue.is_empty() {
         let (coords, count) = queue.pop_front().unwrap();
         if coords == end {
-            return count;
+            return Some(count);
         }
         seen.insert(coords.clone());
         let neighbors = get_walkable_neighbors(&board, &coords);
@@ -64,7 +64,7 @@ fn shortest_path(board: Vec<Vec<bool>>, start: Point, end: Point) -> i64 {
         }
     }
 
-    0
+    None
 }
 
 #[cfg(test)]
@@ -72,7 +72,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn test_problem_023() {
+    fn test_problem_023_1() {
         assert_eq!(
             shortest_path(
                 vec![
@@ -84,7 +84,24 @@ mod tests {
                 Point(3, 0),
                 Point(0, 0),
             ),
-            7
+            Some(7)
+        );
+    }
+
+    #[test]
+    fn test_problem_023_2() {
+        assert_eq!(
+            shortest_path(
+                vec![
+                    vec![false, false, false, false],
+                    vec![true, true, true, true],
+                    vec![false, false, false, false],
+                    vec![false, false, false, false],
+                ],
+                Point(3, 0),
+                Point(0, 0),
+            ),
+            None
         );
     }
 }
