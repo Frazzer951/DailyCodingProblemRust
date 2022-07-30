@@ -49,7 +49,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn test_problem_050() {
+    fn test_problem_050_1() {
         let root = BtNode {
             val: '*',
             l:   Some(Box::new(BtNode {
@@ -80,5 +80,39 @@ mod tests {
             })),
         };
         assert_eq!(problem_050(root), 45);
+    }
+
+    #[test]
+    fn test_problem_050_2() {
+        let root = BtNode {
+            val: '/',
+            l:   Some(Box::new(BtNode {
+                val: '-',
+                l:   Some(Box::new(BtNode {
+                    val: '7',
+                    l:   None,
+                    r:   None,
+                })),
+                r:   Some(Box::new(BtNode {
+                    val: '3',
+                    l:   None,
+                    r:   None,
+                })),
+            })),
+            r:   Some(Box::new(BtNode {
+                val: '-',
+                l:   Some(Box::new(BtNode {
+                    val: '4',
+                    l:   None,
+                    r:   None,
+                })),
+                r:   Some(Box::new(BtNode {
+                    val: '2',
+                    l:   None,
+                    r:   None,
+                })),
+            })),
+        };
+        assert_eq!(problem_050(root), 2);
     }
 }
