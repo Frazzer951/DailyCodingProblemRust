@@ -33,7 +33,7 @@ fn is_valid_sudoku(board: &[[u8; 9]; 9], row: usize, col: usize, num: u8) -> boo
     true
 }
 
-fn solve_sudoku(board: &mut [[u8; 9]; 9], mut row: usize, mut col: usize) -> bool {
+fn solve_sudoku_helper(board: &mut [[u8; 9]; 9], mut row: usize, mut col: usize) -> bool {
     if row == 8 && col == 9 {
         return true;
     }
@@ -44,14 +44,14 @@ fn solve_sudoku(board: &mut [[u8; 9]; 9], mut row: usize, mut col: usize) -> boo
     }
 
     if board[row][col] > 0 {
-        return solve_sudoku(board, row, col + 1);
+        return solve_sudoku_helper(board, row, col + 1);
     }
 
     for num in 1..=9 {
         if is_valid_sudoku(board, row, col, num) {
             board[row][col] = num;
 
-            if solve_sudoku(board, row, col + 1) {
+            if solve_sudoku_helper(board, row, col + 1) {
                 return true;
             }
         }
@@ -61,12 +61,13 @@ fn solve_sudoku(board: &mut [[u8; 9]; 9], mut row: usize, mut col: usize) -> boo
     false
 }
 
-fn problem_054(mut board: [[u8; 9]; 9]) -> [[u8; 9]; 9] {
-    if solve_sudoku(&mut board, 0, 0) {
-        board
+fn solve_sudoku(mut board: [[u8; 9]; 9]) -> Option<[[u8; 9]; 9]> {
+    if solve_sudoku_helper(&mut board, 0, 0) {
+        Some(board)
     } else {
         println!("{:#?}", board);
-        panic!("Sudoku is unsolvable");
+        println!("Sudoku is unsolvable");
+        None
     }
 }
 
@@ -77,9 +78,9 @@ mod tests {
     use super::*;
 
     #[test]
-    fn test_problem_054() {
+    fn test_solve_sudoku() {
         assert_eq!(
-            problem_054([
+            solve_sudoku([
                 [0, 0, 0, 0, 9, 3, 0, 0, 0],
                 [7, 0, 0, 0, 0, 5, 0, 0, 0],
                 [0, 3, 5, 8, 0, 2, 0, 9, 0],
@@ -90,7 +91,7 @@ mod tests {
                 [0, 0, 0, 6, 0, 0, 0, 0, 1],
                 [0, 0, 0, 3, 2, 0, 0, 0, 0],
             ]),
-            [
+            Some([
                 [2, 8, 4, 7, 9, 3, 1, 6, 5],
                 [7, 6, 9, 4, 1, 5, 3, 2, 8],
                 [1, 3, 5, 8, 6, 2, 4, 9, 7],
@@ -100,7 +101,25 @@ mod tests {
                 [5, 4, 6, 1, 7, 8, 9, 3, 2],
                 [3, 9, 2, 6, 5, 4, 8, 7, 1],
                 [8, 1, 7, 3, 2, 9, 5, 4, 6],
-            ]
+            ])
+        );
+    }
+
+    #[test]
+    fn test_solve_sudoku_no_solution() {
+        assert_eq!(
+            solve_sudoku([
+                [7, 0, 0, 0, 9, 3, 0, 0, 0],
+                [7, 0, 0, 0, 0, 5, 0, 0, 0],
+                [0, 3, 5, 8, 0, 2, 0, 9, 0],
+                [4, 5, 0, 2, 0, 0, 6, 0, 0],
+                [0, 2, 0, 5, 4, 6, 0, 8, 0],
+                [0, 0, 3, 0, 0, 1, 0, 5, 4],
+                [0, 4, 0, 1, 0, 8, 9, 3, 0],
+                [0, 0, 0, 6, 0, 0, 0, 0, 1],
+                [0, 0, 0, 3, 2, 0, 0, 0, 0],
+            ]),
+            None
         );
     }
 }
