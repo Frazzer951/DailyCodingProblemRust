@@ -1,4 +1,4 @@
-// NOT DONE
+// SKIPPED
 
 /* MEDIUM
 Given a function that generates perfectly random numbers between 1 and k

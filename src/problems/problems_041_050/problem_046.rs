@@ -1,4 +1,4 @@
-// NOT DONE
+// SKIPPED
 
 /* HARD
 Given a string, find the longest palindromic contiguous substring. If there are
