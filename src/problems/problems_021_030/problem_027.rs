@@ -9,7 +9,7 @@ Given the string "([)]" or "((()", you should return false.
 
 use std::collections::VecDeque;
 
-fn problem_027(string: &str) -> bool {
+fn is_bracket_balanced(string: &str) -> bool {
     let mut next_bracket = VecDeque::new();
 
     for c in string.chars() {
@@ -40,9 +40,14 @@ mod tests {
     use super::*;
 
     #[test]
-    fn test_problem_027() {
-        assert!(problem_027("([])[]({})"));
-        assert!(!problem_027("([)]"));
-        assert!(!problem_027("((()"));
+    fn test_is_bracket_balanced() {
+        assert!(is_bracket_balanced("([])[]({})"));
+        assert!(!is_bracket_balanced("([)]"));
+        assert!(!is_bracket_balanced("((()"));
+        assert!(!is_bracket_balanced("())"));
     }
+
+    #[test]
+    #[should_panic]
+    fn test_is_bracket_balanced_panic() { is_bracket_balanced("a"); }
 }
