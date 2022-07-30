@@ -6,10 +6,6 @@ tree.
 use crate::utils::bt_node::BtNode;
 
 fn second_largest_helper(root: &BtNode<i32>, c: &mut i32) -> Option<i32> {
-    if *c >= 2 {
-        return None;
-    }
-
     if root.r.is_some() {
         let result = second_largest_helper(root.r.as_ref().unwrap().as_ref(), c);
         if result.is_some() {
@@ -33,7 +29,7 @@ fn second_largest_helper(root: &BtNode<i32>, c: &mut i32) -> Option<i32> {
     None
 }
 
-fn problem_036(node: BtNode<i32>) -> i32 { second_largest_helper(&node, &mut 0).unwrap() }
+fn bst_second_largest(node: BtNode<i32>) -> i32 { second_largest_helper(&node, &mut 0).unwrap() }
 
 #[cfg(test)]
 mod tests {
@@ -41,16 +37,16 @@ mod tests {
 
     #[test]
     fn test_problem_036_1() {
-        assert_eq!(problem_036(BtNode::new_from_vec(vec![1, 2, 3, 4])), 3);
+        assert_eq!(bst_second_largest(BtNode::new_from_vec(vec![1, 2, 3, 4])), 3);
     }
 
     #[test]
     fn test_problem_036_2() {
-        assert_eq!(problem_036(BtNode::new_from_vec(vec![4, 3, 2, 1])), 3);
+        assert_eq!(bst_second_largest(BtNode::new_from_vec(vec![4, 3, 2, 1])), 3);
     }
 
     #[test]
     fn test_problem_036_3() {
-        assert_eq!(problem_036(BtNode::new_from_vec(vec![3, 2, 1, 4])), 3);
+        assert_eq!(bst_second_largest(BtNode::new_from_vec(vec![3, 2, 1, 4])), 3);
     }
 }
