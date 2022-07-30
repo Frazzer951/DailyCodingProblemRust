@@ -9,7 +9,7 @@ For example, given the array ['G', 'B', 'R', 'R', 'B', 'R', 'G'], it should
 become ['R', 'R', 'R', 'G', 'G', 'B', 'B'].
 */
 
-fn problem_035(arr: &mut [char]) {
+fn rgb_sort(arr: &mut [char]) {
     let mut r = 0;
     let mut g = 0;
     let mut b = 0;
@@ -41,7 +41,7 @@ fn problem_035(arr: &mut [char]) {
                 arr.swap(i, b - 1);
                 b -= 1;
             },
-            _ => panic!("How did you get here?"),
+            _ => {},
         }
     }
 }
@@ -51,9 +51,13 @@ mod tests {
     use super::*;
 
     #[test]
-    fn test_problem_035() {
+    fn test_rgb_sort() {
         let mut vec = vec!['G', 'B', 'R', 'R', 'B', 'R', 'G'];
-        problem_035(&mut vec);
+        rgb_sort(&mut vec);
         assert_eq!(vec, vec!['R', 'R', 'R', 'G', 'G', 'B', 'B']);
     }
+
+    #[test]
+    #[should_panic]
+    fn test_rgb_sort_panic() { rgb_sort(&mut ['A']); }
 }
