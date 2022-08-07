@@ -12,7 +12,7 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
 
 
 <!-- start completed section -->
-## Completed ⭐️ - 48
+## Completed ⭐️ - 50
 <details><summary>Completed</summary>
 <p>
 
@@ -56,7 +56,9 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
  - [Problem 049](src/problems/problems_041_050/problem_049.rs) - Medium
  - [Problem 050](src/problems/problems_041_050/problem_050.rs) - Easy
  - [Problem 052](src/problems/problems_051_060/problem_052.rs) - Hard
+ - [Problem 053](src/problems/problems_051_060/problem_053.rs) - Medium
  - [Problem 054](src/problems/problems_051_060/problem_054.rs) - Hard
+ - [Problem 055](src/problems/problems_051_060/problem_055.rs) - Easy
  - [Problem 062](src/problems/problems_061_070/problem_062.rs) - Medium
  - [Problem 063](src/problems/problems_061_070/problem_063.rs) - Easy
  - [Problem 338](src/problems/problems_331_340/problem_338.rs) - Medium
@@ -71,12 +73,10 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
 <!-- end completed section -->
 
 <!-- start missing section -->
-## Missing ❌️ - 441
+## Missing ❌️ - 448
 <details><summary>Missing</summary>
 <p>
 
- - [Problem 053](src/problems/problems_051_060/problem_053.rs) - Medium
- - [Problem 055](src/problems/problems_051_060/problem_055.rs) - Easy
  - [Problem 056](src/problems/problems_051_060/problem_056.rs) - Medium
  - [Problem 057](src/problems/problems_051_060/problem_057.rs) - Medium
  - [Problem 058](src/problems/problems_051_060/problem_058.rs) - Medium
@@ -516,6 +516,15 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
  - [Problem 499](src/problems/problems_491_500/problem_499.rs) - Easy
  - [Problem 500](src/problems/problems_491_500/problem_500.rs) - Easy
  - [Problem 501](src/problems/problems_501_510/problem_501.rs) - Medium
+ - [Problem 502](src/problems/problems_501_510/problem_502.rs) - Easy
+ - [Problem 503](src/problems/problems_501_510/problem_503.rs) - Medium
+ - [Problem 504](src/problems/problems_501_510/problem_504.rs) - Easy
+ - [Problem 505](src/problems/problems_501_510/problem_505.rs) - Easy
+ - [Problem 506](src/problems/problems_501_510/problem_506.rs) - Medium
+ - [Problem 507](src/problems/problems_501_510/problem_507.rs) - Easy
+ - [Problem 508](src/problems/problems_501_510/problem_508.rs) - Medium
+ - [Problem 509](src/problems/problems_501_510/problem_509.rs) - Medium
+ - [Problem 510](src/problems/problems_501_510/problem_510.rs) - Hard
 
 </p>
 </details>
