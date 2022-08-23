@@ -73,7 +73,7 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
 <!-- end completed section -->
 
 <!-- start missing section -->
-## Missing ❌️ - 448
+## Missing ❌️ - 463
 <details><summary>Missing</summary>
 <p>
 
@@ -525,6 +525,21 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
  - [Problem 508](src/problems/problems_501_510/problem_508.rs) - Medium
  - [Problem 509](src/problems/problems_501_510/problem_509.rs) - Medium
  - [Problem 510](src/problems/problems_501_510/problem_510.rs) - Hard
+ - [Problem 511](src/problems/problems_511_520/problem_511.rs) - Medium
+ - [Problem 512](src/problems/problems_511_520/problem_512.rs) - Medium
+ - [Problem 513](src/problems/problems_511_520/problem_513.rs) - Medium
+ - [Problem 514](src/problems/problems_511_520/problem_514.rs) - Medium
+ - [Problem 515](src/problems/problems_511_520/problem_515.rs) - Medium
+ - [Problem 516](src/problems/problems_511_520/problem_516.rs) - Easy
+ - [Problem 517](src/problems/problems_511_520/problem_517.rs) - Easy
+ - [Problem 518](src/problems/problems_511_520/problem_518.rs) - Easy
+ - [Problem 519](src/problems/problems_511_520/problem_519.rs) - Medium
+ - [Problem 520](src/problems/problems_511_520/problem_520.rs) - Hard
+ - [Problem 521](src/problems/problems_521_530/problem_521.rs) - Medium
+ - [Problem 522](src/problems/problems_521_530/problem_522.rs) - Medium
+ - [Problem 523](src/problems/problems_521_530/problem_523.rs) - Easy
+ - [Problem 524](src/problems/problems_521_530/problem_524.rs) - Medium
+ - [Problem 525](src/problems/problems_521_530/problem_525.rs) - Easy
 
 </p>
 </details>

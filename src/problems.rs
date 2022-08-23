@@ -49,3 +49,5 @@ mod problems_471_480;
 mod problems_481_490;
 mod problems_491_500;
 mod problems_501_510;
+mod problems_511_520;
+mod problems_521_530;
