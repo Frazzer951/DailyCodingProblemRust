@@ -12,7 +12,7 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
 
 
 <!-- start completed section -->
-## Completed ⭐️ - 50
+## Completed ⭐️ - 51
 <details><summary>Completed</summary>
 <p>
 
@@ -59,6 +59,7 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
  - [Problem 053](src/problems/problems_051_060/problem_053.rs) - Medium
  - [Problem 054](src/problems/problems_051_060/problem_054.rs) - Hard
  - [Problem 055](src/problems/problems_051_060/problem_055.rs) - Easy
+ - [Problem 057](src/problems/problems_051_060/problem_057.rs) - Medium
  - [Problem 062](src/problems/problems_061_070/problem_062.rs) - Medium
  - [Problem 063](src/problems/problems_061_070/problem_063.rs) - Easy
  - [Problem 338](src/problems/problems_331_340/problem_338.rs) - Medium
@@ -73,12 +74,11 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
 <!-- end completed section -->
 
 <!-- start missing section -->
-## Missing ❌️ - 463
+## Missing ❌️ - 462
 <details><summary>Missing</summary>
 <p>
 
  - [Problem 056](src/problems/problems_051_060/problem_056.rs) - Medium
- - [Problem 057](src/problems/problems_051_060/problem_057.rs) - Medium
  - [Problem 058](src/problems/problems_051_060/problem_058.rs) - Medium
  - [Problem 059](src/problems/problems_051_060/problem_059.rs) - Hard
  - [Problem 060](src/problems/problems_051_060/problem_060.rs) - Medium
