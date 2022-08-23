@@ -27,7 +27,7 @@ impl Queue {
         self.swap_stacks();
         let val = self.read.pop();
         self.swap_stacks();
-        return val;
+        val
     }
 
     fn swap_stacks(&mut self) {
