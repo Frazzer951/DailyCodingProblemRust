@@ -1,4 +1,4 @@
-// NOT DONE
+// SKIPPED
 
 /* MEDIUM
 Given an undirected graph represented as an adjacency matrix and an integer k,
