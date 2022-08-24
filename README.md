@@ -12,7 +12,7 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
 
 
 <!-- start completed section -->
-## Completed ⭐️ - 51
+## Completed ⭐️ - 52
 <details><summary>Completed</summary>
 <p>
 
@@ -60,6 +60,7 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
  - [Problem 054](src/problems/problems_051_060/problem_054.rs) - Hard
  - [Problem 055](src/problems/problems_051_060/problem_055.rs) - Easy
  - [Problem 057](src/problems/problems_051_060/problem_057.rs) - Medium
+ - [Problem 058](src/problems/problems_051_060/problem_058.rs) - Medium
  - [Problem 062](src/problems/problems_061_070/problem_062.rs) - Medium
  - [Problem 063](src/problems/problems_061_070/problem_063.rs) - Easy
  - [Problem 338](src/problems/problems_331_340/problem_338.rs) - Medium
@@ -74,13 +75,10 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
 <!-- end completed section -->
 
 <!-- start missing section -->
-## Missing ❌️ - 462
+## Missing ❌️ - 459
 <details><summary>Missing</summary>
 <p>
 
- - [Problem 056](src/problems/problems_051_060/problem_056.rs) - Medium
- - [Problem 058](src/problems/problems_051_060/problem_058.rs) - Medium
- - [Problem 059](src/problems/problems_051_060/problem_059.rs) - Hard
  - [Problem 060](src/problems/problems_051_060/problem_060.rs) - Medium
  - [Problem 061](src/problems/problems_061_070/problem_061.rs) - Medium
  - [Problem 064](src/problems/problems_061_070/problem_064.rs) - Hard
@@ -547,7 +545,7 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
 <!-- end missing section -->
 
 <!-- start skipped section -->
-## Skipped️ ⏭️ - 12
+## Skipped️ ⏭️ - 14
 <details><summary>Skipped</summary>
 <p>
 
@@ -563,6 +561,8 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
  - [Problem 046](src/problems/problems_041_050/problem_046.rs) - Hard
  - [Problem 048](src/problems/problems_041_050/problem_048.rs) - Medium
  - [Problem 051](src/problems/problems_051_060/problem_051.rs) - Medium
+ - [Problem 056](src/problems/problems_051_060/problem_056.rs) - Medium
+ - [Problem 059](src/problems/problems_051_060/problem_059.rs) - Hard
 
 </p>
 </details>
