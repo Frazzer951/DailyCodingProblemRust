@@ -1,4 +1,4 @@
-// NOT DONE
+// SKIPPED
 
 /* HARD
 Implement a file syncing algorithm for two computers over a low-bandwidth
