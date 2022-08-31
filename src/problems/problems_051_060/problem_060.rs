@@ -1,4 +1,4 @@
-// NOT DONE
+// SKIPPED
 
 /* MEDIUM
 Given a multiset of integers, return whether it can be partitioned into two

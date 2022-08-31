@@ -1,4 +1,4 @@
-// NOT DONE
+// SKIPPED
 
 /* HARD
 A knight's tour is a sequence of moves by a knight on a chessboard such that all

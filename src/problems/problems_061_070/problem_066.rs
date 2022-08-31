@@ -1,4 +1,4 @@
-// NOT DONE
+// SKIPPED
 
 /* MEDIUM
 Assume you have access to a function toss_biased() which returns 0 or 1 with a
