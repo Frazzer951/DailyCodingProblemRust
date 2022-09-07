@@ -1,4 +1,4 @@
-// NOT DONE
+// SKIPPED
 
 /* EASY
 Using a function rand7() that returns an integer from 1 to 7 (inclusive) with
