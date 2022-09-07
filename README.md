@@ -12,7 +12,7 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
 
 
 <!-- start completed section -->
-## Completed ⭐️ - 57
+## Completed ⭐️ - 58
 <details><summary>Completed</summary>
 <p>
 
@@ -68,6 +68,7 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
  - [Problem 068](src/problems/problems_061_070/problem_068.rs) - Medium
  - [Problem 069](src/problems/problems_061_070/problem_069.rs) - Easy
  - [Problem 070](src/problems/problems_061_070/problem_070.rs) - Easy
+ - [Problem 074](src/problems/problems_071_080/problem_074.rs) - Medium
  - [Problem 338](src/problems/problems_331_340/problem_338.rs) - Medium
  - [Problem 339](src/problems/problems_331_340/problem_339.rs) - Easy
  - [Problem 340](src/problems/problems_331_340/problem_340.rs) - Easy
@@ -80,14 +81,12 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
 <!-- end completed section -->
 
 <!-- start missing section -->
-## Missing ❌️ - 464
+## Missing ❌️ - 462
 <details><summary>Missing</summary>
 <p>
 
- - [Problem 071](src/problems/problems_071_080/problem_071.rs) - Easy
  - [Problem 072](src/problems/problems_071_080/problem_072.rs) - Hard
  - [Problem 073](src/problems/problems_071_080/problem_073.rs) - Easy
- - [Problem 074](src/problems/problems_071_080/problem_074.rs) - Medium
  - [Problem 075](src/problems/problems_071_080/problem_075.rs) - Hard
  - [Problem 076](src/problems/problems_071_080/problem_076.rs) - Medium
  - [Problem 077](src/problems/problems_071_080/problem_077.rs) - Easy
@@ -555,7 +554,7 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
 <!-- end missing section -->
 
 <!-- start skipped section -->
-## Skipped️ ⏭️ - 18
+## Skipped️ ⏭️ - 19
 <details><summary>Skipped</summary>
 <p>
 
@@ -577,6 +576,7 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
  - [Problem 064](src/problems/problems_061_070/problem_064.rs) - Hard
  - [Problem 066](src/problems/problems_061_070/problem_066.rs) - Medium
  - [Problem 067](src/problems/problems_061_070/problem_067.rs) - Hard
+ - [Problem 071](src/problems/problems_071_080/problem_071.rs) - Easy
 
 </p>
 </details>
