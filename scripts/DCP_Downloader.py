@@ -110,6 +110,8 @@ def get_problems(emails, force_refresh=False):
             logging.info(f"Skipping Problem #{number}, Already Parsed")
             continue
 
+        body = emails[number]["body"]
+
         group = re.match(
             "(?:(?:.*asked by (?:.*?)\.)|(?:.*This is your coding interview problem for today\.))(.*)(?:(?:We will be .*)|(?:^-+.*Upgrade.*))",
             body,
@@ -179,8 +181,8 @@ def gen_problem(problems, num):
     )
 
 
-def add_problems(cache_only=False, force_refresh=False):
-    if cache_only:
+def add_problems(cache_only=(False, False), force_refresh=False):
+    if cache_only[0]:
         logging.info("Loading Emails Cache")
         problems = load_emails()
     else:
@@ -188,17 +190,17 @@ def add_problems(cache_only=False, force_refresh=False):
         problems = get_emails(force_refresh)
     save_emails(problems)
 
-    # if cache_only:
-    #     logging.info("Loading Problems Cache")
-    #     problems = load_problems()
-    # else:
-    #     logging.info("Loading Problems")
-    #     problems = get_problems(problems, force_refresh)
-    # save_problems(problems)
+    if cache_only[1]:
+        logging.info("Loading Problems Cache")
+        problems = load_problems()
+    else:
+        logging.info("Loading Problems")
+        problems = get_problems(problems, force_refresh)
+    save_problems(problems)
 
-    # for num in problems:
-    #     gen_problem(problems, int(num))
+    for num in problems:
+        gen_problem(problems, int(num))
 
 
 if __name__ == "__main__":
-    add_problems()
+    add_problems((True, True))
