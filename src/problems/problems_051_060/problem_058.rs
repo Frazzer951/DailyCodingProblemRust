@@ -67,6 +67,21 @@ mod tests {
     }
 
     #[test]
+    fn test_problem_058_2() {
+        assert_eq!(shifted_array_search(vec![2, 8, 10, 13, 18, 25], 8), Some(1));
+    }
+
+    #[test]
+    fn test_problem_058_3() {
+        assert_eq!(shifted_array_search(vec![25, 2, 8, 10, 13, 18], 10), Some(3));
+    }
+
+    #[test]
+    fn test_problem_058_4() {
+        assert_eq!(shifted_array_search(vec![25, 2, 8, 10, 13, 18], 25), Some(0));
+    }
+
+    #[test]
     fn test_problem_058_missing() {
         assert_eq!(shifted_array_search(vec![13, 18, 25, 2, 8, 10], 0), None);
     }
