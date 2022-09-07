@@ -3,10 +3,6 @@ edition = "2021"
 name = "daily_coding_problem"
 version = "1.0.0"
 
-
-
 [dependencies]
-imap = "2.4.1"
-native-tls = "0.2.10"
 pretty_assertions = "1.2"
 rand = "0.8"
