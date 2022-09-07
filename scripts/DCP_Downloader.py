@@ -109,16 +109,18 @@ def get_problems(emails, force_refresh=False):
         if number in problems:
             logging.info(f"Skipping Problem #{number}, Already Parsed")
             continue
+        logging.info(f"Parsing Problem #{number}")
 
         body = emails[number]["body"]
 
         group = re.match(
-            "(?:(?:.*asked by (?:.*?)\.)|(?:.*This is your coding interview problem for today\.))(.*)(?:(?:We will be .*)|(?:^-+.*Upgrade.*))",
+            "(?:(?:.*asked (?:.*?)\.)|(?:.*This is your coding interview problem for today\.))(.*)(?:(?:We will be .*)|(?:^-+.*Upgrade.*))",
             body,
             flags=re.S | re.M,
         )
+
         body = group[1].strip().replace("\r", "")
-        problems[number] = {"difficulty": emails[number]['difficulty'], "body": body}
+        problems[number] = {"difficulty": emails[number]["difficulty"], "body": body}
 
     return problems
 
@@ -203,4 +205,4 @@ def add_problems(cache_only=(False, False), force_refresh=False):
 
 
 if __name__ == "__main__":
-    add_problems((True, True))
+    add_problems((False, False))
