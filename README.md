@@ -78,7 +78,7 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
 <!-- end completed section -->
 
 <!-- start missing section -->
-## Missing ❌️ - 452
+## Missing ❌️ - 466
 <details><summary>Missing</summary>
 <p>
 
@@ -534,6 +534,20 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
  - [Problem 523](src/problems/problems_521_530/problem_523.rs) - Easy
  - [Problem 524](src/problems/problems_521_530/problem_524.rs) - Medium
  - [Problem 525](src/problems/problems_521_530/problem_525.rs) - Easy
+ - [Problem 526](src/problems/problems_521_530/problem_526.rs) - Easy
+ - [Problem 527](src/problems/problems_521_530/problem_527.rs) - Medium
+ - [Problem 528](src/problems/problems_521_530/problem_528.rs) - Easy
+ - [Problem 529](src/problems/problems_521_530/problem_529.rs) - Hard
+ - [Problem 530](src/problems/problems_521_530/problem_530.rs) - Easy
+ - [Problem 531](src/problems/problems_531_540/problem_531.rs) - Easy
+ - [Problem 532](src/problems/problems_531_540/problem_532.rs) - Medium
+ - [Problem 533](src/problems/problems_531_540/problem_533.rs) - Easy
+ - [Problem 534](src/problems/problems_531_540/problem_534.rs) - Easy
+ - [Problem 535](src/problems/problems_531_540/problem_535.rs) - Medium
+ - [Problem 536](src/problems/problems_531_540/problem_536.rs) - Medium
+ - [Problem 537](src/problems/problems_531_540/problem_537.rs) - Easy
+ - [Problem 538](src/problems/problems_531_540/problem_538.rs) - Hard
+ - [Problem 539](src/problems/problems_531_540/problem_539.rs) - Easy
 
 </p>
 </details>
