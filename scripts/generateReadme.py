@@ -68,13 +68,19 @@ def create_readme_links(files: List[str]) -> List[str]:
         num = int(file.rstrip(".rs").split("_")[-1])
         section = (num - 1) // 10
         text.append(
-            f" - [Problem {num:03}](src/problems/problems_{section:02}1_{section + 1:02}0/{file}) - {difficulty}")
+            f" - [Problem {num:03}](src/problems/problems_{section:02}1_{section + 1:02}0/{file}) - {difficulty}"
+        )
 
     return text
 
 
 def create_completed_text(problems: List[str]) -> str:
-    text = [f"## Completed ⭐️ - {len(problems)}", "<details><summary>Completed</summary>", "<p>", ""]
+    text = [
+        f"## Completed ⭐️ - {len(problems)}",
+        "<details><summary>Completed</summary>",
+        "<p>",
+        "",
+    ]
     text += create_readme_links(problems)
     text += ["", "</p>", "</details>", ""]
 
@@ -82,7 +88,12 @@ def create_completed_text(problems: List[str]) -> str:
 
 
 def create_missing_text(problems: List[str]) -> str:
-    text = [f"## Missing ❌️ - {len(problems)}", "<details><summary>Missing</summary>", "<p>", ""]
+    text = [
+        f"## Missing ❌️ - {len(problems)}",
+        "<details><summary>Missing</summary>",
+        "<p>",
+        "",
+    ]
     text += create_readme_links(problems)
     text += ["", "</p>", "</details>", ""]
 
@@ -90,7 +101,12 @@ def create_missing_text(problems: List[str]) -> str:
 
 
 def create_skipped_text(problems: List[str]) -> str:
-    text = [f"## Skipped️ ⏭️ - {len(problems)}", "<details><summary>Skipped</summary>", "<p>", ""]
+    text = [
+        f"## Skipped️ ⏭️ - {len(problems)}",
+        "<details><summary>Skipped</summary>",
+        "<p>",
+        "",
+    ]
     text += create_readme_links(problems)
     text += ["", "</p>", "</details>", ""]
 
@@ -107,18 +123,24 @@ def generate_readme():
         current_readme = f.read()
 
     readme = _replace_between_tags(
-        current_readme, create_completed_text(problems['Completed']), "<!-- start completed section -->",
-        "<!-- end completed section -->"
+        current_readme,
+        create_completed_text(problems["Completed"]),
+        "<!-- start completed section -->",
+        "<!-- end completed section -->",
     )
 
     readme = _replace_between_tags(
-        readme, create_missing_text(problems['Incomplete']), "<!-- start missing section -->",
-        "<!-- end missing section -->"
+        readme,
+        create_missing_text(problems["Incomplete"]),
+        "<!-- start missing section -->",
+        "<!-- end missing section -->",
     )
 
     readme = _replace_between_tags(
-        readme, create_skipped_text(problems['Skipped']), "<!-- start skipped section -->",
-        "<!-- end skipped section -->"
+        readme,
+        create_skipped_text(problems["Skipped"]),
+        "<!-- start skipped section -->",
+        "<!-- end skipped section -->",
     )
 
     with open(readme_file, "w", encoding="UTF-8") as f:

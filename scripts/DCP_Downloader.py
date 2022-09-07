@@ -1,10 +1,11 @@
+import email
 import imaplib
 import json
-import email
-import config
 import logging
 import os
 import re
+
+import config
 
 
 def load_emails():
@@ -50,10 +51,10 @@ def get_emails(force_refresh=False):
         body = ""
 
         if number in emails:
-            logging.info(f"Skipping Problem #{number}, Already Parsed")
+            logging.info(f"Skipping Problem #{number}, Already Downloaded")
             continue
 
-        logging.info(f"Parsing Problem #{number}")
+        logging.info(f"Downloading Problem #{number}")
 
         if message.is_multipart():
             for part in message.walk():
@@ -69,18 +70,59 @@ def get_emails(force_refresh=False):
             body = message.get_payload(decode=True)
 
         body = body.decode()
-        group = re.match(
-            "(?:(?:.*asked by (?:.*?)\.)|(?:.*This is your coding interview problem for today\.))(.*)(?:(?:We will be .*)|(?:^-+.*Upgrade.*))",
-            body,
-            flags=re.S | re.M,
-        )
-        body = group[1].strip().replace("\r", "")
+
         emails[number] = {"difficulty": difficulty, "body": body}
 
     m.close()
     m.logout()
 
     return emails
+
+
+def load_problems():
+    """Will load cached problems"""
+    if os.path.isfile(config.proj_dir + "/problems.json"):
+        with open(config.proj_dir + "/problems.json", "r", encoding="UTF-8") as f:
+            logging.debug("Cache Loaded")
+            return json.load(f)
+    else:
+        logging.debug("No cache returning empty dict")
+        return {}
+
+
+def save_problems(problems):
+    """Will Save the cached emails"""
+    with open(config.proj_dir + "/problems.json", "w", encoding="utf-8") as f:
+        json.dump(problems, f, indent=2, sort_keys=True)
+        logging.debug("Cache Saved")
+
+
+def get_problems(emails, force_refresh=False):
+    """Will create problems from emails"""
+
+    if force_refresh:
+        problems = {}
+    else:
+        problems = load_problems()
+
+    for number in emails:
+        if number in problems:
+            logging.info(f"Skipping Problem #{number}, Already Parsed")
+            continue
+        logging.info(f"Parsing Problem #{number}")
+
+        body = emails[number]["body"]
+
+        group = re.match(
+            "(?:(?:.*asked (?:.*?)\.)|(?:.*This is your coding interview problem for today\.))(.*)(?:(?:We will be .*)|(?:^-+.*Upgrade.*))",
+            body,
+            flags=re.S | re.M,
+        )
+
+        body = group[1].strip().replace("\r", "")
+        problems[number] = {"difficulty": emails[number]["difficulty"], "body": body}
+
+    return problems
 
 
 def line_prepender(filename, line):
@@ -141,17 +183,26 @@ def gen_problem(problems, num):
     )
 
 
-def add_problems(cache_only=False, force_refresh=False):
-    if cache_only:
-        logging.info("Loading Cache")
+def add_problems(cache_only=(False, False), force_refresh=False):
+    if cache_only[0]:
+        logging.info("Loading Emails Cache")
         problems = load_emails()
     else:
         logging.info("Loading Emails")
         problems = get_emails(force_refresh)
     save_emails(problems)
+
+    if cache_only[1]:
+        logging.info("Loading Problems Cache")
+        problems = load_problems()
+    else:
+        logging.info("Loading Problems")
+        problems = get_problems(problems, force_refresh)
+    save_problems(problems)
+
     for num in problems:
         gen_problem(problems, int(num))
 
 
 if __name__ == "__main__":
-    add_problems()
+    add_problems((False, False))
