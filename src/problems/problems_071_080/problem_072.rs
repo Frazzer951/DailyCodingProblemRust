@@ -1,4 +1,4 @@
-// NOT DONE
+// SKIPPED
 
 /* HARD
 In a directed graph, each node is assigned an uppercase letter. We define a

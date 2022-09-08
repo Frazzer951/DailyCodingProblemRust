@@ -12,7 +12,7 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
 
 
 <!-- start completed section -->
-## Completed ⭐️ - 58
+## Completed ⭐️ - 60
 <details><summary>Completed</summary>
 <p>
 
@@ -68,7 +68,9 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
  - [Problem 068](src/problems/problems_061_070/problem_068.rs) - Medium
  - [Problem 069](src/problems/problems_061_070/problem_069.rs) - Easy
  - [Problem 070](src/problems/problems_061_070/problem_070.rs) - Easy
+ - [Problem 073](src/problems/problems_071_080/problem_073.rs) - Easy
  - [Problem 074](src/problems/problems_071_080/problem_074.rs) - Medium
+ - [Problem 077](src/problems/problems_071_080/problem_077.rs) - Easy
  - [Problem 338](src/problems/problems_331_340/problem_338.rs) - Medium
  - [Problem 339](src/problems/problems_331_340/problem_339.rs) - Easy
  - [Problem 340](src/problems/problems_331_340/problem_340.rs) - Easy
@@ -81,15 +83,12 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
 <!-- end completed section -->
 
 <!-- start missing section -->
-## Missing ❌️ - 462
+## Missing ❌️ - 461
 <details><summary>Missing</summary>
 <p>
 
- - [Problem 072](src/problems/problems_071_080/problem_072.rs) - Hard
- - [Problem 073](src/problems/problems_071_080/problem_073.rs) - Easy
  - [Problem 075](src/problems/problems_071_080/problem_075.rs) - Hard
  - [Problem 076](src/problems/problems_071_080/problem_076.rs) - Medium
- - [Problem 077](src/problems/problems_071_080/problem_077.rs) - Easy
  - [Problem 078](src/problems/problems_071_080/problem_078.rs) - Medium
  - [Problem 079](src/problems/problems_071_080/problem_079.rs) - Medium
  - [Problem 080](src/problems/problems_071_080/problem_080.rs) - Easy
@@ -547,6 +546,8 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
  - [Problem 537](src/problems/problems_531_540/problem_537.rs) - Easy
  - [Problem 538](src/problems/problems_531_540/problem_538.rs) - Hard
  - [Problem 539](src/problems/problems_531_540/problem_539.rs) - Easy
+ - [Problem 540](src/problems/problems_531_540/problem_540.rs) - Easy
+ - [Problem 541](src/problems/problems_541_550/problem_541.rs) - Easy
 
 </p>
 </details>
@@ -554,7 +555,7 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
 <!-- end missing section -->
 
 <!-- start skipped section -->
-## Skipped️ ⏭️ - 19
+## Skipped️ ⏭️ - 20
 <details><summary>Skipped</summary>
 <p>
 
@@ -577,6 +578,7 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
  - [Problem 066](src/problems/problems_061_070/problem_066.rs) - Medium
  - [Problem 067](src/problems/problems_061_070/problem_067.rs) - Hard
  - [Problem 071](src/problems/problems_071_080/problem_071.rs) - Easy
+ - [Problem 072](src/problems/problems_071_080/problem_072.rs) - Hard
 
 </p>
 </details>
