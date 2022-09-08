@@ -7,7 +7,7 @@ The input list is not necessarily ordered in any way.
 For example, given [(1, 3), (5, 8), (4, 10), (20, 25)], you should return [(1,
 3), (4, 10), (20, 25)].
 */
-s
+
 use std::collections::vec_deque::VecDeque;
 
 fn overlaps(i1: &(i32, i32), i2: &(i32, i32)) -> bool {
