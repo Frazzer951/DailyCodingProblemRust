@@ -1,5 +1,3 @@
-// NOT DONE
-
 /* MEDIUM
 Given an array of integers, write a function to determine whether the array
 could become non-decreasing by modifying at most 1 element.
@@ -11,16 +9,50 @@ Given the array [10, 5, 1], you should return false, since we can't modify any
 one element to get a non-decreasing array.
 */
 
-//fn problem_079() -> i64 {
-//    0
-//}
+fn is_non_decreasing(arr: &Vec<i32>, skip: Option<usize>) -> bool {
+    for i in 0..arr.len() - 1 {
+        if let Some(skip) = skip {
+            if i == skip {
+                continue;
+            }
+            if i + 1 == skip {
+                if i + 2 >= arr.len() {
+                    continue;
+                }
+                if arr[i] > arr[i + 2] {
+                    return false;
+                }
+            }
+        }
 
-//#[cfg(test)]
-//mod tests {
-//    use super::*;
-//
-//    #[test]
-//    fn test_problem_079() {
-//        assert_eq!(problem_079(), 1);
-//    }
-//}
+        if arr[i] > arr[i + 1] {
+            return false;
+        }
+    }
+    true
+}
+
+fn non_decreasing_removing_1(arr: Vec<i32>) -> bool {
+    if is_non_decreasing(&arr, None) {
+        return true;
+    }
+
+    for i in 0..arr.len() {
+        if is_non_decreasing(&arr, Some(i)) {
+            return true;
+        }
+    }
+
+    false
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_non_decreasing_removing_1() {
+        assert!(non_decreasing_removing_1(vec![10, 5, 7]));
+        assert!(!non_decreasing_removing_1(vec![10, 5, 1]));
+    }
+}
