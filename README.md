@@ -12,7 +12,7 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
 
 
 <!-- start completed section -->
-## Completed ⭐️ - 62
+## Completed ⭐️ - 63
 <details><summary>Completed</summary>
 <p>
 
@@ -70,6 +70,7 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
  - [Problem 070](src/problems/problems_061_070/problem_070.rs) - Easy
  - [Problem 073](src/problems/problems_071_080/problem_073.rs) - Easy
  - [Problem 074](src/problems/problems_071_080/problem_074.rs) - Medium
+ - [Problem 075](src/problems/problems_071_080/problem_075.rs) - Hard
  - [Problem 077](src/problems/problems_071_080/problem_077.rs) - Easy
  - [Problem 079](src/problems/problems_071_080/problem_079.rs) - Medium
  - [Problem 080](src/problems/problems_071_080/problem_080.rs) - Easy
@@ -85,11 +86,10 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
 <!-- end completed section -->
 
 <!-- start missing section -->
-## Missing ❌️ - 459
+## Missing ❌️ - 475
 <details><summary>Missing</summary>
 <p>
 
- - [Problem 075](src/problems/problems_071_080/problem_075.rs) - Hard
  - [Problem 076](src/problems/problems_071_080/problem_076.rs) - Medium
  - [Problem 078](src/problems/problems_071_080/problem_078.rs) - Medium
  - [Problem 081](src/problems/problems_081_090/problem_081.rs) - Easy
@@ -548,6 +548,23 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
  - [Problem 539](src/problems/problems_531_540/problem_539.rs) - Easy
  - [Problem 540](src/problems/problems_531_540/problem_540.rs) - Easy
  - [Problem 541](src/problems/problems_541_550/problem_541.rs) - Easy
+ - [Problem 542](src/problems/problems_541_550/problem_542.rs) - Medium
+ - [Problem 543](src/problems/problems_541_550/problem_543.rs) - Medium
+ - [Problem 544](src/problems/problems_541_550/problem_544.rs) - Hard
+ - [Problem 545](src/problems/problems_541_550/problem_545.rs) - Hard
+ - [Problem 546](src/problems/problems_541_550/problem_546.rs) - Medium
+ - [Problem 547](src/problems/problems_541_550/problem_547.rs) - Hard
+ - [Problem 548](src/problems/problems_541_550/problem_548.rs) - Easy
+ - [Problem 549](src/problems/problems_541_550/problem_549.rs) - Hard
+ - [Problem 550](src/problems/problems_541_550/problem_550.rs) - Hard
+ - [Problem 551](src/problems/problems_551_560/problem_551.rs) - Medium
+ - [Problem 552](src/problems/problems_551_560/problem_552.rs) - Easy
+ - [Problem 553](src/problems/problems_551_560/problem_553.rs) - Medium
+ - [Problem 554](src/problems/problems_551_560/problem_554.rs) - Easy
+ - [Problem 555](src/problems/problems_551_560/problem_555.rs) - Medium
+ - [Problem 556](src/problems/problems_551_560/problem_556.rs) - Medium
+ - [Problem 557](src/problems/problems_551_560/problem_557.rs) - Medium
+ - [Problem 558](src/problems/problems_551_560/problem_558.rs) - Medium
 
 </p>
 </details>
