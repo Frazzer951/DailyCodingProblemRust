@@ -12,7 +12,7 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
 
 
 <!-- start completed section -->
-## Completed ⭐️ - 63
+## Completed ⭐️ - 64
 <details><summary>Completed</summary>
 <p>
 
@@ -71,6 +71,7 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
  - [Problem 073](src/problems/problems_071_080/problem_073.rs) - Easy
  - [Problem 074](src/problems/problems_071_080/problem_074.rs) - Medium
  - [Problem 075](src/problems/problems_071_080/problem_075.rs) - Hard
+ - [Problem 076](src/problems/problems_071_080/problem_076.rs) - Medium
  - [Problem 077](src/problems/problems_071_080/problem_077.rs) - Easy
  - [Problem 079](src/problems/problems_071_080/problem_079.rs) - Medium
  - [Problem 080](src/problems/problems_071_080/problem_080.rs) - Easy
@@ -86,11 +87,10 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
 <!-- end completed section -->
 
 <!-- start missing section -->
-## Missing ❌️ - 498
+## Missing ❌️ - 497
 <details><summary>Missing</summary>
 <p>
 
- - [Problem 076](src/problems/problems_071_080/problem_076.rs) - Medium
  - [Problem 078](src/problems/problems_071_080/problem_078.rs) - Medium
  - [Problem 081](src/problems/problems_081_090/problem_081.rs) - Easy
  - [Problem 082](src/problems/problems_081_090/problem_082.rs) - Easy

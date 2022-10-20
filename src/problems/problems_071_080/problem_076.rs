@@ -1,5 +1,3 @@
-// NOT DONE
-
 /* MEDIUM
 You are given an N by M 2D matrix of lowercase letters. Determine the minimum
 number of columns that can be removed to ensure that each row is ordered from
@@ -43,16 +41,47 @@ Your function should return 3, since we would need to remove all the columns to
 order it.
 */
 
-//fn problem_076() -> i64 {
-//    0
-//}
+fn cols_to_remove(mat: Vec<Vec<char>>) -> i32 {
+    let mut count = 0;
 
-//#[cfg(test)]
-//mod tests {
-//    use super::*;
-//
-//    #[test]
-//    fn test_problem_076() {
-//        assert_eq!(problem_076(), 1);
-//    }
-//}
+    if mat.len() <= 1 {
+        return 0;
+    }
+
+    let rows = mat.len();
+    let cols = mat[0].len();
+
+    for j in 0..cols {
+        for i in 1..rows {
+            if mat[i][j] < mat[i - 1][j] {
+                count += 1;
+                break;
+            }
+        }
+    }
+
+    count
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_cols_to_remove_1() {
+        let result = cols_to_remove(vec![vec!['c', 'b', 'a'], vec!['d', 'a', 'f'], vec!['g', 'h', 'i']]);
+        assert_eq!(result, 1);
+    }
+
+    #[test]
+    fn test_cols_to_remove_2() {
+        let result = cols_to_remove(vec![vec!['a', 'b', 'c', 'd', 'e', 'f']]);
+        assert_eq!(result, 0);
+    }
+
+    #[test]
+    fn test_cols_to_remove_3() {
+        let result = cols_to_remove(vec![vec!['z', 'y', 'x'], vec!['w', 'v', 'u'], vec!['t', 's', 'r']]);
+        assert_eq!(result, 3);
+    }
+}
