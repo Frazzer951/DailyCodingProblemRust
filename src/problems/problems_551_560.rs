@@ -1,5 +1,3 @@
-pub mod problem_560;
-pub mod problem_559;
 pub mod problem_551;
 pub mod problem_552;
 pub mod problem_553;
@@ -8,3 +6,5 @@ pub mod problem_555;
 pub mod problem_556;
 pub mod problem_557;
 pub mod problem_558;
+pub mod problem_559;
+pub mod problem_560;
