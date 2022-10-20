@@ -86,7 +86,7 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
 <!-- end completed section -->
 
 <!-- start missing section -->
-## Missing ❌️ - 475
+## Missing ❌️ - 498
 <details><summary>Missing</summary>
 <p>
 
@@ -565,6 +565,29 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
  - [Problem 556](src/problems/problems_551_560/problem_556.rs) - Medium
  - [Problem 557](src/problems/problems_551_560/problem_557.rs) - Medium
  - [Problem 558](src/problems/problems_551_560/problem_558.rs) - Medium
+ - [Problem 559](src/problems/problems_551_560/problem_559.rs) - Medium
+ - [Problem 560](src/problems/problems_551_560/problem_560.rs) - Easy
+ - [Problem 561](src/problems/problems_561_570/problem_561.rs) - Hard
+ - [Problem 562](src/problems/problems_561_570/problem_562.rs) - Hard
+ - [Problem 563](src/problems/problems_561_570/problem_563.rs) - Hard
+ - [Problem 564](src/problems/problems_561_570/problem_564.rs) - Hard
+ - [Problem 565](src/problems/problems_561_570/problem_565.rs) - Medium
+ - [Problem 566](src/problems/problems_561_570/problem_566.rs) - Medium
+ - [Problem 567](src/problems/problems_561_570/problem_567.rs) - Medium
+ - [Problem 568](src/problems/problems_561_570/problem_568.rs) - Easy
+ - [Problem 569](src/problems/problems_561_570/problem_569.rs) - Hard
+ - [Problem 570](src/problems/problems_561_570/problem_570.rs) - Hard
+ - [Problem 571](src/problems/problems_571_580/problem_571.rs) - Medium
+ - [Problem 572](src/problems/problems_571_580/problem_572.rs) - Hard
+ - [Problem 573](src/problems/problems_571_580/problem_573.rs) - Medium
+ - [Problem 574](src/problems/problems_571_580/problem_574.rs) - Medium
+ - [Problem 575](src/problems/problems_571_580/problem_575.rs) - Medium
+ - [Problem 576](src/problems/problems_571_580/problem_576.rs) - Medium
+ - [Problem 577](src/problems/problems_571_580/problem_577.rs) - Medium
+ - [Problem 578](src/problems/problems_571_580/problem_578.rs) - Easy
+ - [Problem 579](src/problems/problems_571_580/problem_579.rs) - Medium
+ - [Problem 580](src/problems/problems_571_580/problem_580.rs) - Easy
+ - [Problem 581](src/problems/problems_581_590/problem_581.rs) - Easy
 
 </p>
 </details>
