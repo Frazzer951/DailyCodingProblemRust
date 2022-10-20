@@ -114,7 +114,7 @@ def get_problems(emails, force_refresh=False):
         body = emails[number]["body"]
 
         group = re.match(
-            "(?:(?:.*asked (?:.*?)\.)|(?:.*This is your coding interview problem for today\.))(.*)(?:(?:We will be .*)|(?:^-+.*Upgrade.*))",
+            "(?:(?:.*asked (?:.*?)\.)|(?:.*interview problem for today\.))(.*)(?:(?:We will be .*)|(?:^-+.*Upgrade.*))",
             body,
             flags=re.S | re.M,
         )
