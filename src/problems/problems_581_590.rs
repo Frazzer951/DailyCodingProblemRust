@@ -1,1 +1,10 @@
 pub mod problem_581;
+pub mod problem_582;
+pub mod problem_583;
+pub mod problem_584;
+pub mod problem_585;
+pub mod problem_586;
+pub mod problem_587;
+pub mod problem_588;
+pub mod problem_589;
+pub mod problem_590;
