@@ -1,2 +1,2 @@
 [config]
-exclude-files = ["./src/lib.rs", "./src/problems/problems_041_050/problem_045.rs"]
+exclude-files = ["src/problems/problems_041_050/problem_045.rs"]
