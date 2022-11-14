@@ -87,7 +87,7 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
 <!-- end completed section -->
 
 <!-- start missing section -->
-## Missing ❌️ - 497
+## Missing ❌️ - 521
 <details><summary>Missing</summary>
 <p>
 
@@ -588,6 +588,30 @@ My Solutions to the [Daily Coding Problem](https://www.dailycodingproblem.com/) 
  - [Problem 579](src/problems/problems_571_580/problem_579.rs) - Medium
  - [Problem 580](src/problems/problems_571_580/problem_580.rs) - Easy
  - [Problem 581](src/problems/problems_581_590/problem_581.rs) - Easy
+ - [Problem 582](src/problems/problems_581_590/problem_582.rs) - Hard
+ - [Problem 583](src/problems/problems_581_590/problem_583.rs) - Medium
+ - [Problem 584](src/problems/problems_581_590/problem_584.rs) - Easy
+ - [Problem 585](src/problems/problems_581_590/problem_585.rs) - Medium
+ - [Problem 586](src/problems/problems_581_590/problem_586.rs) - Medium
+ - [Problem 587](src/problems/problems_581_590/problem_587.rs) - Medium
+ - [Problem 588](src/problems/problems_581_590/problem_588.rs) - Easy
+ - [Problem 589](src/problems/problems_581_590/problem_589.rs) - Hard
+ - [Problem 590](src/problems/problems_581_590/problem_590.rs) - Hard
+ - [Problem 591](src/problems/problems_591_600/problem_591.rs) - Hard
+ - [Problem 592](src/problems/problems_591_600/problem_592.rs) - Medium
+ - [Problem 593](src/problems/problems_591_600/problem_593.rs) - Medium
+ - [Problem 594](src/problems/problems_591_600/problem_594.rs) - Easy
+ - [Problem 595](src/problems/problems_591_600/problem_595.rs) - Medium
+ - [Problem 596](src/problems/problems_591_600/problem_596.rs) - Medium
+ - [Problem 597](src/problems/problems_591_600/problem_597.rs) - Easy
+ - [Problem 598](src/problems/problems_591_600/problem_598.rs) - Easy
+ - [Problem 599](src/problems/problems_591_600/problem_599.rs) - Hard
+ - [Problem 600](src/problems/problems_591_600/problem_600.rs) - Easy
+ - [Problem 601](src/problems/problems_601_610/problem_601.rs) - Medium
+ - [Problem 602](src/problems/problems_601_610/problem_602.rs) - Easy
+ - [Problem 603](src/problems/problems_601_610/problem_603.rs) - Easy
+ - [Problem 604](src/problems/problems_601_610/problem_604.rs) - Hard
+ - [Problem 605](src/problems/problems_601_610/problem_605.rs) - Easy
 
 </p>
 </details>
