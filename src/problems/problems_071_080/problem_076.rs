@@ -69,7 +69,11 @@ mod tests {
 
     #[test]
     fn test_cols_to_remove_1() {
-        let result = cols_to_remove(vec![vec!['c', 'b', 'a'], vec!['d', 'a', 'f'], vec!['g', 'h', 'i']]);
+        let result = cols_to_remove(vec![
+            vec!['c', 'b', 'a'],
+            vec!['d', 'a', 'f'],
+            vec!['g', 'h', 'i'],
+        ]);
         assert_eq!(result, 1);
     }
 
@@ -81,7 +85,11 @@ mod tests {
 
     #[test]
     fn test_cols_to_remove_3() {
-        let result = cols_to_remove(vec![vec!['z', 'y', 'x'], vec!['w', 'v', 'u'], vec!['t', 's', 'r']]);
+        let result = cols_to_remove(vec![
+            vec!['z', 'y', 'x'],
+            vec!['w', 'v', 'u'],
+            vec!['t', 's', 'r'],
+        ]);
         assert_eq!(result, 3);
     }
 }

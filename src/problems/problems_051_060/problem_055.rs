@@ -43,7 +43,9 @@ impl Shortener {
         }
     }
 
-    pub fn restore(&self, short: String) -> Option<String> { self.decode_map.get(&short).map(|short| short.to_string()) }
+    pub fn restore(&self, short: String) -> Option<String> {
+        self.decode_map.get(&short).map(|short| short.to_string())
+    }
 
     fn gen_string() -> String {
         thread_rng()

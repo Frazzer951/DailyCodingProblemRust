@@ -6,18 +6,20 @@ element into the queue, and dequeue, which removes it.
 
 struct Queue {
     store: Vec<i32>,
-    read:  Vec<i32>,
+    read: Vec<i32>,
 }
 
 impl Queue {
     pub fn new() -> Self {
         Self {
             store: vec![],
-            read:  vec![],
+            read: vec![],
         }
     }
 
-    pub fn enqueue(&mut self, num: i32) { self.store.push(num); }
+    pub fn enqueue(&mut self, num: i32) {
+        self.store.push(num);
+    }
 
     pub fn dequeue(&mut self) -> Option<i32> {
         if self.store.is_empty() {

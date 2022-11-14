@@ -24,22 +24,22 @@ fn problem_050(node: BtNode<char>) -> i64 {
             let left = problem_050(*node.l.unwrap());
             let right = problem_050(*node.r.unwrap());
             left * right
-        },
+        }
         '/' => {
             let left = problem_050(*node.l.unwrap());
             let right = problem_050(*node.r.unwrap());
             left / right
-        },
+        }
         '+' => {
             let left = problem_050(*node.l.unwrap());
             let right = problem_050(*node.r.unwrap());
             left + right
-        },
+        }
         '-' => {
             let left = problem_050(*node.l.unwrap());
             let right = problem_050(*node.r.unwrap());
             left - right
-        },
+        }
         x => x.to_string().parse().unwrap(),
     }
 }
@@ -52,30 +52,30 @@ mod tests {
     fn test_problem_050_1() {
         let root = BtNode {
             val: '*',
-            l:   Some(Box::new(BtNode {
+            l: Some(Box::new(BtNode {
                 val: '+',
-                l:   Some(Box::new(BtNode {
+                l: Some(Box::new(BtNode {
                     val: '3',
-                    l:   None,
-                    r:   None,
+                    l: None,
+                    r: None,
                 })),
-                r:   Some(Box::new(BtNode {
+                r: Some(Box::new(BtNode {
                     val: '2',
-                    l:   None,
-                    r:   None,
+                    l: None,
+                    r: None,
                 })),
             })),
-            r:   Some(Box::new(BtNode {
+            r: Some(Box::new(BtNode {
                 val: '+',
-                l:   Some(Box::new(BtNode {
+                l: Some(Box::new(BtNode {
                     val: '4',
-                    l:   None,
-                    r:   None,
+                    l: None,
+                    r: None,
                 })),
-                r:   Some(Box::new(BtNode {
+                r: Some(Box::new(BtNode {
                     val: '5',
-                    l:   None,
-                    r:   None,
+                    l: None,
+                    r: None,
                 })),
             })),
         };
@@ -86,30 +86,30 @@ mod tests {
     fn test_problem_050_2() {
         let root = BtNode {
             val: '/',
-            l:   Some(Box::new(BtNode {
+            l: Some(Box::new(BtNode {
                 val: '-',
-                l:   Some(Box::new(BtNode {
+                l: Some(Box::new(BtNode {
                     val: '7',
-                    l:   None,
-                    r:   None,
+                    l: None,
+                    r: None,
                 })),
-                r:   Some(Box::new(BtNode {
+                r: Some(Box::new(BtNode {
                     val: '3',
-                    l:   None,
-                    r:   None,
+                    l: None,
+                    r: None,
                 })),
             })),
-            r:   Some(Box::new(BtNode {
+            r: Some(Box::new(BtNode {
                 val: '-',
-                l:   Some(Box::new(BtNode {
+                l: Some(Box::new(BtNode {
                     val: '4',
-                    l:   None,
-                    r:   None,
+                    l: None,
+                    r: None,
                 })),
-                r:   Some(Box::new(BtNode {
+                r: Some(Box::new(BtNode {
                     val: '2',
-                    l:   None,
-                    r:   None,
+                    l: None,
+                    r: None,
                 })),
             })),
         };

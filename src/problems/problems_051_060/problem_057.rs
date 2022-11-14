@@ -47,7 +47,10 @@ mod tests {
     #[test]
     fn test_problem_057() {
         assert_eq!(
-            problem_057("the quick brown fox jumps over the lazy dog".to_string(), 10),
+            problem_057(
+                "the quick brown fox jumps over the lazy dog".to_string(),
+                10
+            ),
             vec![
                 "the quick".to_string(),
                 "brown fox".to_string(),

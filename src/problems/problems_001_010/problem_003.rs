@@ -42,8 +42,8 @@ fn deserialize(node_str: String) -> BtNode<String> {
     if nodes.len() == 2 {
         return BtNode {
             val: node_name,
-            l:   None,
-            r:   None,
+            l: None,
+            r: None,
         };
     }
 
@@ -52,8 +52,8 @@ fn deserialize(node_str: String) -> BtNode<String> {
         let left = deserialize(String::from(&nodes[1..nodes.len() - 1]));
         return BtNode {
             val: node_name,
-            l:   Some(Box::new(left)),
-            r:   None,
+            l: Some(Box::new(left)),
+            r: None,
         };
     }
 
@@ -62,8 +62,8 @@ fn deserialize(node_str: String) -> BtNode<String> {
 
     BtNode {
         val: node_name,
-        l:   Some(Box::new(left)),
-        r:   Some(Box::new(right)),
+        l: Some(Box::new(left)),
+        r: Some(Box::new(right)),
     }
 }
 
@@ -74,19 +74,19 @@ mod tests {
     fn gen_node() -> BtNode<String> {
         BtNode {
             val: String::from("root"),
-            l:   Some(Box::new(BtNode {
+            l: Some(Box::new(BtNode {
                 val: String::from("left"),
-                l:   Some(Box::new(BtNode {
+                l: Some(Box::new(BtNode {
                     val: String::from("left.left"),
-                    l:   None,
-                    r:   None,
+                    l: None,
+                    r: None,
                 })),
-                r:   None,
+                r: None,
             })),
-            r:   Some(Box::new(BtNode {
+            r: Some(Box::new(BtNode {
                 val: String::from("right"),
-                l:   None,
-                r:   None,
+                l: None,
+                r: None,
             })),
         }
     }
@@ -108,6 +108,9 @@ mod tests {
         // node = Node('root', Node('left', Node('left.left')), Node('right'))
         // assert deserialize(serialize(node)).left.left.val == 'left.left'
         let node = gen_node();
-        assert_eq!(deserialize(serialize(&node)).l.unwrap().l.unwrap().val, "left.left");
+        assert_eq!(
+            deserialize(serialize(&node)).l.unwrap().l.unwrap().val,
+            "left.left"
+        );
     }
 }

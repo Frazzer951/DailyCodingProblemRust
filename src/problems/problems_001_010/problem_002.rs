@@ -32,7 +32,10 @@ mod tests {
 
     #[test]
     fn test_problem_002() {
-        assert_eq!(problem_002(vec! {1, 2, 3, 4, 5}), vec! {120, 60, 40, 30, 24});
+        assert_eq!(
+            problem_002(vec! {1, 2, 3, 4, 5}),
+            vec! {120, 60, 40, 30, 24}
+        );
         assert_eq!(problem_002(vec! {3,2,1}), vec! {2,3,6});
     }
 }

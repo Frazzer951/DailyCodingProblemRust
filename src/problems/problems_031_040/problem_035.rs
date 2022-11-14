@@ -21,7 +21,7 @@ fn rgb_sort(arr: &mut [char]) {
             'B' => b += 1,
             _ => {
                 panic!("{} isn't R, G, or B", c)
-            },
+            }
         }
     }
     g += r;
@@ -32,16 +32,16 @@ fn rgb_sort(arr: &mut [char]) {
             'R' => {
                 arr.swap(i, r - 1);
                 r -= 1;
-            },
+            }
             'G' => {
                 arr.swap(i, g - 1);
                 g -= 1;
-            },
+            }
             'B' => {
                 arr.swap(i, b - 1);
                 b -= 1;
-            },
-            _ => {},
+            }
+            _ => {}
         }
     }
 }
@@ -59,5 +59,7 @@ mod tests {
 
     #[test]
     #[should_panic]
-    fn test_rgb_sort_panic() { rgb_sort(&mut ['A']); }
+    fn test_rgb_sort_panic() {
+        rgb_sort(&mut ['A']);
+    }
 }

@@ -40,7 +40,9 @@ fn problem_038_helper(n: usize, mut board: Vec<usize>) -> i64 {
     count
 }
 
-fn problem_038(n: usize) -> i64 { problem_038_helper(n, Vec::new()) }
+fn problem_038(n: usize) -> i64 {
+    problem_038_helper(n, Vec::new())
+}
 
 #[cfg(test)]
 mod tests {

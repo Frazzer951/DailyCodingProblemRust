@@ -59,7 +59,7 @@ fn spiralizer(nums: Vec<Vec<i32>>) -> Vec<i32> {
                 } else {
                     cur_y -= 1;
                 }
-            },
+            }
 
             Dir::Down => {
                 if cur_y + 1 >= y_max {
@@ -69,7 +69,7 @@ fn spiralizer(nums: Vec<Vec<i32>>) -> Vec<i32> {
                 } else {
                     cur_y += 1;
                 }
-            },
+            }
             Dir::Left => {
                 if cur_x == 0 || cur_x - 1 < x_min {
                     dir = Dir::Up;
@@ -78,7 +78,7 @@ fn spiralizer(nums: Vec<Vec<i32>>) -> Vec<i32> {
                 } else {
                     cur_x -= 1;
                 }
-            },
+            }
             Dir::Right => {
                 if cur_x + 1 >= x_max {
                     dir = Dir::Down;
@@ -87,7 +87,7 @@ fn spiralizer(nums: Vec<Vec<i32>>) -> Vec<i32> {
                 } else {
                     cur_x += 1;
                 }
-            },
+            }
         }
     }
 

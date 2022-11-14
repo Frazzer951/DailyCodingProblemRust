@@ -18,9 +18,13 @@ until we reach the end, when we return the sum of the array.
 Implement your own version of reduce.
 */
 
-fn add(a: i64, b: i64) -> i64 { a + b }
+fn add(a: i64, b: i64) -> i64 {
+    a + b
+}
 
-fn mult(a: i64, b: i64) -> i64 { a * b }
+fn mult(a: i64, b: i64) -> i64 {
+    a * b
+}
 
 fn reduce(arr: Vec<i64>, func: fn(i64, i64) -> i64, init_val: i64) -> i64 {
     let mut val = init_val;

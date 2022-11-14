@@ -23,7 +23,9 @@ fn fib(n: i64) -> i64 {
     fib(n - 1) + fib(n - 2)
 }
 
-fn problem_012(n: i64) -> i64 { fib(n + 1) }
+fn problem_012(n: i64) -> i64 {
+    fib(n + 1)
+}
 
 #[cfg(test)]
 mod tests {

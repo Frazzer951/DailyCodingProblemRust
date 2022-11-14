@@ -25,10 +25,10 @@ fn is_bracket_balanced(string: &str) -> bool {
                 if c != next_bracket_char.unwrap() {
                     return false;
                 }
-            },
+            }
             _ => {
                 panic!("Unexpected character: {}", c);
-            },
+            }
         }
     }
 
@@ -49,5 +49,7 @@ mod tests {
 
     #[test]
     #[should_panic]
-    fn test_is_bracket_balanced_panic() { is_bracket_balanced("a"); }
+    fn test_is_bracket_balanced_panic() {
+        is_bracket_balanced("a");
+    }
 }

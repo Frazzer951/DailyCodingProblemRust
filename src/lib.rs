@@ -1,5 +1,4 @@
 #![allow(dead_code)]
-#![feature(no_coverage)]
 
 mod problems;
 mod utils {

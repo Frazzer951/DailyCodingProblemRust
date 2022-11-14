@@ -82,30 +82,30 @@ mod tests {
         */
         let node = BtNode {
             val: 0,
-            l:   Some(Box::new(BtNode {
+            l: Some(Box::new(BtNode {
                 val: 1,
-                l:   None,
-                r:   None,
+                l: None,
+                r: None,
             })),
-            r:   Some(Box::new(BtNode {
+            r: Some(Box::new(BtNode {
                 val: 0,
-                l:   Some(Box::new(BtNode {
+                l: Some(Box::new(BtNode {
                     val: 1,
-                    l:   Some(Box::new(BtNode {
+                    l: Some(Box::new(BtNode {
                         val: 1,
-                        l:   None,
-                        r:   None,
+                        l: None,
+                        r: None,
                     })),
-                    r:   Some(Box::new(BtNode {
+                    r: Some(Box::new(BtNode {
                         val: 1,
-                        l:   None,
-                        r:   None,
+                        l: None,
+                        r: None,
                     })),
                 })),
-                r:   Some(Box::new(BtNode {
+                r: Some(Box::new(BtNode {
                     val: 0,
-                    l:   None,
-                    r:   None,
+                    l: None,
+                    r: None,
                 })),
             })),
         };
@@ -116,12 +116,12 @@ mod tests {
     fn test_unival_only_left() {
         let node = BtNode {
             val: 0,
-            l:   Some(Box::new(BtNode {
+            l: Some(Box::new(BtNode {
                 val: 1,
-                l:   None,
-                r:   None,
+                l: None,
+                r: None,
             })),
-            r:   None,
+            r: None,
         };
         assert_eq!(count_unival_tree(&node), 1);
     }
@@ -130,11 +130,11 @@ mod tests {
     fn test_unival_only_right() {
         let node = BtNode {
             val: 0,
-            l:   None,
-            r:   Some(Box::new(BtNode {
+            l: None,
+            r: Some(Box::new(BtNode {
                 val: 1,
-                l:   None,
-                r:   None,
+                l: None,
+                r: None,
             })),
         };
         assert_eq!(count_unival_tree(&node), 1);
@@ -144,16 +144,16 @@ mod tests {
     fn test_unival_only_left_2() {
         let node = BtNode {
             val: 0,
-            l:   Some(Box::new(BtNode {
+            l: Some(Box::new(BtNode {
                 val: 1,
-                l:   Some(Box::new(BtNode {
+                l: Some(Box::new(BtNode {
                     val: 1,
-                    l:   None,
-                    r:   None,
+                    l: None,
+                    r: None,
                 })),
-                r:   None,
+                r: None,
             })),
-            r:   None,
+            r: None,
         };
         assert_eq!(count_unival_tree(&node), 2);
     }
@@ -162,14 +162,14 @@ mod tests {
     fn test_unival_only_right_2() {
         let node = BtNode {
             val: 0,
-            l:   None,
-            r:   Some(Box::new(BtNode {
+            l: None,
+            r: Some(Box::new(BtNode {
                 val: 1,
-                l:   None,
-                r:   Some(Box::new(BtNode {
+                l: None,
+                r: Some(Box::new(BtNode {
                     val: 1,
-                    l:   None,
-                    r:   None,
+                    l: None,
+                    r: None,
                 })),
             })),
         };

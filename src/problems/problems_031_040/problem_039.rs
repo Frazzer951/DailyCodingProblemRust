@@ -28,7 +28,12 @@ fn count_neighbors(board: &[Vec<bool>], i: i64, j: i64) -> usize {
             if x == i && y == j {
                 continue;
             }
-            if x < board.len() as i64 && y < board[0].len() as i64 && x >= 0 && y >= 0 && board[x as usize][y as usize] {
+            if x < board.len() as i64
+                && y < board[0].len() as i64
+                && x >= 0
+                && y >= 0
+                && board[x as usize][y as usize]
+            {
                 count += 1;
             }
         }

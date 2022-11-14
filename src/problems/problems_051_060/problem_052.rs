@@ -13,11 +13,11 @@ Each operation should run in O(1) time.
 use std::collections::{HashMap, VecDeque};
 
 struct LruCache {
-    size:   usize,
-    next:   usize,
+    size: usize,
+    next: usize,
     values: Vec<i32>,
-    keys:   HashMap<String, usize>,
-    used:   VecDeque<String>,
+    keys: HashMap<String, usize>,
+    used: VecDeque<String>,
 }
 
 impl LruCache {

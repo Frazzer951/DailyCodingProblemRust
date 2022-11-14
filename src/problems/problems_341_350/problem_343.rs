@@ -42,30 +42,30 @@ mod tests {
     fn test_problem_343() {
         let root = BtNode {
             val: 5,
-            l:   Some(Box::new(BtNode {
+            l: Some(Box::new(BtNode {
                 val: 3,
-                l:   Some(Box::new(BtNode {
+                l: Some(Box::new(BtNode {
                     val: 2,
-                    l:   None,
-                    r:   None,
+                    l: None,
+                    r: None,
                 })),
-                r:   Some(Box::new(BtNode {
+                r: Some(Box::new(BtNode {
                     val: 4,
-                    l:   None,
-                    r:   None,
+                    l: None,
+                    r: None,
                 })),
             })),
-            r:   Some(Box::new(BtNode {
+            r: Some(Box::new(BtNode {
                 val: 8,
-                l:   Some(Box::new(BtNode {
+                l: Some(Box::new(BtNode {
                     val: 6,
-                    l:   None,
-                    r:   None,
+                    l: None,
+                    r: None,
                 })),
-                r:   Some(Box::new(BtNode {
+                r: Some(Box::new(BtNode {
                     val: 10,
-                    l:   None,
-                    r:   None,
+                    l: None,
+                    r: None,
                 })),
             })),
         };

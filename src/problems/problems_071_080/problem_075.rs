@@ -27,7 +27,9 @@ mod tests {
     #[test]
     fn test_longest_increasing_subsequence_1() {
         assert_eq!(
-            longest_increasing_subsequence(vec![0, 8, 4, 12, 2, 10, 6, 14, 1, 9, 5, 13, 3, 11, 7, 15]),
+            longest_increasing_subsequence(vec![
+                0, 8, 4, 12, 2, 10, 6, 14, 1, 9, 5, 13, 3, 11, 7, 15
+            ]),
             6
         );
     }
@@ -44,6 +46,9 @@ mod tests {
 
     #[test]
     fn test_longest_increasing_subsequence_4() {
-        assert_eq!(longest_increasing_subsequence(vec![50, 3, 10, 7, 40, 80]), 4);
+        assert_eq!(
+            longest_increasing_subsequence(vec![50, 3, 10, 7, 40, 80]),
+            4
+        );
     }
 }

@@ -48,7 +48,9 @@ The name of a directory or sub-directory will not contain a period.
 
 use std::collections::HashMap;
 
-fn is_file(f: &str) -> bool { f.contains('.') }
+fn is_file(f: &str) -> bool {
+    f.contains('.')
+}
 
 fn find_longest_filepath(filesystem: String) -> String {
     let file_paths = filesystem.split('\n');

@@ -30,13 +30,13 @@ fn is_match(str: String, exp: String) -> bool {
                 while cur == str.chars().nth(str_index).unwrap() {
                     str_index += 1;
                 }
-            },
+            }
             _ => {
                 if exp.chars().nth(i).unwrap() != cur {
                     return false;
                 }
                 str_index += 1;
-            },
+            }
         }
     }
 

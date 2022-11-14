@@ -30,7 +30,9 @@ fn deepest_node_helper(root: &BtNode<i32>, depth: u32) -> (i32, u32) {
     deepest_node_helper(root.r.as_ref().unwrap().as_ref(), depth + 1)
 }
 
-fn deepest_node(root: &BtNode<i32>) -> i32 { deepest_node_helper(root, 0).0 }
+fn deepest_node(root: &BtNode<i32>) -> i32 {
+    deepest_node_helper(root, 0).0
+}
 
 #[cfg(test)]
 mod tests {
@@ -40,19 +42,19 @@ mod tests {
     fn test_deepest_node() {
         let root = BtNode {
             val: 1,
-            l:   Some(Box::new(BtNode {
+            l: Some(Box::new(BtNode {
                 val: 2,
-                l:   Some(Box::new(BtNode {
+                l: Some(Box::new(BtNode {
                     val: 4,
-                    l:   None,
-                    r:   None,
+                    l: None,
+                    r: None,
                 })),
-                r:   None,
+                r: None,
             })),
-            r:   Some(Box::new(BtNode {
+            r: Some(Box::new(BtNode {
                 val: 3,
-                l:   None,
-                r:   None,
+                l: None,
+                r: None,
             })),
         };
         assert_eq!(deepest_node(&root), 4);
