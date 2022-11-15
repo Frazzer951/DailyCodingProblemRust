@@ -4,7 +4,7 @@
 {problem_body}
 */
 
-//fn problem_{problem_number}() -> i64 {
+//fn problem_{problem_number}() -> i32 {
 //    0
 //}
 
