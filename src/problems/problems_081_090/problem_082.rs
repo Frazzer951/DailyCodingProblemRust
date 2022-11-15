@@ -1,4 +1,4 @@
-// NOT DONE
+// SKIPPED
 
 /* EASY
 This problem was asked Microsoft.
