@@ -6,7 +6,7 @@ heights are represented in an input list, such that [1, 3, 2, 5] corresponds to
 the following diagram:
 
       x
-      x  
+      x
   x   x
   x x x
 x x x x

@@ -1,7 +1,7 @@
 // NOT DONE
 
 /* MEDIUM
-Given a number in Roman numeral [https://en.wikipedia.org/wiki/Roman_numerals] 
+Given a number in Roman numeral [https://en.wikipedia.org/wiki/Roman_numerals]
 format, convert it to decimal.
 
 The values of Roman numerals are as follows:
@@ -18,7 +18,7 @@ The values of Roman numerals are as follows:
 
 
 In addition, note that the Roman numeral system uses subtractive notation
-[https://en.wikipedia.org/wiki/Subtractive_notation] for numbers such as IV and 
+[https://en.wikipedia.org/wiki/Subtractive_notation] for numbers such as IV and
 XL.
 
 For the input XIV, for instance, you should return 14.

@@ -14,11 +14,11 @@ the skyline.
 
 For example, suppose the input consists of the buildings [(0, 15, 3), (4, 11,
 5), (19, 23, 4)]. In aggregate, these buildings would create a skyline that
-looks like the one below. 
+looks like the one below.
 
-     ______  
+     ______
     |      |        ___
- ___|      |___    |   | 
+ ___|      |___    |   |
 |   |   B  |   |   | C |
 | A |      | A |   |   |
 |   |      |   |   |   |
