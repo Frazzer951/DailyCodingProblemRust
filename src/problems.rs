@@ -1,3 +1,8 @@
+mod problems_651_660;
+mod problems_641_650;
+mod problems_631_640;
+mod problems_621_630;
+mod problems_611_620;
 mod problems_001_010;
 mod problems_011_020;
 mod problems_021_030;
